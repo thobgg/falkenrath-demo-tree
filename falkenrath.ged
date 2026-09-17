@@ -1,0 +1,1398 @@
+0 HEAD
+1 SOUR webtreesAnd-demo
+2 NAME Demo-Stammbaum Familie Falkenrath
+2 VERS 1.0
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG German
+1 NOTE Alle Personen und Lebensdaten dieses Stammbaums sind frei erfunden. Daten und Bilder: CC0.
+0 @I1@ INDI
+1 NAME Jonas /Falkenrath/
+2 GIVN Jonas
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 14 MAR 1985
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 EDUC Leibniz Universität Hannover, Diplom 2010
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 OCCU Bauingenieur
+1 FAMC @F3@
+1 FAMS @F1@
+0 @I2@ INDI
+1 NAME Mira /Sandvoss/
+2 GIVN Mira
+2 SURN Sandvoss
+1 SEX F
+1 BIRT
+2 DATE 2 SEP 1987
+2 PLAC Bremen, Deutschland
+3 MAP
+4 LATI N53.0793
+4 LONG E8.8017
+1 OCCU Buchhändlerin
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Emil /Falkenrath/
+2 GIVN Emil
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 9 MAY 2017
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 FAMC @F1@
+0 @I4@ INDI
+1 NAME Ida /Falkenrath/
+2 GIVN Ida
+2 SURN Falkenrath
+1 SEX F
+1 BIRT
+2 DATE 23 NOV 2020
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Lena /Falkenrath/
+2 GIVN Lena
+2 SURN Falkenrath
+1 SEX F
+1 BIRT
+2 DATE 30 JUL 1988
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 OCCU Ärztin
+1 FAMC @F3@
+1 FAMS @F2@
+0 @I6@ INDI
+1 NAME Tomasz /Wolniak/
+2 GIVN Tomasz
+2 SURN Wolniak
+1 SEX M
+1 BIRT
+2 DATE 11 JAN 1986
+2 PLAC Bremen, Deutschland
+3 MAP
+4 LATI N53.0793
+4 LONG E8.8017
+1 OCCU Informatiker
+1 FAMS @F2@
+0 @I7@ INDI
+1 NAME Nele /Wolniak/
+2 GIVN Nele
+2 SURN Wolniak
+1 SEX F
+1 BIRT
+2 DATE 4 APR 2019
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 FAMC @F2@
+0 @I8@ INDI
+1 NAME Bernd /Falkenrath/
+2 GIVN Bernd
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 3 NOV 1955
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OCCU Lehrer
+1 FAMC @F6@
+1 FAMS @F3@
+0 @I9@ INDI
+1 NAME Karin /Ilgner/
+2 GIVN Karin
+2 SURN Ilgner
+1 SEX F
+1 BIRT
+2 DATE 21 JAN 1958
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OCCU Bibliothekarin
+1 FAMC @F7@
+1 FAMS @F3@
+0 @I10@ INDI
+1 NAME Ute /Falkenrath/
+2 GIVN Ute
+2 SURN Falkenrath
+1 SEX F
+1 BIRT
+2 DATE 16 AUG 1959
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OCCU Krankenschwester
+1 FAMC @F6@
+1 FAMS @F4@
+0 @I11@ INDI
+1 NAME Rolf /Marwede/
+2 GIVN Rolf
+2 SURN Marwede
+1 SEX M
+1 BIRT
+2 DATE 27 FEB 1957
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 OCCU Kfz-Meister
+1 FAMS @F4@
+0 @I12@ INDI
+1 NAME Sven /Marwede/
+2 GIVN Sven
+2 SURN Marwede
+1 SEX M
+1 BIRT
+2 DATE 8 OCT 1984
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 FAMC @F4@
+0 @I13@ INDI
+1 NAME Anke /Marwede/
+2 GIVN Anke
+2 SURN Marwede
+1 SEX F
+1 BIRT
+2 DATE 19 JUN 1987
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 FAMC @F4@
+0 @I14@ INDI
+1 NAME Holger /Ilgner/
+2 GIVN Holger
+2 SURN Ilgner
+1 SEX M
+1 BIRT
+2 DATE 5 DEC 1961
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OCCU Schlosser
+1 DEAT
+2 DATE 28 MAR 2019
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 NOTE Blieb unverheiratet und lebte bis zuletzt im Elternhaus an der Ilmenau.
+1 FAMC @F7@
+0 @I15@ INDI
+1 NAME Wilhelm /Falkenrath/
+2 GIVN Wilhelm
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 8 FEB 1928
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 CONF
+2 DATE 5 APR 1942
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 RESI Werkstatt und Wohnhaus Am Heiligen Kreuz
+2 DATE FROM 1956 TO 2003
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OCCU Tischlermeister
+1 DEAT
+2 DATE 17 OCT 2003
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 NOTE Übernahm 1956 die Tischlerei seines Vaters.
+2 CONT In der Familie erzählt man, er habe jede Schublade im Haus selbst gebaut.
+1 OBJE @M1@
+1 OBJE @M21@
+1 FAMC @F8@
+1 FAMS @F5@
+1 FAMS @F6@
+0 @I16@ INDI
+1 NAME Hannelore /Oberlin/
+2 GIVN Hannelore
+2 SURN Oberlin
+1 SEX F
+1 BIRT
+2 DATE 30 JUN 1931
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 OCCU Schneiderin
+1 DEAT
+2 DATE 4 APR 2014
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OBJE @M2@
+1 FAMC @F11@
+1 FAMS @F6@
+0 @I17@ INDI
+1 NAME Gerda /Thielbar/
+2 GIVN Gerda
+2 SURN Thielbar
+1 SEX F
+1 BIRT
+2 DATE 12 MAY 1929
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 DEAT
+2 DATE 2 MAR 1952
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 NOTE Starb wenige Stunden nach der Geburt ihres Sohnes Dieter.
+1 OBJE @M3@
+1 FAMS @F5@
+0 @I18@ INDI
+1 NAME Dieter /Falkenrath/
+2 GIVN Dieter
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 2 MAR 1952
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 DEAT
+2 DATE 19 MAR 1952
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 FAMC @F5@
+0 @I19@ INDI
+1 NAME Friedrich /Ilgner/
+2 GIVN Friedrich
+2 SURN Ilgner
+2 NICK Fritz
+1 SEX M
+1 BIRT
+2 DATE 19 SEP 1926
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OCCU Schlosser
+1 DEAT
+2 DATE 7 JUN 1998
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OBJE @M4@
+1 FAMC @F12@
+1 FAMS @F7@
+0 @I20@ INDI
+1 NAME Margarete /Krümmel/
+2 GIVN Margarete
+2 SURN Krümmel
+1 SEX F
+1 BIRT
+2 DATE 11 NOV 1930
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OCCU Verkäuferin
+1 DEAT
+2 DATE 22 AUG 2011
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OBJE @M5@
+1 FAMC @F13@
+1 FAMS @F7@
+0 @I21@ INDI
+1 NAME Heinrich /Falkenrath/
+2 GIVN Heinrich
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 26 APR 1897
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 EVEN Kriegsdienst im Infanterie-Regiment 77
+2 TYPE Militärdienst
+2 DATE FROM 1916 TO 1918
+2 PLAC Langemark, Westflandern, Belgien
+3 MAP
+4 LATI N50.9130
+4 LONG E2.9200
+1 OCCU Tischler
+1 DEAT
+2 DATE 9 JAN 1969
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OBJE @M6@
+1 OBJE @M21@
+1 FAMC @F15@
+1 FAMS @F8@
+0 @I22@ INDI
+1 NAME Anna /Rosskamp/
+2 GIVN Anna
+2 SURN Rosskamp
+1 SEX F
+1 BIRT
+2 DATE 13 AUG 1901
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 DEAT
+2 DATE 30 NOV 1985
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OBJE @M7@
+1 FAMC @F16@
+1 FAMS @F8@
+0 @I23@ INDI
+1 NAME Elfriede /Falkenrath/
+2 GIVN Elfriede
+2 SURN Falkenrath
+1 SEX F
+1 BIRT
+2 DATE 6 JAN 1925
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OCCU Kontoristin
+1 DEAT
+2 DATE 14 FEB 2010
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OBJE @M8@
+1 FAMC @F8@
+1 FAMS @F9@
+0 @I24@ INDI
+1 NAME Kurt /Sandmann/
+2 GIVN Kurt
+2 SURN Sandmann
+1 SEX M
+1 BIRT
+2 DATE 17 OCT 1921
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 OCCU Schriftsetzer
+1 DEAT
+2 DATE 12 JUL 1943
+2 PLAC Orjol, Russland
+3 MAP
+4 LATI N52.9651
+4 LONG E36.0785
+1 NOTE Gefallen bei Orjol. Die Ehe blieb kinderlos.
+1 FAMS @F9@
+0 @I25@ INDI
+1 NAME Otto /Falkenrath/
+2 GIVN Otto
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 22 MAR 1930
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 EMIG
+2 DATE 14 APR 1952
+2 PLAC Bremen, Deutschland
+3 MAP
+4 LATI N53.0793
+4 LONG E8.8017
+1 IMMI Ankunft mit der MS „Gripsholm“
+2 DATE 25 APR 1952
+2 PLAC Milwaukee, Wisconsin, USA
+3 MAP
+4 LATI N43.0389
+4 LONG W87.9065
+1 NATU
+2 DATE 1958
+2 PLAC Milwaukee, Wisconsin, USA
+3 MAP
+4 LATI N43.0389
+4 LONG W87.9065
+1 OCCU Werkzeugmacher
+1 DEAT
+2 DATE 3 SEP 2008
+2 PLAC Milwaukee, Wisconsin, USA
+3 MAP
+4 LATI N43.0389
+4 LONG W87.9065
+1 NOTE Wanderte 1952 nach Amerika aus und nannte sich dort „Otto Falkenrath“ ohne Änderung der Schreibweise.
+1 OBJE @M9@
+1 OBJE @M19@
+1 FAMC @F8@
+1 FAMS @F10@
+0 @I26@ INDI
+1 NAME Dorothy /Keller/
+2 GIVN Dorothy
+2 SURN Keller
+1 SEX F
+1 BIRT
+2 DATE 9 JUN 1933
+2 PLAC Milwaukee, Wisconsin, USA
+3 MAP
+4 LATI N43.0389
+4 LONG W87.9065
+1 DEAT
+2 DATE 1 DEC 2015
+2 PLAC Milwaukee, Wisconsin, USA
+3 MAP
+4 LATI N43.0389
+4 LONG W87.9065
+1 FAMS @F10@
+0 @I27@ INDI
+1 NAME Robert /Falkenrath/
+2 GIVN Robert
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 15 SEP 1958
+2 PLAC Milwaukee, Wisconsin, USA
+3 MAP
+4 LATI N43.0389
+4 LONG W87.9065
+1 OCCU Engineer
+1 FAMC @F10@
+0 @I28@ INDI
+1 NAME Georg /Oberlin/
+2 GIVN Georg
+2 SURN Oberlin
+1 SEX M
+1 BIRT
+2 DATE 2 OCT 1899
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 OCCU Landwirt
+1 DEAT
+2 DATE 25 MAY 1978
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 OBJE @M10@
+1 FAMC @F17@
+1 FAMS @F11@
+0 @I29@ INDI
+1 NAME Frieda /Behnke/
+2 GIVN Frieda
+2 SURN Behnke
+1 SEX F
+1 BIRT
+2 DATE 18 FEB 1904
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 DEAT
+2 DATE 6 SEP 1990
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 OBJE @M11@
+1 FAMS @F11@
+0 @I30@ INDI
+1 NAME Hermann /Ilgner/
+2 GIVN Hermann
+2 SURN Ilgner
+1 SEX M
+1 BIRT
+2 DATE 7 JUL 1895
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OCCU Eisenbahner
+1 DEAT
+2 DATE 13 DEC 1961
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 FAMC @F18@
+1 FAMS @F12@
+0 @I31@ INDI
+1 NAME Elise /Marquardt/
+2 GIVN Elise
+2 SURN Marquardt
+1 SEX F
+1 BIRT
+2 DATE 29 MAR 1898
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 DEAT
+2 DATE 10 OCT 1972
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 FAMS @F12@
+0 @I32@ INDI
+1 NAME Paul /Krümmel/
+2 GIVN Paul
+2 SURN Krümmel
+1 SEX M
+1 BIRT
+2 DATE 1 MAY 1902
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OCCU Bäckermeister
+1 DEAT
+2 DATE 16 JAN 1980
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OBJE @M12@
+1 FAMS @F13@
+0 @I33@ INDI
+1 NAME Berta /Hagedorn/
+2 GIVN Berta
+2 SURN Hagedorn
+1 SEX F
+1 BIRT
+2 DATE 24 DEC 1905
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 DEAT
+2 DATE 8 JUL 1993
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 FAMS @F13@
+0 @I34@ INDI
+1 NAME Heinz /Krümmel/
+2 GIVN Heinz
+2 SURN Krümmel
+1 SEX M
+1 BIRT
+2 DATE 3 MAR 1933
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 DEAT
+2 DATE 18 APR 1945
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 NOTE Kam bei einem Luftangriff in den letzten Kriegstagen ums Leben.
+1 FAMC @F13@
+0 @I35@ INDI
+1 NAME Mathilde /Oberlin/
+2 GIVN Mathilde
+2 SURN Oberlin
+1 SEX F
+1 BIRT
+2 DATE 20 JAN 1929
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 DEAT
+2 DATE 2 NOV 2020
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 FAMC @F11@
+1 FAMS @F14@
+0 @I36@ INDI
+1 NAME Werner /Kass/
+2 GIVN Werner
+2 SURN Kass
+1 SEX M
+1 BIRT
+2 DATE 6 AUG 1925
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 OCCU Landmaschinenhändler
+1 DEAT
+2 DATE 27 APR 1990
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 FAMS @F14@
+0 @I37@ INDI
+1 NAME Birgit /Kass/
+2 GIVN Birgit
+2 SURN Kass
+1 SEX F
+1 BIRT
+2 DATE 12 DEC 1955
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 FAMC @F14@
+0 @I38@ INDI
+1 NAME Pauline /Rosskamp/
+2 GIVN Pauline
+2 SURN Rosskamp
+1 SEX F
+1 BIRT
+2 DATE 5 SEP 1903
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OCCU Lehrerin
+1 DEAT
+2 DATE 21 JUN 1999
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 NOTE Unverheiratet. Führte über Jahrzehnte die Familienchronik, aus der viele Angaben dieses Stammbaums stammen.
+1 FAMC @F16@
+0 @I39@ INDI
+1 NAME Carl /Falkenrath/
+2 GIVN Carl
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 19 NOV 1866
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+2 SOUR @S3@
+3 PAGE Vorsatzblatt
+1 OCCU Zimmermann
+1 DEAT
+2 DATE 4 MAR 1938
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OBJE @M13@
+1 FAMC @F19@
+1 FAMS @F15@
+0 @I40@ INDI
+1 NAME Dorothea /Wichmann/
+2 GIVN Dorothea
+2 SURN Wichmann
+1 SEX F
+1 BIRT
+2 DATE 8 JUN 1870
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 DEAT
+2 DATE 15 DEC 1949
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OBJE @M14@
+1 FAMC @F20@
+1 FAMS @F15@
+0 @I41@ INDI
+1 NAME Marie /Falkenrath/
+2 GIVN Marie
+2 SURN Falkenrath
+1 SEX F
+1 BIRT
+2 DATE 27 SEP 1894
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 DEAT
+2 DATE 3 MAY 1975
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 FAMC @F15@
+0 @I42@ INDI
+1 NAME August /Rosskamp/
+2 GIVN August
+2 SURN Rosskamp
+1 SEX M
+1 BIRT
+2 DATE 30 JAN 1868
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OCCU Gastwirt
+1 DEAT
+2 DATE 12 AUG 1931
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 FAMS @F16@
+0 @I43@ INDI
+1 NAME Sophie /Lüders/
+2 GIVN Sophie
+2 SURN Lüders
+1 SEX F
+1 BIRT
+2 DATE 14 APR 1872
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+1 DEAT
+2 DATE 9 FEB 1955
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 FAMS @F16@
+0 @I44@ INDI
+1 NAME Johann /Oberlin/
+2 GIVN Johann
+2 SURN Oberlin
+1 SEX M
+1 BIRT
+2 DATE 23 MAY 1865
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 OCCU Landwirt
+1 DEAT
+2 DATE 1 NOV 1940
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 FAMS @F17@
+0 @I45@ INDI
+1 NAME Wilhelmine /Drewes/
+2 GIVN Wilhelmine
+2 SURN Drewes
+1 SEX F
+1 BIRT
+2 DATE 16 OCT 1869
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 DEAT
+2 DATE 28 JAN 1947
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 FAMS @F17@
+0 @I46@ INDI
+1 NAME Ernst /Ilgner/
+2 GIVN Ernst
+2 SURN Ilgner
+1 SEX M
+1 BIRT
+2 DATE 11 MAR 1862
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 OCCU Salinenarbeiter
+1 DEAT
+2 DATE 20 SEP 1929
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 FAMS @F18@
+0 @I47@ INDI
+1 NAME Auguste /Pohlmann/
+2 GIVN Auguste
+2 SURN Pohlmann
+1 SEX F
+1 BIRT
+2 DATE 2 DEC 1867
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 DEAT
+2 DATE 5 JUL 1943
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 FAMS @F18@
+0 @I48@ INDI
+1 NAME Friedrich Wilhelm /Falkenrath/
+2 GIVN Friedrich Wilhelm
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 6 JUL 1834
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+1 RESI Zog als Geselle von Eschede in die Stadt
+2 DATE 1858
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OCCU Zimmermann
+1 DEAT
+2 DATE 22 FEB 1901
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 NOTE Mit ihm beginnen die Einträge in der Familienbibel.
+1 OBJE @M15@
+1 OBJE @M20@
+1 FAMC @F21@
+1 FAMS @F19@
+0 @I49@ INDI
+1 NAME Johanne /Meinecke/
+2 GIVN Johanne
+2 SURN Meinecke
+1 SEX F
+1 BIRT
+2 DATE 17 JAN 1839
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 DEAT
+2 DATE 30 AUG 1912
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OBJE @M16@
+1 FAMS @F19@
+0 @I50@ INDI
+1 NAME Christian /Wichmann/
+2 GIVN Christian
+2 SURN Wichmann
+1 SEX M
+1 BIRT
+2 DATE 9 SEP 1838
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 OCCU Schuhmacher
+1 DEAT
+2 DATE 14 NOV 1899
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 FAMS @F20@
+0 @I51@ INDI
+1 NAME Luise /Brandes/
+2 GIVN Luise
+2 SURN Brandes
+1 SEX F
+1 BIRT
+2 DATE 21 FEB 1843
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 DEAT
+2 DATE 7 APR 1920
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 FAMS @F20@
+0 @I52@ INDI
+1 NAME Johann Heinrich /Falkenrath/
+2 GIVN Johann Heinrich
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE 12 OCT 1801
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+2 SOUR @S1@
+3 PAGE Taufen 1801, Nr. 23
+1 CHR
+2 DATE 18 OCT 1801
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+2 SOUR @S1@
+3 PAGE Taufen 1801, Nr. 23
+1 OCCU Häusling und Tagelöhner
+1 DEAT
+2 DATE 3 JAN 1872
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+1 OBJE @M17@
+1 FAMC @F22@
+1 FAMS @F21@
+0 @I53@ INDI
+1 NAME Catharine Sophie /Eggers/
+2 GIVN Catharine Sophie
+2 SURN Eggers
+1 SEX F
+1 BIRT
+2 DATE 28 MAR 1806
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+1 DEAT
+2 DATE 19 JUN 1880
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+1 FAMS @F21@
+0 @I54@ INDI
+1 NAME Hans Jürgen /Falkenrath/
+2 GIVN Hans Jürgen
+2 SURN Falkenrath
+1 SEX M
+1 BIRT
+2 DATE ABT 1770
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+1 OCCU Häusling
+1 DEAT
+2 DATE 11 DEC 1831
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+2 SOUR @S1@
+3 PAGE Begräbnisse 1831, Nr. 41
+1 NOTE Ältester bekannter Träger des Namens. Seine Frau wird im Taufeintrag des Sohnes nicht genannt.
+1 FAMS @F22@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 MARR
+2 DATE 18 JUN 2015
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+1 CHIL @I3@
+1 CHIL @I4@
+0 @F2@ FAM
+1 HUSB @I6@
+1 WIFE @I5@
+1 MARR
+2 DATE 3 OCT 2017
+2 PLAC Bremen, Deutschland
+3 MAP
+4 LATI N53.0793
+4 LONG E8.8017
+1 CHIL @I7@
+0 @F3@ FAM
+1 HUSB @I8@
+1 WIFE @I9@
+1 MARR
+2 DATE 12 MAY 1983
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 CHIL @I1@
+1 CHIL @I5@
+0 @F4@ FAM
+1 HUSB @I11@
+1 WIFE @I10@
+1 MARR
+2 DATE 20 AUG 1982
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 DIV
+2 DATE 1999
+1 CHIL @I12@
+1 CHIL @I13@
+0 @F5@ FAM
+1 HUSB @I15@
+1 WIFE @I17@
+1 MARR
+2 DATE 7 OCT 1950
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 NOTE Erste Ehe von Wilhelm Falkenrath.
+1 CHIL @I18@
+0 @F6@ FAM
+1 HUSB @I15@
+1 WIFE @I16@
+1 MARR
+2 DATE 24 APR 1954
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 CHIL @I8@
+1 CHIL @I10@
+0 @F7@ FAM
+1 HUSB @I19@
+1 WIFE @I20@
+1 MARR
+2 DATE 15 JUN 1956
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 CHIL @I9@
+1 CHIL @I14@
+0 @F8@ FAM
+1 HUSB @I21@
+1 WIFE @I22@
+1 MARR
+2 DATE 17 MAY 1924
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+2 SOUR @S2@
+3 PAGE 1924, Nr. 58
+1 OBJE @M18@
+1 OBJE @M22@
+1 CHIL @I23@
+1 CHIL @I15@
+1 CHIL @I25@
+0 @F9@ FAM
+1 HUSB @I24@
+1 WIFE @I23@
+1 MARR
+2 DATE 5 DEC 1942
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 NOTE Kriegstrauung während eines Fronturlaubs.
+0 @F10@ FAM
+1 HUSB @I25@
+1 WIFE @I26@
+1 MARR
+2 DATE 11 JUN 1956
+2 PLAC Milwaukee, Wisconsin, USA
+3 MAP
+4 LATI N43.0389
+4 LONG W87.9065
+1 CHIL @I27@
+0 @F11@ FAM
+1 HUSB @I28@
+1 WIFE @I29@
+1 MARR
+2 DATE 9 SEP 1927
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 CHIL @I35@
+1 CHIL @I16@
+0 @F12@ FAM
+1 HUSB @I30@
+1 WIFE @I31@
+1 MARR
+2 DATE 21 APR 1922
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 CHIL @I19@
+0 @F13@ FAM
+1 HUSB @I32@
+1 WIFE @I33@
+1 MARR
+2 DATE 12 OCT 1928
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 CHIL @I20@
+1 CHIL @I34@
+0 @F14@ FAM
+1 HUSB @I36@
+1 WIFE @I35@
+1 MARR
+2 DATE 2 JUN 1953
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 CHIL @I37@
+0 @F15@ FAM
+1 HUSB @I39@
+1 WIFE @I40@
+1 MARR
+2 DATE 14 SEP 1893
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+2 SOUR @S2@
+3 PAGE 1893, Nr. 112
+1 CHIL @I41@
+1 CHIL @I21@
+0 @F16@ FAM
+1 HUSB @I42@
+1 WIFE @I43@
+1 MARR
+2 DATE 8 MAY 1896
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 CHIL @I22@
+1 CHIL @I38@
+0 @F17@ FAM
+1 HUSB @I44@
+1 WIFE @I45@
+1 MARR
+2 DATE 19 NOV 1891
+2 PLAC Uelzen, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.9657
+4 LONG E10.5611
+1 CHIL @I28@
+0 @F18@ FAM
+1 HUSB @I46@
+1 WIFE @I47@
+1 MARR
+2 DATE 3 FEB 1890
+2 PLAC Lüneburg, Niedersachsen, Deutschland
+3 MAP
+4 LATI N53.2509
+4 LONG E10.4141
+1 CHIL @I30@
+0 @F19@ FAM
+1 HUSB @I48@
+1 WIFE @I49@
+1 MARR
+2 DATE 26 OCT 1862
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+2 SOUR @S3@
+3 PAGE Vorsatzblatt, erster Eintrag
+1 CHIL @I39@
+0 @F20@ FAM
+1 HUSB @I50@
+1 WIFE @I51@
+1 MARR
+2 DATE 30 APR 1866
+2 PLAC Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.6226
+4 LONG E10.0815
+1 CHIL @I40@
+0 @F21@ FAM
+1 HUSB @I52@
+1 WIFE @I53@
+1 MARR
+2 DATE 15 NOV 1829
+2 PLAC Eschede, Celle, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.7347
+4 LONG E10.2353
+2 SOUR @S1@
+3 PAGE Trauungen 1829, Nr. 9
+1 CHIL @I48@
+0 @F22@ FAM
+1 HUSB @I54@
+1 CHIL @I52@
+0 @S1@ SOUR
+1 TITL Kirchenbuch Eschede, Taufen und Trauungen 1760–1840
+1 AUTH Ev.-luth. Kirchengemeinde Eschede
+1 TEXT Abschrift im Familienbesitz (erfunden für den Demo-Stammbaum)
+0 @S2@ SOUR
+1 TITL Standesamt Celle, Heiratsregister
+1 AUTH Stadt Celle
+0 @S3@ SOUR
+1 TITL Familienbibel Falkenrath
+1 AUTH Familie Falkenrath
+1 TEXT Handschriftliche Einträge auf den Vorsatzblättern, begonnen 1862.
+1 OBJE @M20@
+0 @M1@ OBJE
+1 FILE portrait-i15.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Wilhelm Falkenrath, Portrait
+0 @M2@ OBJE
+1 FILE portrait-i16.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Hannelore Oberlin, Portrait
+0 @M3@ OBJE
+1 FILE portrait-i17.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Gerda Thielbar, Portrait
+0 @M4@ OBJE
+1 FILE portrait-i19.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Friedrich Ilgner, Portrait
+0 @M5@ OBJE
+1 FILE portrait-i20.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Margarete Krümmel, Portrait
+0 @M6@ OBJE
+1 FILE portrait-i21.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Heinrich Falkenrath, Portrait
+0 @M7@ OBJE
+1 FILE portrait-i22.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Anna Rosskamp, Portrait
+0 @M8@ OBJE
+1 FILE portrait-i23.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Elfriede Falkenrath, Portrait
+0 @M9@ OBJE
+1 FILE portrait-i25.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Otto Falkenrath, Portrait
+0 @M10@ OBJE
+1 FILE portrait-i28.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Georg Oberlin, Portrait
+0 @M11@ OBJE
+1 FILE portrait-i29.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Frieda Behnke, Portrait
+0 @M12@ OBJE
+1 FILE portrait-i32.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Paul Krümmel, Portrait
+0 @M13@ OBJE
+1 FILE portrait-i39.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Carl Falkenrath, Portrait
+0 @M14@ OBJE
+1 FILE portrait-i40.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Dorothea Wichmann, Portrait
+0 @M15@ OBJE
+1 FILE portrait-i48.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Friedrich Wilhelm Falkenrath, Portrait
+0 @M16@ OBJE
+1 FILE portrait-i49.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Johanne Meinecke, Portrait
+0 @M17@ OBJE
+1 FILE taufeintrag-1801.jpg
+2 FORM jpg
+3 TYPE document
+2 TITL Taufeintrag Johann Heinrich Falkenrath, 1801
+0 @M18@ OBJE
+1 FILE heiratsurkunde-1924.jpg
+2 FORM jpg
+3 TYPE document
+2 TITL Heiratsurkunde Falkenrath – Rosskamp, 1924
+0 @M19@ OBJE
+1 FILE schiffsliste-1952.jpg
+2 FORM jpg
+3 TYPE document
+2 TITL Auszug aus der Passagierliste, 1952
+0 @M20@ OBJE
+1 FILE familienbibel.jpg
+2 FORM jpg
+3 TYPE document
+2 TITL Vorsatzblatt der Familienbibel
+0 @M21@ OBJE
+1 FILE tischlerei.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Die Tischlerei Am Heiligen Kreuz, um 1960
+0 @M22@ OBJE
+1 FILE hochzeit-1924.jpg
+2 FORM jpg
+3 TYPE photo
+2 TITL Hochzeit von Heinrich und Anna, 1924
+0 TRLR
