@@ -1,8 +1,8 @@
 # Demo-Stammbaum „Familie Falkenrath“
 
 Ein kleiner, **frei erfundener** Stammbaum zum Ausprobieren und Testen von webtrees, dem Modul
-*WebtreesAnd API* und der App *webtreesAnd*: 54 Personen, 22 Familien, acht Generationen
-(um 1770 bis heute), 22 Bilder.
+*WebtreesAnd API* und der App *webtreesAnd*: 103 Personen, 38 Familien, acht Generationen
+(um 1770 bis heute), 34 Bilder.
 
 **Alle Personen, Lebensdaten und Dokumente sind ausgedacht.** Übereinstimmungen mit lebenden oder
 verstorbenen Personen sind Zufall. Die Orte gibt es wirklich – sie tragen Koordinaten, damit Karten etwas
@@ -14,8 +14,9 @@ Screenshots und Vorführungen.
 ## Was der Baum abdeckt
 
 Lebende Personen (Datenschutz), zwei Ehen mit früh verstorbenem Kind, Gefallene beider Weltkriege,
-ein Auswanderer nach Amerika samt amerikanischem Zweig, eine Scheidung, eine unbekannte Mutter an der Spitze,
-Quellen mit Seitenangaben, Notizen, Rufname, Orte mit Koordinaten, Medien an Personen, Familien und Quellen.
+zwei Auswanderungen nach Milwaukee (1888 und 1952) samt amerikanischem Zweig, eine Scheidung, eine unbekannte
+Mutter an der Spitze, Vettern und Cousinen auf Vater- und Mutterseite, Quellen mit Seitenangaben, Notizen,
+Rufname, Orte mit Koordinaten, Medien an Personen, Familien und Quellen.
 Startperson: **Jonas Falkenrath (I1)**.
 
 ## In webtrees laden
