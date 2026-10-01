@@ -17,6 +17,9 @@ kaum, und die Jüngeren sind privat). Urkunden, Kirchenbuch- und Registerauszüg
 Lizenz: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) – frei verwendbar, auch für
 Screenshots und Vorführungen.
 
+**Versionen:** Diese Datei ist immer die neueste Version (siehe `2 VERS` im Kopf). Jede Version liegt eingefroren in
+[versionen/](versionen/) – dort stehen auch die Regeln, wie neue Finessen hinzukommen.
+
 ## Was der Baum abdeckt
 
 Lebende Personen (Datenschutz), zwei Ehen mit früh verstorbenem Kind, Gefallene beider Weltkriege,
