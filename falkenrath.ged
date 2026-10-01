@@ -1,7 +1,7 @@
 0 HEAD
 1 SOUR webtreesAnd-demo
 2 NAME Demo-Stammbaum Familie Falkenrath
-2 VERS 1.1
+2 VERS 1.2
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
@@ -21,6 +21,19 @@
 4 LONG E9.7320
 2 SOUR @S203@
 3 PAGE Geburtsurkunde Jonas Falkenrath, 1985
+3 QUAY 3
+1 CHR
+2 DATE 2 JUN 1985
+2 PLAC Hannover, Niedersachsen, Deutschland
+3 MAP
+4 LATI N52.3759
+4 LONG E9.7320
+2 _ASSO @I10@
+3 RELA godparent
+3 NOTE Schwester des Vaters
+2 NOTE Paten: Martin Hoppe, Bauingenieur, Hannover
+2 SOUR @S203@
+3 PAGE Taufschein Jonas Falkenrath, 1985
 3 QUAY 3
 1 EDUC Leibniz Universität Hannover, Diplom 2010
 2 PLAC Hannover, Niedersachsen, Deutschland
@@ -708,9 +721,9 @@
 4 LATI N52.3759
 4 LONG E9.7320
 2 _ASSO @I21@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I71@
-3 RELA godmother
+3 RELA godparent
 1 OCCU Fernmeldegehilfin
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -738,9 +751,9 @@
 4 LATI N52.3759
 4 LONG E9.7320
 2 _ASSO @I71@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I21@
-3 RELA godfather
+3 RELA godparent
 1 OCCU Kaufmann
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -827,9 +840,14 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I62@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I65@
-3 RELA godfather
+3 RELA godparent
+3 NOTE Pate in Abwesenheit (lebt seit 1888 in Milwaukee); bei der Taufe vertreten.
+3 SOUR @S81@
+4 PAGE Taufe 1897/77
+4 QUAY 3
+2 NOTE Paten: Friedrich Plate, Anbauer zu Celle
 2 SOUR @S81@
 3 PAGE Taufe 1897/77
 3 QUAY 3
@@ -876,9 +894,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I271@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I275@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1901/47
 3 DATA
@@ -1038,9 +1056,10 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I278@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I277@
-3 RELA godmother
+3 RELA godparent
+2 NOTE Paten: Heinrich Stöver, Gastwirt zu Uelzen
 1 OCCU Landwirt
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -1070,7 +1089,8 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I284@
-3 RELA godfather
+3 RELA godparent
+2 NOTE Paten: Anna Hogrefe, Haustochter, Uelzen
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 6 SEP 1990
@@ -1099,7 +1119,8 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I286@
-3 RELA godfather
+3 RELA godparent
+2 NOTE Paten: Louise Behrens, Ehefrau des Stellmachers Heinrich Behrens zu Lüneburg
 1 OCCU Eisenbahner
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -1135,9 +1156,10 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I287@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I290@
-3 RELA godfather
+3 RELA godparent
+2 NOTE Paten: Heinrich Müller, Schmied zu Lüneburg
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 10 OCT 1972
@@ -1172,7 +1194,8 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I291@
-3 RELA godmother
+3 RELA godparent
+2 NOTE Paten: Marie Peters, Ehefrau des Maurers Walter Peters, Lüneburg
 1 OCCU Bäckermeister
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -1202,9 +1225,9 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I294@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I293@
-3 RELA godfather
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 8 JUL 1993
@@ -1345,9 +1368,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I62@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I65@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1899/87
 1 EVEN Reserve-Infanterie-Regiment 78
@@ -1389,7 +1412,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I62@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1902/10
 3 QUAY 3
@@ -1490,11 +1513,11 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I271@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I274@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I273@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1898/42
 1 OCCU Gastwirt
@@ -1553,7 +1576,7 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I278@
-3 RELA godfather
+3 RELA godparent
 1 OCCU Hofbesitzer
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -1674,9 +1697,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I65@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I39@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1890/29
 1 OCCU Hebamme
@@ -1727,9 +1750,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I371@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I58@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1866/37
 3 QUAY 3
@@ -1772,9 +1795,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I299@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I300@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1870/86
 3 QUAY 3
@@ -1849,9 +1872,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I301@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I123@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1868/32
 3 QUAY 3
@@ -1894,9 +1917,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I304@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I306@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1872/1
 3 QUAY 3
@@ -1938,9 +1961,9 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I311@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I310@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S151@
 3 PAGE Taufe 1865/58
 3 DATA
@@ -1987,9 +2010,9 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I313@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I314@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S151@
 3 PAGE Taufe 1869/13
 3 DATA
@@ -2035,9 +2058,9 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I324@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I323@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S127@
 3 PAGE Taufe 1862/87
 3 QUAY 3
@@ -2079,7 +2102,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Wilhelmine Jürgens, Ehefrau, Friedrich Gaede, Hofbesitzer
+2 NOTE Paten: Wilhelmine Jürgens, Ehefrau; Friedrich Gaede, Hofbesitzer
 2 SOUR @S127@
 3 PAGE Taufe 1867/77
 3 QUAY 3
@@ -2121,11 +2144,11 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I371@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I295@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I60@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1864/46
 3 QUAY 3
@@ -2210,9 +2233,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I371@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I295@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1869/51
 3 QUAY 3
@@ -2305,9 +2328,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I371@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I60@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1860/21
 1 OCCU Hofbesitzer
@@ -2347,9 +2370,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I350@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I349@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S105@
 3 PAGE Taufe 1834/19
 3 QUAY 3
@@ -2399,7 +2422,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: August Schnehage, Schäfer, Auguste Ebeling, Ehefrau
+2 NOTE Paten: August Schnehage, Schäfer; Auguste Ebeling, Ehefrau
 2 SOUR @S80@
 3 PAGE Taufe 1839/79
 3 QUAY 3
@@ -2441,7 +2464,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I352@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S80@
 3 PAGE Taufe 1838/51
 3 QUAY 3
@@ -2483,7 +2506,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Friedrich Niebuhr, Schmied, Johanne Dierks, Ehefrau
+2 NOTE Paten: Friedrich Niebuhr, Schmied; Johanne Dierks, Ehefrau
 2 SOUR @S80@
 3 PAGE Taufe 1843/76
 3 QUAY 3
@@ -2523,10 +2546,6 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
-2 _ASSO @I350@
-3 RELA godmother
-2 _ASSO @I55@
-3 RELA godmother
 2 SOUR @S105@
 3 PAGE Taufe 1831/6
 1 RELI evangelisch-lutherisch
@@ -2542,6 +2561,10 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
+1 ASSO @I350@
+2 RELA Godmother
+1 ASSO @I55@
+2 RELA Godmother
 1 OBJE @M30@
 1 FAMC @F21@
 1 FAMS @F24@
@@ -2608,7 +2631,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I55@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S105@
 3 PAGE Taufe 1837/18
 1 OCCU Zimmergeselle
@@ -2654,7 +2677,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Christoph Riebesell, Brinksitzer, Catharina Rabe, Ehefrau
+2 NOTE Paten: Christoph Riebesell, Brinksitzer; Catharina Rabe, Ehefrau
 2 SOUR @S125@
 3 PAGE Taufe 1830/75
 3 QUAY 3
@@ -2696,7 +2719,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Friedrich Heuer, Schäfer, Auguste Heitmann, Ehefrau
+2 NOTE Paten: Friedrich Heuer, Schäfer; Auguste Heitmann, Ehefrau
 2 SOUR @S126@
 3 PAGE Taufe 1836/28
 3 QUAY 3
@@ -2737,6 +2760,7 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
+2 NOTE Paten: Heinrich Eggers, Ackermann zu Eschede; Johann Lüders, Schäfer zu Eschede
 2 SOUR @S1@
 3 PAGE Taufe 1801/23
 3 OBJE @M130@
@@ -2788,7 +2812,7 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
-2 NOTE Paten: Joachim Lange, Brinksitzer, Catharina Wiebe, Ehefrau
+2 NOTE Paten: Joachim Lange, Brinksitzer; Catharina Wiebe, Ehefrau
 2 SOUR @S1@
 3 PAGE Taufe 1806/13
 3 QUAY 3
@@ -2831,7 +2855,7 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
-2 NOTE Paten: Ilse Hartmann, Ehefrau, Christoph Lange, Leinweber
+2 NOTE Paten: Ilse Hartmann, Ehefrau; Christoph Lange, Leinweber
 2 SOUR @S1@
 3 PAGE Taufe 1804/3
 1 RELI evangelisch-lutherisch
@@ -2908,7 +2932,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I52@
-3 RELA godfather
+3 RELA Godparent
 2 SOUR @S105@
 3 PAGE Taufe 1832/21
 1 OCCU Kötner
@@ -2984,7 +3008,7 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I113@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S151@
 3 PAGE Taufe 1867/14
 3 QUAY 3
@@ -3031,9 +3055,9 @@
 4 LATI N53.0797
 4 LONG E10.5836
 2 _ASSO @I317@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I318@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S55@
 3 PAGE Taufe 1873/18
 3 QUAY 3
@@ -3079,9 +3103,9 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I327@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I328@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S127@
 3 PAGE Taufe 1864/19
 3 QUAY 3
@@ -3128,9 +3152,9 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I332@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I333@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S72@
 3 PAGE Taufe 1871/11
 3 QUAY 3
@@ -3176,7 +3200,7 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I336@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S46@
 3 PAGE Taufe 1868/11
 3 QUAY 3
@@ -3223,7 +3247,7 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I339@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S72@
 3 PAGE Taufe 1868/16
 3 QUAY 3
@@ -3268,7 +3292,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Hermann Rathmann, Landwirt, Johanne Wrede, Ehefrau
+2 NOTE Paten: Hermann Rathmann, Landwirt; Johanne Wrede, Ehefrau
 2 SOUR @S127@
 3 PAGE Taufe 1870/27
 3 QUAY 3
@@ -3318,11 +3342,11 @@
 4 LATI N51.7189
 4 LONG E8.7575
 2 _ASSO @I343@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I344@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I347@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S12@
 3 PAGE Taufe 1874/21
 3 DATA
@@ -3372,7 +3396,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Christian Heuer, Vollhöfner, Auguste Rabe, Ehefrau
+2 NOTE Paten: Christian Heuer, Vollhöfner; Auguste Rabe, Ehefrau
 2 SOUR @S79@
 3 PAGE Taufe 1831/18
 3 QUAY 3
@@ -3418,7 +3442,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Friedrich Eggers, Schmied, Louise Klingebiel, Ehefrau
+2 NOTE Paten: Friedrich Eggers, Schmied; Louise Klingebiel, Ehefrau
 2 SOUR @S80@
 3 PAGE Taufe 1838/19
 3 QUAY 3
@@ -3466,7 +3490,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I353@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S106@
 3 PAGE Taufe 1839/24
 3 QUAY 3
@@ -3515,7 +3539,7 @@
 3 MAP
 4 LATI N52.8333
 4 LONG E10.0833
-2 NOTE Paten: Henriette Jürgens, Ehefrau, Friedrich Eggers, Anbauer
+2 NOTE Paten: Henriette Jürgens, Ehefrau; Friedrich Eggers, Anbauer
 2 SOUR @S119@
 3 PAGE Taufe 1837/7
 3 QUAY 3
@@ -3559,7 +3583,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Hermann Klingebiel, Vollhöfner, Johanne Dierks, Ehefrau
+2 NOTE Paten: Hermann Klingebiel, Vollhöfner; Johanne Dierks, Ehefrau
 2 SOUR @S150@
 3 PAGE Taufe 1832/18
 3 QUAY 3
@@ -3604,7 +3628,7 @@
 4 LATI N53.0283
 4 LONG E10.4147
 2 _ASSO @I355@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S99@
 3 PAGE Taufe 1843/8
 3 DATA
@@ -3653,7 +3677,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Friederike Ebeling, Ehefrau, Johann Heinrich Lühmann, Halbhöfner
+2 NOTE Paten: Friederike Ebeling, Ehefrau; Johann Heinrich Lühmann, Halbhöfner
 2 SOUR @S150@
 3 PAGE Taufe 1832/24
 3 QUAY 3
@@ -3703,7 +3727,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Carl Peemöller, Vollhöfner, Louise Jürgens, Ehefrau
+2 NOTE Paten: Carl Peemöller, Vollhöfner; Louise Jürgens, Ehefrau
 2 SOUR @S150@
 3 PAGE Taufe 1840/13
 3 QUAY 3
@@ -3747,7 +3771,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Andreas Stegen, Häusling, Ilsabe Lange, Ehefrau
+2 NOTE Paten: Andreas Stegen, Häusling; Ilsabe Lange, Ehefrau
 2 SOUR @S79@
 3 PAGE Taufe 1812/15
 3 QUAY 3
@@ -3796,7 +3820,7 @@
 3 MAP
 4 LATI N52.6536
 4 LONG E9.8339
-2 NOTE Paten: Johann Hinrich Schröder, Leinweber, Ilsabe Rathmann, Ehefrau
+2 NOTE Paten: Johann Hinrich Schröder, Leinweber; Ilsabe Rathmann, Ehefrau
 2 SOUR @S158@
 3 PAGE Taufe 1809/11
 3 QUAY 3
@@ -3844,7 +3868,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Marie Dierks, Ehefrau, Johann Heinrich Heitmann, Förster
+2 NOTE Paten: Marie Dierks, Ehefrau; Johann Heinrich Heitmann, Förster
 2 SOUR @S150@
 3 PAGE Taufe 1843/23
 3 QUAY 3
@@ -3888,7 +3912,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Christian Harms, Landwirt, Henriette Brammer, Ehefrau
+2 NOTE Paten: Christian Harms, Landwirt; Henriette Brammer, Ehefrau
 2 SOUR @S80@
 3 PAGE Taufe 1842/23
 3 QUAY 3
@@ -3934,7 +3958,7 @@
 4 LATI N52.8961
 4 LONG E10.4486
 2 _ASSO @I357@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S143@
 3 PAGE Taufe 1843/18
 3 QUAY 3
@@ -3983,7 +4007,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Johanne Gaede, Ehefrau, August Burmester, Anbauer
+2 NOTE Paten: Johanne Gaede, Ehefrau; August Burmester, Anbauer
 2 SOUR @S99@
 3 PAGE Taufe 1848/5
 3 QUAY 3
@@ -4027,7 +4051,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
-2 NOTE Paten: Ernst Garbers, Holzhauer, Johanne Dierks, Ehefrau
+2 NOTE Paten: Ernst Garbers, Holzhauer; Johanne Dierks, Ehefrau
 2 SOUR @S45@
 3 PAGE Taufe 1834/20
 3 QUAY 3
@@ -4074,7 +4098,7 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I360@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S45@
 3 PAGE Taufe 1847/20
 3 QUAY 3
@@ -4119,7 +4143,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Louise Schulze, Ehefrau, Christian Harms, Vollhöfner
+2 NOTE Paten: Louise Schulze, Ehefrau; Christian Harms, Vollhöfner
 2 SOUR @S126@
 3 PAGE Taufe 1837/24
 3 QUAY 3
@@ -4168,7 +4192,7 @@
 4 LATI N53.0797
 4 LONG E10.5836
 2 _ASSO @I362@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S54@
 3 PAGE Taufe 1839/21
 3 QUAY 3
@@ -4218,7 +4242,7 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I364@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S71@
 3 PAGE Taufe 1833/19
 3 DATA
@@ -4269,7 +4293,7 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I366@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S45@
 3 PAGE Taufe 1848/11
 3 QUAY 3
@@ -4312,7 +4336,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
-2 NOTE Paten: Heinrich Müller, Schäfer, Louise Garbers, Ehefrau
+2 NOTE Paten: Heinrich Müller, Schäfer; Louise Garbers, Ehefrau
 2 SOUR @S45@
 3 PAGE Taufe 1839/17
 3 QUAY 3
@@ -4356,7 +4380,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
-2 NOTE Paten: August Dierks, Sattler, Friederike Hinrichs, Ehefrau
+2 NOTE Paten: August Dierks, Sattler; Friederike Hinrichs, Ehefrau
 2 SOUR @S88@
 3 PAGE Taufe 1847/12
 3 QUAY 3
@@ -4402,7 +4426,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
-2 NOTE Paten: Auguste Lange, Ehefrau, August Mohwinkel, Tagelöhner
+2 NOTE Paten: Auguste Lange, Ehefrau; August Mohwinkel, Tagelöhner
 2 SOUR @S71@
 3 PAGE Taufe 1839/12
 3 QUAY 3
@@ -4448,7 +4472,7 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I369@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S45@
 3 PAGE Taufe 1841/11
 3 QUAY 3
@@ -4492,7 +4516,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: August Bohlmann, Vollhöfner, Marie Brammer, Ehefrau
+2 NOTE Paten: August Bohlmann, Vollhöfner; Marie Brammer, Ehefrau
 2 SOUR @S126@
 3 PAGE Taufe 1832/11
 3 QUAY 3
@@ -4536,7 +4560,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Ernst Peemöller, Förster, Sophie Riebesell, Ehefrau
+2 NOTE Paten: Ernst Peemöller, Förster; Sophie Riebesell, Ehefrau
 2 SOUR @S126@
 3 PAGE Taufe 1849/17
 3 QUAY 3
@@ -4581,7 +4605,7 @@
 3 MAP
 4 LATI N51.7667
 4 LONG E8.5667
-2 NOTE Paten: Wilhelm Wittkopf, Förster, Johanne Mohwinkel, Ehefrau
+2 NOTE Paten: Wilhelm Wittkopf, Förster; Johanne Mohwinkel, Ehefrau
 2 SOUR @S24@
 3 PAGE Taufe 1847/21
 3 QUAY 3
@@ -4626,7 +4650,7 @@
 3 MAP
 4 LATI N51.7189
 4 LONG E8.7575
-2 NOTE Paten: Heinrich Oetzmann, Schmied, Wilhelmine Garbers, Ehefrau
+2 NOTE Paten: Heinrich Oetzmann, Schmied; Wilhelmine Garbers, Ehefrau
 2 SOUR @S135@
 3 PAGE Taufe 1849/10
 3 QUAY 3
@@ -4670,6 +4694,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Johann Friedrich Brammer, Schmied zu Celle; Anna Maria Hogrefe, Ehefrau des Halbhöfners Claus Hogrefe zu Celle; Hinrich Peters, Ackermann zu Celle
 2 SOUR @S13@
 3 PAGE Taufe 1799/10
 3 QUAY 3
@@ -4716,6 +4741,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Anna Dorothea Niebuhr, Ehefrau des Häuslings Hans Jürgen Niebuhr zu Celle; Johann Friedrich Bruns, Schmied zu Celle; Claus Thies, Brinksitzer zu Celle
 2 SOUR @S79@
 3 PAGE Taufe 1816/10
 3 QUAY 3
@@ -4762,7 +4788,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Anna Dorothea Oetzmann, Ehefrau, Heinrich Christoph Soltmann, Krüger
+2 NOTE Paten: Anna Dorothea Oetzmann, Ehefrau; Heinrich Christoph Soltmann, Krüger
 2 SOUR @S79@
 3 PAGE Taufe 1806/22
 3 QUAY 3
@@ -4811,7 +4837,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Engel Hinrichs, Ehefrau, Jürgen Peemöller, Schmied
+2 NOTE Paten: Engel Hinrichs, Ehefrau; Jürgen Peemöller, Schmied
 2 SOUR @S79@
 3 PAGE Taufe 1813/7
 3 QUAY 3
@@ -4858,6 +4884,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Johann Heinrich Vollmer, Brinksitzer zu Celle; Margaretha Heuer, Dienstmagd zu Celle; Anna Dorothea Ahrens, Ehefrau des Ackermanns Jürgen Ahrens zu Celle
 2 SOUR @S79@
 3 PAGE Taufe 1804/15
 3 QUAY 3
@@ -4905,7 +4932,7 @@
 3 MAP
 4 LATI N52.6536
 4 LONG E9.8339
-2 NOTE Paten: Peter Klingebiel, Brinksitzer, Ilse Wöhler, Ehefrau
+2 NOTE Paten: Peter Klingebiel, Brinksitzer; Ilse Wöhler, Ehefrau
 2 SOUR @S158@
 3 PAGE Taufe 1817/22
 3 QUAY 3
@@ -4952,6 +4979,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Christoph Stöver, Krüger zu Celle; Anna Maria Behrens, Dienstmagd zu Celle; Anna Dorothea Ahrens, Ehefrau des Häuslings Hans Jürgen Ahrens zu Celle
 2 SOUR @S13@
 3 PAGE Taufe 1802/20
 3 QUAY 3
@@ -4999,6 +5027,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Anna Dorothea Bockelmann, Ehefrau des Brinksitzers Hinrich Bockelmann zu Celle; Christoph Wolters, Krüger zu Celle; Hans Jürgen Wiese, Häusling zu Celle
 2 SOUR @S79@
 3 PAGE Taufe 1805/16
 3 QUAY 3
@@ -5044,6 +5073,7 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
+2 NOTE Paten: Hans Jürgen Schulze, Brinksitzer zu Eschede; Catharina Garbers, Ehefrau des Brinksitzers Johann Friedrich Garbers zu Eschede; Christoph Behrens, Schäfer zu Eschede
 2 SOUR @S105@
 3 PAGE Taufe 1813/9
 3 QUAY 3
@@ -5091,7 +5121,7 @@
 3 MAP
 4 LATI N52.6333
 4 LONG E10.2500
-2 NOTE Paten: Magdalena Heitmann, Ehefrau, Johann Hinrich Voss, Anbauer
+2 NOTE Paten: Magdalena Heitmann, Ehefrau; Johann Hinrich Voss, Anbauer
 2 SOUR @S61@
 3 PAGE Taufe 1810/18
 3 QUAY 3
@@ -5139,7 +5169,7 @@
 3 MAP
 4 LATI N52.8333
 4 LONG E10.0833
-2 NOTE Paten: Hans Jürgen Schröder, Müller, Anna Dorothea Cordes, Ehefrau
+2 NOTE Paten: Hans Jürgen Schröder, Müller; Anna Dorothea Cordes, Ehefrau
 2 SOUR @S118@
 3 PAGE Taufe 1809/23
 3 QUAY 3
@@ -5188,7 +5218,7 @@
 3 MAP
 4 LATI N52.8083
 4 LONG E9.9614
-2 NOTE Paten: Hinrich Schröder, Leinweber, Dorothea Harms, Ehefrau
+2 NOTE Paten: Hinrich Schröder, Leinweber; Dorothea Harms, Ehefrau
 2 SOUR @S28@
 3 PAGE Taufe 1815/10
 3 QUAY 3
@@ -5236,7 +5266,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
-2 NOTE Paten: Anna Dorothea Thies, Ehefrau, Hinrich Rathmann, Häusling
+2 NOTE Paten: Anna Dorothea Thies, Ehefrau; Hinrich Rathmann, Häusling
 2 SOUR @S141@
 3 PAGE Taufe 1796/24
 3 QUAY 3
@@ -5284,6 +5314,7 @@
 3 MAP
 4 LATI N52.7333
 4 LONG E10.6000
+2 NOTE Paten: Margaretha Thies, Jungfer zu Hankensbüttel; Christoph Bruns, Krüger zu Hankensbüttel; Anna Dorothea Kruse, Ehefrau des Kötners Johann Friedrich Kruse zu Hankensbüttel
 2 SOUR @S29@
 3 PAGE Taufe 1798/16
 3 QUAY 3
@@ -5330,6 +5361,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Paten: Hinrich Wolters, Schäfer zu Ebstorf; Anna Dorothea Müller, Ehefrau des Brinksitzers Hans Jürgen Müller zu Ebstorf; Jürgen Müller, Schmied zu Ebstorf
 2 SOUR @S98@
 3 PAGE Taufe 1818/22
 3 QUAY 3
@@ -5377,7 +5409,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Engel Müller, Ehefrau, Peter Ebeling, Schäfer
+2 NOTE Paten: Engel Müller, Ehefrau; Peter Ebeling, Schäfer
 2 SOUR @S97@
 3 PAGE Taufe 1814/12
 3 QUAY 3
@@ -5425,7 +5457,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Jürgen Rathmann, Halbhöfner, Ilse Niebuhr, Ehefrau
+2 NOTE Paten: Jürgen Rathmann, Halbhöfner; Ilse Niebuhr, Ehefrau
 2 SOUR @S149@
 3 PAGE Taufe 1802/12
 3 QUAY 3
@@ -5474,7 +5506,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Christoph Wöhler, Tagelöhner, Catharina Riebesell, Ehefrau
+2 NOTE Paten: Christoph Wöhler, Tagelöhner; Catharina Riebesell, Ehefrau
 2 SOUR @S97@
 3 PAGE Taufe 1805/25
 3 QUAY 3
@@ -5523,7 +5555,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Heinrich Christoph Wittkopf, Müller, Dorothea Lange, Ehefrau
+2 NOTE Paten: Heinrich Christoph Wittkopf, Müller; Dorothea Lange, Ehefrau
 2 SOUR @S149@
 3 PAGE Taufe 1805/24
 3 QUAY 3
@@ -5567,6 +5599,7 @@
 3 MAP
 4 LATI N52.7333
 4 LONG E10.6000
+2 NOTE Paten: Catharina Schulze, Ehefrau des Krügers Hans Jürgen Schulze zu Hankensbüttel; Claus Plate, Häusling zu Hankensbüttel; Catharina Ahrens, Ehefrau des Schäfers Johann Friedrich Ahrens zu Hankensbüttel
 2 SOUR @S29@
 3 PAGE Taufe 1809/18
 3 QUAY 3
@@ -5613,6 +5646,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Paten: Jürgen Peters, Häusling zu Uelzen; Catharina Behrens, Dienstmagd zu Uelzen; Hans Jürgen Thies, Kötner zu Uelzen
 2 SOUR @S149@
 3 PAGE Taufe 1804/18
 3 QUAY 3
@@ -5661,7 +5695,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Ilse Lange, Ehefrau, Johann Winkelmann, Tagelöhner
+2 NOTE Paten: Ilse Lange, Ehefrau; Johann Winkelmann, Tagelöhner
 2 SOUR @S98@
 3 PAGE Taufe 1818/26
 3 QUAY 3
@@ -5706,6 +5740,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Hinrich Wolters, Kötner zu Suderburg; Margaretha Wrede, Dienstmagd zu Suderburg; Johann Friedrich Cohrs, Ackermann zu Suderburg
 2 SOUR @S141@
 3 PAGE Taufe 1810/7
 3 QUAY 3
@@ -5752,7 +5787,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
-2 NOTE Paten: Anna Margarethe Voss, Ehefrau, Johann Christoph Heuer, Vollhöfner
+2 NOTE Paten: Anna Margarethe Voss, Ehefrau; Johann Christoph Heuer, Vollhöfner
 2 SOUR @S141@
 3 PAGE Taufe 1811/19
 3 QUAY 3
@@ -5799,6 +5834,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Hans Jürgen Meyer, Schmied zu Bad Bevensen; Anna Maria Lange, Ehefrau des Kötners Claus Lange zu Bad Bevensen; Claus Plate, Krüger zu Bad Bevensen
 2 SOUR @S53@
 3 PAGE Taufe 1809/16
 3 QUAY 3
@@ -5845,7 +5881,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
-2 NOTE Paten: Margarethe Mohwinkel, Ehefrau, Christoph Müller, Häusling
+2 NOTE Paten: Margarethe Mohwinkel, Ehefrau; Christoph Müller, Häusling
 2 SOUR @S53@
 3 PAGE Taufe 1827/22
 3 QUAY 3
@@ -5889,6 +5925,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Claus Rabe, Krüger zu Lüneburg; Anna Maria Kruse, Dienstmagd zu Lüneburg; Christoph Dralle, Häusling zu Lüneburg
 2 SOUR @S8@
 3 PAGE Taufe 1798/13
 3 QUAY 3
@@ -5935,7 +5972,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
-2 NOTE Paten: Friedrich Garbers, Kötner, Margarethe Dierks, Ehefrau
+2 NOTE Paten: Friedrich Garbers, Kötner; Margarethe Dierks, Ehefrau
 2 SOUR @S7@
 3 PAGE Taufe 1798/7
 3 QUAY 3
@@ -5983,6 +6020,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Hans Jürgen Brammer, Brinksitzer zu Lüneburg; Ilsabe Meyer, Dienstmagd zu Lüneburg; Catharina Cohrs, Dienstmagd zu Lüneburg
 2 SOUR @S125@
 3 PAGE Taufe 1806/27
 3 QUAY 3
@@ -6030,6 +6068,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Engel Thies, Ehefrau des Kötners Christoph Thies zu Amelinghausen; Jürgen Cohrs, Schäfer zu Amelinghausen; Johann Friedrich Stöver, Kötner zu Amelinghausen
 2 SOUR @S44@
 3 PAGE Taufe 1804/26
 3 QUAY 3
@@ -6075,7 +6114,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Johann Hinrich Kahle, Halbhöfner, Ilse Lühmann, Ehefrau
+2 NOTE Paten: Johann Hinrich Kahle, Halbhöfner; Ilse Lühmann, Ehefrau
 2 SOUR @S125@
 3 PAGE Taufe 1808/20
 3 QUAY 3
@@ -6124,7 +6163,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
-2 NOTE Paten: Anna Catharina Gerdau, Ehefrau, Johann Hinrich Rathmann, Häusling
+2 NOTE Paten: Anna Catharina Gerdau, Ehefrau; Johann Hinrich Rathmann, Häusling
 2 SOUR @S7@
 3 PAGE Taufe 1799/15
 3 QUAY 3
@@ -6170,6 +6209,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Johann Friedrich Bostelmann, Kötner zu Amelinghausen; Anna Maria Niebuhr, Jungfer zu Amelinghausen; Johann Heinrich Stöver, Kötner zu Amelinghausen
 2 SOUR @S44@
 3 PAGE Taufe 1819/9
 3 QUAY 3
@@ -6217,7 +6257,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Catharine Elisabeth Plate, Ehefrau, Joachim Plate, Brinksitzer
+2 NOTE Paten: Catharine Elisabeth Plate, Ehefrau; Joachim Plate, Brinksitzer
 2 SOUR @S125@
 3 PAGE Taufe 1815/8
 3 QUAY 3
@@ -6266,6 +6306,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Johann Friedrich Bockelmann, Brinksitzer zu Lüneburg; Catharina Schulze, Dienstmagd zu Lüneburg; Engel Behrens, Jungfer zu Lüneburg
 2 SOUR @S125@
 3 PAGE Taufe 1807/18
 3 QUAY 3
@@ -6316,6 +6357,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Engel Wrede, Dienstmagd zu Lüneburg; Johann Heinrich Kruse, Häusling zu Lüneburg; Hans Jürgen Söhl, Häusling zu Lüneburg
 2 SOUR @S125@
 3 PAGE Taufe 1813/8
 3 QUAY 3
@@ -6363,7 +6405,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
-2 NOTE Paten: Hans Jürgen Oetzmann, Anbauer, Engel Wiebe, Ehefrau
+2 NOTE Paten: Hans Jürgen Oetzmann, Anbauer; Engel Wiebe, Ehefrau
 2 SOUR @S141@
 3 PAGE Taufe 1802/24
 3 QUAY 3
@@ -6411,7 +6453,7 @@
 3 MAP
 4 LATI N52.7333
 4 LONG E10.6000
-2 NOTE Paten: Johann Hinrich Mohwinkel, Leinweber, Anna Maria Thies, Ehefrau
+2 NOTE Paten: Johann Hinrich Mohwinkel, Leinweber; Anna Maria Thies, Ehefrau
 2 SOUR @S29@
 3 PAGE Taufe 1810/15
 3 QUAY 3
@@ -6459,7 +6501,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
-2 NOTE Paten: Claus Stegen, Brinksitzer, Magdalena Ohlhoff, Ehefrau
+2 NOTE Paten: Claus Stegen, Brinksitzer; Magdalena Ohlhoff, Ehefrau
 2 SOUR @S10@
 3 PAGE Taufe 1802/14
 3 QUAY 3
@@ -6509,7 +6551,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
-2 NOTE Paten: Anna Catharina Cordes, Ehefrau, Joachim Brammer, Halbhöfner
+2 NOTE Paten: Anna Catharina Cordes, Ehefrau; Joachim Brammer, Halbhöfner
 2 SOUR @S10@
 3 PAGE Taufe 1802/18
 3 QUAY 3
@@ -6555,7 +6597,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
-2 NOTE Paten: Johann Christoph Kröger, Anbauer, Anna Dorothea Gerdau, Ehefrau
+2 NOTE Paten: Johann Christoph Kröger, Anbauer; Anna Dorothea Gerdau, Ehefrau
 2 SOUR @S44@
 3 PAGE Taufe 1812/26
 3 QUAY 3
@@ -6603,6 +6645,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
+2 NOTE Paten: Engel Kahle, Ehefrau des Brinksitzers Claus Kahle zu Dahlenburg; Hans Jürgen Peters, Häusling zu Dahlenburg; Ilsabe Wolters, Ehefrau des Krügers Johann Heinrich Wolters zu Dahlenburg
 2 SOUR @S87@
 3 PAGE Taufe 1813/17
 3 QUAY 3
@@ -6649,6 +6692,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Johann Heinrich Stöver, Kötner zu Amelinghausen; Anna Maria Hogrefe, Ehefrau des Krügers Johann Heinrich Hogrefe zu Amelinghausen; Christoph Hogrefe, Brinksitzer zu Amelinghausen
 2 SOUR @S44@
 3 PAGE Taufe 1802/7
 3 QUAY 3
@@ -6701,7 +6745,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
-2 NOTE Paten: Johann Christoph Jürgens, Holzhauer, Margarethe Jürgens, Ehefrau
+2 NOTE Paten: Johann Christoph Jürgens, Holzhauer; Margarethe Jürgens, Ehefrau
 2 SOUR @S87@
 3 PAGE Taufe 1816/10
 3 QUAY 3
@@ -6746,6 +6790,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
+2 NOTE Paten: Hinrich Kruse, Brinksitzer zu Dahlenburg; Catharina Bruns, Dienstmagd zu Dahlenburg; Engel Behrens, Ehefrau des Kötners Johann Heinrich Behrens zu Dahlenburg
 2 SOUR @S23@
 3 PAGE Taufe 1811/13
 3 QUAY 3
@@ -6789,6 +6834,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
+2 NOTE Paten: Engel Plate, Ehefrau des Schmieds Hinrich Plate zu Bienenbüttel; Christoph Niebuhr, Brinksitzer zu Bienenbüttel; Claus Dralle, Schäfer zu Bienenbüttel
 2 SOUR @S70@
 3 PAGE Taufe 1813/13
 3 QUAY 3
@@ -6834,7 +6880,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
-2 NOTE Paten: Jacob Dierks, Müller, Anna Margarethe Lange, Ehefrau
+2 NOTE Paten: Jacob Dierks, Müller; Anna Margarethe Lange, Ehefrau
 2 SOUR @S23@
 3 PAGE Taufe 1806/9
 3 QUAY 3
@@ -6880,7 +6926,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
-2 NOTE Paten: Anna Maria Schnehage, Ehefrau, Christoph Eggers, Anbauer
+2 NOTE Paten: Anna Maria Schnehage, Ehefrau; Christoph Eggers, Anbauer
 2 SOUR @S44@
 3 PAGE Taufe 1805/22
 3 QUAY 3
@@ -6925,6 +6971,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Christoph Dralle, Halbhöfner zu Amelinghausen; Anna Maria Rabe, Ehefrau des Halbhöfners Christoph Rabe zu Amelinghausen; Ilsabe Vollmer, Ehefrau des Kötners Claus Vollmer zu Amelinghausen
 2 SOUR @S44@
 3 PAGE Taufe 1812/31
 3 QUAY 3
@@ -6973,7 +7020,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
-2 NOTE Paten: Dorothea Rathmann, Ehefrau, Johann Hinrich Hoops, Krüger
+2 NOTE Paten: Dorothea Rathmann, Ehefrau; Johann Hinrich Hoops, Krüger
 2 SOUR @S53@
 3 PAGE Taufe 1820/16
 3 QUAY 3
@@ -7022,7 +7069,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Johann Hinrich Thies, Halbhöfner, Engel Kahle, Ehefrau
+2 NOTE Paten: Johann Hinrich Thies, Halbhöfner; Engel Kahle, Ehefrau
 2 SOUR @S8@
 3 PAGE Taufe 1796/13
 3 QUAY 3
@@ -7070,7 +7117,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
-2 NOTE Paten: Johann Christoph Peemöller, Tagelöhner, Anna Maria Bohlmann, Ehefrau
+2 NOTE Paten: Johann Christoph Peemöller, Tagelöhner; Anna Maria Bohlmann, Ehefrau
 2 SOUR @S7@
 3 PAGE Taufe 1804/13
 3 QUAY 3
@@ -7118,7 +7165,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Margarethe Dammann, Ehefrau, Jacob Müller, Krüger
+2 NOTE Paten: Margarethe Dammann, Ehefrau; Jacob Müller, Krüger
 2 SOUR @S125@
 3 PAGE Taufe 1821/11
 3 QUAY 3
@@ -7164,6 +7211,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
+2 NOTE Paten: Ilsabe Wolters, Ehefrau des Krügers Johann Heinrich Wolters zu Bienenbüttel; Johann Heinrich Meyer, Brinksitzer zu Bienenbüttel; Christoph Stöver, Krüger zu Bienenbüttel
 2 SOUR @S70@
 3 PAGE Taufe 1817/23
 3 QUAY 3
@@ -7207,6 +7255,7 @@
 3 MAP
 4 LATI N51.7667
 4 LONG E8.5667
+2 NOTE Paten: Joseph Schäfers, Schäfer zu Delbrück; Anna Maria Tölle, Ehefrau des Häuslings Franz Tölle zu Delbrück; Joseph Füller, Halbhöfner zu Delbrück
 2 SOUR @S93@
 3 PAGE Taufe 1813/17
 3 QUAY 3
@@ -7254,6 +7303,7 @@
 3 MAP
 4 LATI N51.7667
 4 LONG E8.5667
+2 NOTE Paten: Gertrud Tölle, Dienstmagd zu Delbrück; Franz Anton Schäfers, Schäfer zu Delbrück; Anna Maria Kleeschulte, Dienstmagd zu Delbrück
 2 SOUR @S94@
 3 PAGE Taufe 1821/8
 3 QUAY 3
@@ -7302,6 +7352,7 @@
 3 MAP
 4 LATI N51.7189
 4 LONG E8.7575
+2 NOTE Paten: Johann Bernhard Tölle, Ackermann zu Paderborn; Elisabeth Lütkehaus, Ehefrau des Kötners Franz Anton Lütkehaus zu Paderborn; Anton Schäfers, Schäfer zu Paderborn
 2 SOUR @S134@
 3 PAGE Taufe 1815/27
 3 QUAY 3
@@ -7349,6 +7400,7 @@
 3 MAP
 4 LATI N51.6717
 4 LONG E8.6047
+2 NOTE Paten: Anna Maria Rüsing, Dienstmagd zu Salzkotten; Franz Kleeschulte, Schäfer zu Salzkotten; Joseph Schäfers, Häusling zu Salzkotten
 2 SOUR @S34@
 3 PAGE Taufe 1819/10
 3 QUAY 3
@@ -7395,6 +7447,7 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
+2 NOTE Paten: Johann Friedrich Wiese, Schäfer zu Eschede; Ilsabe Gerdau, Ehefrau des Schäfers Claus Gerdau zu Eschede; Ilsabe Cohrs, Jungfer zu Eschede
 2 SOUR @S1@
 3 PAGE Taufe 1776/9
 3 QUAY 3
@@ -7441,6 +7494,7 @@
 3 MAP
 4 LATI N52.8500
 4 LONG E10.2833
+2 NOTE Paten: Engel Bostelmann, Ehefrau des Häuslings Johann Heinrich Bostelmann zu Unterlüß; Johann Heinrich Vollmer, Schmied zu Unterlüß; Jürgen Cohrs, Schäfer zu Unterlüß
 2 SOUR @S35@
 3 PAGE Taufe 1776/19
 3 QUAY 3
@@ -7487,6 +7541,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Johann Friedrich Kahle, Ackermann zu Celle; Anna Dorothea Thies, Jungfer zu Celle; Johann Heinrich Rabe, Ackermann zu Celle
 2 SOUR @S13@
 3 PAGE Taufe 1775/7
 3 QUAY 3
@@ -7534,6 +7589,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Engel Hogrefe, Jungfer zu Celle; Christoph Müller, Ackermann zu Celle; Anna Maria Behrens, Jungfer zu Celle
 2 SOUR @S13@
 3 PAGE Taufe 1785/17
 3 QUAY 3
@@ -7581,6 +7637,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Johann Friedrich Cohrs, Kötner zu Celle; Engel Peters, Dienstmagd zu Celle; Catharina Heuer, Ehefrau des Krügers Christoph Heuer zu Celle
 2 SOUR @S13@
 3 PAGE Taufe 1787/21
 3 QUAY 3
@@ -7628,6 +7685,7 @@
 3 MAP
 4 LATI N52.6792
 4 LONG E9.9097
+2 NOTE Paten: Margaretha Wolters, Ehefrau des Brinksitzers Jürgen Wolters zu Winsen (Aller); Christoph Lange, Krüger zu Winsen (Aller); Ilsabe Wiese, Jungfer zu Winsen (Aller)
 2 SOUR @S36@
 3 PAGE Taufe 1780/23
 3 QUAY 3
@@ -7674,6 +7732,7 @@
 3 MAP
 4 LATI N52.6333
 4 LONG E10.2500
+2 NOTE Paten: Hinrich Behrens, Häusling zu Beedenbostel; Engel Heuer, Dienstmagd zu Beedenbostel; Claus Plate, Ackermann zu Beedenbostel
 2 SOUR @S26@
 3 PAGE Taufe 1780/18
 3 QUAY 3
@@ -7720,6 +7779,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Engel Gerdau, Jungfer zu Celle; Jürgen Söhl, Schmied zu Celle; Hinrich Vollmer, Krüger zu Celle
 2 SOUR @S13@
 3 PAGE Taufe 1785/22
 3 QUAY 3
@@ -7766,6 +7826,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Paten: Johann Friedrich Peters, Schmied zu Celle; Engel Heuer, Ehefrau des Kötners Jürgen Heuer zu Celle; Claus Bostelmann, Häusling zu Celle
 2 SOUR @S13@
 3 PAGE Taufe 1784/11
 3 QUAY 3
@@ -7814,6 +7875,7 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
+2 NOTE Paten: Ilsabe Vollmer, Dienstmagd zu Eschede; Christoph Meyer, Häusling zu Eschede; Hinrich Gerdau, Schäfer zu Eschede
 2 SOUR @S1@
 3 PAGE Taufe 1784/13
 3 QUAY 3
@@ -7860,6 +7922,7 @@
 3 MAP
 4 LATI N52.6333
 4 LONG E10.2500
+2 NOTE Paten: Christoph Brammer, Brinksitzer zu Beedenbostel; Margaretha Plate, Jungfer zu Beedenbostel; Hans Jürgen Wiese, Schmied zu Beedenbostel
 2 SOUR @S26@
 3 PAGE Taufe 1785/21
 3 QUAY 3
@@ -7907,6 +7970,7 @@
 3 MAP
 4 LATI N52.8500
 4 LONG E10.2833
+2 NOTE Paten: Margaretha Ahrens, Ehefrau des Schäfers Hinrich Ahrens zu Unterlüß; Johann Friedrich Kahle, Halbhöfner zu Unterlüß; Johann Friedrich Gerdau, Häusling zu Unterlüß
 2 SOUR @S35@
 3 PAGE Taufe 1783/19
 3 QUAY 3
@@ -7954,6 +8018,7 @@
 3 MAP
 4 LATI N52.8333
 4 LONG E10.0833
+2 NOTE Paten: Johann Friedrich Meyer, Häusling zu Hermannsburg; Engel Wolters, Ehefrau des Halbhöfners Jürgen Wolters zu Hermannsburg; Claus Cohrs, Ackermann zu Hermannsburg
 2 SOUR @S16@
 3 PAGE Taufe 1772/14
 3 QUAY 3
@@ -8000,6 +8065,7 @@
 3 MAP
 4 LATI N52.9864
 4 LONG E9.8431
+2 NOTE Paten: Catharina Rabe, Ehefrau des Ackermanns Hinrich Rabe zu Soltau; Claus Brammer, Schäfer zu Soltau; Hans Jürgen Wolters, Häusling zu Soltau
 2 SOUR @S37@
 3 PAGE Taufe 1787/10
 3 QUAY 3
@@ -8046,6 +8112,7 @@
 3 MAP
 4 LATI N52.6792
 4 LONG E9.9097
+2 NOTE Paten: Hinrich Stöver, Krüger zu Winsen (Aller); Catharina Meyer, Dienstmagd zu Winsen (Aller); Hinrich Wrede, Häusling zu Winsen (Aller)
 2 SOUR @S36@
 3 PAGE Taufe 1787/12
 3 QUAY 3
@@ -8092,6 +8159,7 @@
 3 MAP
 4 LATI N52.6536
 4 LONG E9.8339
+2 NOTE Paten: Anna Maria Bruns, Jungfer zu Wietze; Johann Friedrich Peters, Schmied zu Wietze; Christoph Wrede, Halbhöfner zu Wietze
 2 SOUR @S18@
 3 PAGE Taufe 1783/15
 3 QUAY 3
@@ -8138,6 +8206,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Jürgen Heuer, Brinksitzer zu Suderburg; Ilsabe Peters, Jungfer zu Suderburg; Ilsabe Garbers, Ehefrau des Häuslings Hinrich Garbers zu Suderburg
 2 SOUR @S19@
 3 PAGE Taufe 1766/24
 3 QUAY 3
@@ -8188,6 +8257,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Paten: Ilsabe Bostelmann, Dienstmagd zu Ebstorf; Johann Heinrich Wiese, Krüger zu Ebstorf; Catharina Hogrefe, Dienstmagd zu Ebstorf
 2 SOUR @S17@
 3 PAGE Taufe 1770/26
 3 QUAY 3
@@ -8233,6 +8303,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Paten: Hans Jürgen Plate, Schäfer zu Ebstorf; Ilsabe Söhl, Jungfer zu Ebstorf; Johann Heinrich Müller, Ackermann zu Ebstorf
 2 SOUR @S17@
 3 PAGE Taufe 1782/25
 3 QUAY 3
@@ -8280,6 +8351,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Anna Maria Meyer, Ehefrau des Ackermanns Jürgen Meyer zu Suderburg; Johann Friedrich Hogrefe, Schmied zu Suderburg; Johann Heinrich Thies, Krüger zu Suderburg
 2 SOUR @S19@
 3 PAGE Taufe 1790/21
 3 QUAY 3
@@ -8325,6 +8397,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Paten: Johann Friedrich Müller, Kötner zu Uelzen; Anna Dorothea Bostelmann, Ehefrau des Halbhöfners Johann Friedrich Bostelmann zu Uelzen; Catharina Garbers, Ehefrau des Schäfers Hinrich Garbers zu Uelzen
 2 SOUR @S5@
 3 PAGE Taufe 1772/24
 3 QUAY 3
@@ -8372,6 +8445,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Paten: Anna Maria Plate, Ehefrau des Schmieds Jürgen Plate zu Uelzen; Hans Jürgen Kahle, Schmied zu Uelzen; Jürgen Gerdau, Krüger zu Uelzen
 2 SOUR @S5@
 3 PAGE Taufe 1771/17
 3 QUAY 3
@@ -8418,6 +8492,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Paten: Jürgen Wrede, Halbhöfner zu Ebstorf; Margaretha Heuer, Ehefrau des Brinksitzers Johann Heinrich Heuer zu Ebstorf; Johann Friedrich Stöver, Halbhöfner zu Ebstorf
 2 SOUR @S17@
 3 PAGE Taufe 1776/15
 3 QUAY 3
@@ -8465,6 +8540,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Margaretha Wolters, Dienstmagd zu Suderburg; Claus Plate, Schmied zu Suderburg; Anna Maria Kahle, Ehefrau des Halbhöfners Hans Jürgen Kahle zu Suderburg
 2 SOUR @S19@
 3 PAGE Taufe 1779/19
 3 QUAY 3
@@ -8511,6 +8587,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Paten: Christoph Behrens, Kötner zu Uelzen; Margaretha Müller, Dienstmagd zu Uelzen; Ilsabe Niebuhr, Ehefrau des Halbhöfners Jürgen Niebuhr zu Uelzen
 2 SOUR @S5@
 3 PAGE Taufe 1770/23
 3 QUAY 3
@@ -8558,6 +8635,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Engel Thies, Dienstmagd zu Suderburg; Hinrich Wiese, Halbhöfner zu Suderburg; Christoph Niebuhr, Schäfer zu Suderburg
 2 SOUR @S19@
 3 PAGE Taufe 1771/4
 3 QUAY 3
@@ -8604,6 +8682,7 @@
 3 MAP
 4 LATI N52.6536
 4 LONG E9.8339
+2 NOTE Paten: Claus Cohrs, Krüger zu Wietze; Anna Dorothea Söhl, Ehefrau des Schäfers Hans Jürgen Söhl zu Wietze; Anna Maria Schulze, Dienstmagd zu Wietze
 2 SOUR @S18@
 3 PAGE Taufe 1771/8
 3 QUAY 3
@@ -8651,6 +8730,7 @@
 3 MAP
 4 LATI N52.6333
 4 LONG E10.2500
+2 NOTE Paten: Ilsabe Bockelmann, Ehefrau des Schäfers Claus Bockelmann zu Beedenbostel; Hinrich Stöver, Brinksitzer zu Beedenbostel; Hans Jürgen Gerdau, Halbhöfner zu Beedenbostel
 2 SOUR @S26@
 3 PAGE Taufe 1787/15
 3 QUAY 3
@@ -8696,6 +8776,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Paten: Christoph Rabe, Schäfer zu Ebstorf; Anna Dorothea Ahrens, Ehefrau des Krügers Johann Friedrich Ahrens zu Ebstorf; Johann Heinrich Dralle, Krüger zu Ebstorf
 2 SOUR @S17@
 3 PAGE Taufe 1779/9
 3 QUAY 3
@@ -8743,6 +8824,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Paten: Engel Stöver, Dienstmagd zu Uelzen; Christoph Ahrens, Ackermann zu Uelzen; Ilsabe Brammer, Ehefrau des Halbhöfners Johann Friedrich Brammer zu Uelzen
 2 SOUR @S149@
 3 PAGE Taufe 1795/19
 3 QUAY 3
@@ -8789,6 +8871,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Claus Wiese, Kötner zu Bad Bevensen; Anna Dorothea Cohrs, Jungfer zu Bad Bevensen; Anna Maria Dralle, Dienstmagd zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1771/13
 3 QUAY 3
@@ -8836,6 +8919,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Paten: Anna Maria Ahrens, Ehefrau des Schmieds Jürgen Ahrens zu Ebstorf; Claus Vollmer, Krüger zu Ebstorf; Johann Friedrich Niebuhr, Schäfer zu Ebstorf
 2 SOUR @S17@
 3 PAGE Taufe 1789/26
 3 QUAY 3
@@ -8882,6 +8966,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Christoph Bostelmann, Krüger zu Bad Bevensen; Engel Peters, Jungfer zu Bad Bevensen; Catharina Müller, Ehefrau des Halbhöfners Johann Friedrich Müller zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1789/29
 3 QUAY 3
@@ -8929,6 +9014,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Paten: Ilsabe Garbers, Ehefrau des Halbhöfners Christoph Garbers zu Uelzen; Johann Heinrich Schulze, Krüger zu Uelzen; Hans Jürgen Kahle, Krüger zu Uelzen
 2 SOUR @S149@
 3 PAGE Taufe 1800/12
 3 QUAY 3
@@ -8975,6 +9061,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Johann Heinrich Brammer, Ackermann zu Suderburg; Margaretha Gerdau, Ehefrau des Ackermanns Johann Friedrich Gerdau zu Suderburg; Claus Gerdau, Krüger zu Suderburg
 2 SOUR @S19@
 3 PAGE Taufe 1771/10
 3 QUAY 3
@@ -9022,6 +9109,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Anna Maria Heuer, Ehefrau des Ackermanns Christoph Heuer zu Suderburg; Jürgen Kruse, Ackermann zu Suderburg; Hinrich Müller, Krüger zu Suderburg
 2 SOUR @S19@
 3 PAGE Taufe 1769/8
 3 QUAY 3
@@ -9068,6 +9156,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Johann Friedrich Meyer, Häusling zu Lüneburg; Catharina Müller, Jungfer zu Lüneburg; Engel Wiese, Ehefrau des Krügers Johann Heinrich Wiese zu Lüneburg
 2 SOUR @S8@
 3 PAGE Taufe 1778/14
 3 QUAY 3
@@ -9115,6 +9204,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Anna Dorothea Behrens, Dienstmagd zu Amelinghausen; Claus Cohrs, Ackermann zu Amelinghausen; Anna Maria Bockelmann, Dienstmagd zu Amelinghausen
 2 SOUR @S11@
 3 PAGE Taufe 1776/18
 3 QUAY 3
@@ -9195,6 +9285,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Paten: Anna Maria Plate, Ehefrau des Schäfers Hinrich Plate zu Ebstorf; Claus Plate, Brinksitzer zu Ebstorf; Anna Dorothea Bostelmann, Jungfer zu Ebstorf
 2 SOUR @S17@
 3 PAGE Taufe 1774/14
 3 QUAY 3
@@ -9241,6 +9332,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Hinrich Gerdau, Schäfer zu Lüneburg; Engel Wiese, Ehefrau des Schäfers Johann Friedrich Wiese zu Lüneburg; Hinrich Rabe, Schmied zu Lüneburg
 2 SOUR @S8@
 3 PAGE Taufe 1789/11
 3 QUAY 3
@@ -9289,6 +9381,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Margaretha Bruns, Ehefrau des Brinksitzers Christoph Bruns zu Lüneburg; Christoph Dralle, Halbhöfner zu Lüneburg; Johann Friedrich Müller, Brinksitzer zu Lüneburg
 2 SOUR @S8@
 3 PAGE Taufe 1795/9
 3 QUAY 3
@@ -9333,6 +9426,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Jürgen Heuer, Halbhöfner zu Suderburg; Ilsabe Meyer, Dienstmagd zu Suderburg; Johann Friedrich Kahle, Kötner zu Suderburg
 2 SOUR @S19@
 3 PAGE Taufe 1766/32
 3 QUAY 3
@@ -9380,6 +9474,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Paten: Ilsabe Gerdau, Dienstmagd zu Ebstorf; Hinrich Brammer, Ackermann zu Ebstorf; Anna Maria Plate, Ehefrau des Kötners Christoph Plate zu Ebstorf
 2 SOUR @S17@
 3 PAGE Taufe 1767/21
 3 QUAY 3
@@ -9426,6 +9521,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Paten: Hans Jürgen Stöver, Häusling zu Uelzen; Catharina Hogrefe, Ehefrau des Halbhöfners Claus Hogrefe zu Uelzen; Anna Dorothea Ahrens, Ehefrau des Brinksitzers Claus Ahrens zu Uelzen
 2 SOUR @S5@
 3 PAGE Taufe 1779/9
 3 QUAY 3
@@ -9472,6 +9568,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Anna Dorothea Bruns, Ehefrau des Häuslings Hans Jürgen Bruns zu Bad Bevensen; Claus Hogrefe, Halbhöfner zu Bad Bevensen; Johann Friedrich Wiese, Krüger zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1784/18
 3 QUAY 3
@@ -9517,6 +9614,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
+2 NOTE Paten: Johann Friedrich Niebuhr, Halbhöfner zu Bienenbüttel; Catharina Bruns, Ehefrau des Brinksitzers Hinrich Bruns zu Bienenbüttel; Hinrich Wiese, Halbhöfner zu Bienenbüttel
 2 SOUR @S10@
 3 PAGE Taufe 1763/15
 3 QUAY 3
@@ -9564,6 +9662,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Engel Bostelmann, Ehefrau des Brinksitzers Hinrich Bostelmann zu Amelinghausen; Johann Friedrich Plate, Schmied zu Amelinghausen; Johann Friedrich Brammer, Schmied zu Amelinghausen
 2 SOUR @S11@
 3 PAGE Taufe 1767/13
 3 QUAY 3
@@ -9610,6 +9709,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
+2 NOTE Paten: Claus Behrens, Häusling zu Bienenbüttel; Engel Söhl, Dienstmagd zu Bienenbüttel; Hans Jürgen Rabe, Häusling zu Bienenbüttel
 2 SOUR @S10@
 3 PAGE Taufe 1763/17
 3 QUAY 3
@@ -9657,6 +9757,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Anna Maria Müller, Dienstmagd zu Bad Bevensen; Jürgen Thies, Brinksitzer zu Bad Bevensen; Engel Bostelmann, Jungfer zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1770/12
 3 QUAY 3
@@ -9702,6 +9803,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Jürgen Niebuhr, Halbhöfner zu Amelinghausen; Catharina Kruse, Ehefrau des Schäfers Claus Kruse zu Amelinghausen; Anna Dorothea Schulze, Ehefrau des Schmieds Jürgen Schulze zu Amelinghausen
 2 SOUR @S11@
 3 PAGE Taufe 1779/12
 3 QUAY 3
@@ -9749,6 +9851,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Anna Maria Lange, Ehefrau des Halbhöfners Hans Jürgen Lange zu Amelinghausen; Johann Friedrich Meyer, Schäfer zu Amelinghausen; Johann Heinrich Wolters, Krüger zu Amelinghausen
 2 SOUR @S11@
 3 PAGE Taufe 1786/13
 3 QUAY 3
@@ -9795,6 +9898,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
+2 NOTE Paten: Hinrich Rabe, Brinksitzer zu Dahlenburg; Engel Cohrs, Ehefrau des Häuslings Jürgen Cohrs zu Dahlenburg; Anna Dorothea Wolters, Jungfer zu Dahlenburg
 2 SOUR @S23@
 3 PAGE Taufe 1789/18
 3 QUAY 3
@@ -9841,6 +9945,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Anna Maria Brammer, Dienstmagd zu Amelinghausen; Christoph Hogrefe, Brinksitzer zu Amelinghausen; Margaretha Müller, Ehefrau des Schmieds Christoph Müller zu Amelinghausen
 2 SOUR @S11@
 3 PAGE Taufe 1786/17
 3 QUAY 3
@@ -9886,6 +9991,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
+2 NOTE Paten: Claus Bockelmann, Kötner zu Dahlenburg; Ilsabe Heuer, Ehefrau des Häuslings Johann Friedrich Heuer zu Dahlenburg; Hans Jürgen Plate, Krüger zu Dahlenburg
 2 SOUR @S23@
 3 PAGE Taufe 1780/16
 3 QUAY 3
@@ -9932,6 +10038,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Ilsabe Peters, Ehefrau des Ackermanns Claus Peters zu Bad Bevensen; Johann Heinrich Brammer, Häusling zu Bad Bevensen; Margaretha Heuer, Dienstmagd zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1782/10
 3 QUAY 3
@@ -9979,6 +10086,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Paten: Jürgen Peters, Schmied zu Amelinghausen; Margaretha Kahle, Jungfer zu Amelinghausen; Claus Lange, Häusling zu Amelinghausen
 2 SOUR @S11@
 3 PAGE Taufe 1776/24
 3 QUAY 3
@@ -10026,6 +10134,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
+2 NOTE Paten: Margaretha Bockelmann, Dienstmagd zu Dahlenburg; Claus Meyer, Ackermann zu Dahlenburg; Catharina Kahle, Ehefrau des Schmieds Christoph Kahle zu Dahlenburg
 2 SOUR @S23@
 3 PAGE Taufe 1776/18
 3 QUAY 3
@@ -10071,6 +10180,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Christoph Bruns, Schäfer zu Bad Bevensen; Engel Brammer, Ehefrau des Häuslings Johann Friedrich Brammer zu Bad Bevensen; Hinrich Garbers, Häusling zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1787/14
 3 QUAY 3
@@ -10117,6 +10227,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Paten: Anna Maria Stöver, Dienstmagd zu Uelzen; Christoph Dralle, Schäfer zu Uelzen; Hans Jürgen Thies, Schmied zu Uelzen
 2 SOUR @S5@
 3 PAGE Taufe 1787/15
 3 QUAY 3
@@ -10162,6 +10273,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Hinrich Schulze, Krüger zu Lüneburg; Engel Garbers, Jungfer zu Lüneburg; Hinrich Plate, Schmied zu Lüneburg
 2 SOUR @S8@
 3 PAGE Taufe 1771/9
 3 QUAY 3
@@ -10209,6 +10321,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Paten: Anna Maria Behrens, Jungfer zu Lüneburg; Hinrich Bruns, Ackermann zu Lüneburg; Engel Vollmer, Jungfer zu Lüneburg
 2 SOUR @S8@
 3 PAGE Taufe 1770/23
 3 QUAY 3
@@ -10255,6 +10368,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Johann Friedrich Söhl, Kötner zu Bad Bevensen; Catharina Vollmer, Ehefrau des Schäfers Claus Vollmer zu Bad Bevensen; Hans Jürgen Schulze, Schmied zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1764/20
 3 QUAY 3
@@ -10302,6 +10416,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Paten: Margaretha Plate, Ehefrau des Brinksitzers Johann Friedrich Plate zu Suderburg; Hans Jürgen Dralle, Häusling zu Suderburg; Christoph Müller, Kötner zu Suderburg
 2 SOUR @S19@
 3 PAGE Taufe 1773/24
 3 QUAY 3
@@ -10348,6 +10463,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Johann Heinrich Kahle, Krüger zu Bad Bevensen; Anna Maria Müller, Dienstmagd zu Bad Bevensen; Margaretha Bruns, Dienstmagd zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1790/7
 3 QUAY 3
@@ -10395,6 +10511,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 NOTE Paten: Ilsabe Kruse, Dienstmagd zu Bad Bevensen; Jürgen Wiese, Halbhöfner zu Bad Bevensen; Johann Heinrich Stöver, Brinksitzer zu Bad Bevensen
 2 SOUR @S7@
 3 PAGE Taufe 1787/23
 3 QUAY 3
@@ -10439,11 +10556,11 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I289@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I288@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I287@
-3 RELA godmother
+3 RELA godparent
 1 OCCU Kraftfahrer
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -10482,7 +10599,7 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I291@
-3 RELA godmother
+3 RELA godparent
 1 OCCU Tischler
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -10516,7 +10633,7 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I291@
-3 RELA godmother
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 12 OCT 1984
@@ -10549,7 +10666,7 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I291@
-3 RELA godmother
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 25 NOV 1992
@@ -10588,7 +10705,7 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I293@
-3 RELA godfather
+3 RELA godparent
 1 OCCU Tischler
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -10622,9 +10739,9 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I294@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I293@
-3 RELA godfather
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 6 AUG 1918
@@ -10663,9 +10780,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I123@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I301@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1876/3
 1 RELI evangelisch-lutherisch
@@ -10708,7 +10825,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I123@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1872/14
 1 OCCU Landwirt
@@ -10756,9 +10873,9 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I301@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I123@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1880/36
 3 QUAY 3
@@ -10803,7 +10920,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I123@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S81@
 3 PAGE Taufe 1870/22
 1 OCCU Schmied
@@ -10845,7 +10962,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I306@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1877/9
 1 OCCU Schuhmacher
@@ -10887,11 +11004,11 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I306@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I303@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I304@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1879/23
 3 QUAY 3
@@ -10941,9 +11058,9 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I310@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I309@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S151@
 3 PAGE Taufe 1875/10
 1 RELI evangelisch-lutherisch
@@ -10984,11 +11101,11 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I311@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I310@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I309@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S151@
 3 PAGE Taufe 1873/12
 1 OCCU Näherin
@@ -11032,11 +11149,11 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I309@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I310@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I311@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S151@
 3 PAGE Taufe 1867/15
 3 QUAY 3
@@ -11080,9 +11197,9 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I310@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I309@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S151@
 3 PAGE Taufe 1879/50
 1 OCCU Hofbesitzer
@@ -11125,9 +11242,9 @@
 4 LATI N52.9657
 4 LONG E10.5611
 2 _ASSO @I314@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I313@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S151@
 3 PAGE Taufe 1871/22
 1 RELI evangelisch-lutherisch
@@ -11167,9 +11284,9 @@
 4 LATI N53.0797
 4 LONG E10.5836
 2 _ASSO @I318@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I317@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S55@
 3 PAGE Taufe 1879/3
 3 QUAY 3
@@ -11211,9 +11328,9 @@
 4 LATI N53.0797
 4 LONG E10.5836
 2 _ASSO @I318@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I317@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S55@
 3 PAGE Taufe 1888/19
 1 OCCU Anbauer
@@ -11253,9 +11370,9 @@
 4 LATI N53.0797
 4 LONG E10.5836
 2 _ASSO @I318@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I317@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S55@
 3 PAGE Taufe 1885/10
 1 OCCU Zimmermann
@@ -11297,9 +11414,9 @@
 4 LATI N53.0797
 4 LONG E10.5836
 2 _ASSO @I318@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I317@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S55@
 3 PAGE Taufe 1883/2
 3 QUAY 3
@@ -11343,7 +11460,7 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I326@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S127@
 3 PAGE Taufe 1884/76
 1 OCCU Böttcher
@@ -11386,7 +11503,7 @@
 4 LATI N53.2509
 4 LONG E10.4141
 2 _ASSO @I326@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S127@
 3 PAGE Taufe 1873/7
 1 OCCU Böttcher
@@ -11427,7 +11544,7 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I332@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S72@
 3 PAGE Taufe 1879/9
 3 QUAY 3
@@ -11470,7 +11587,7 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I332@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S72@
 3 PAGE Taufe 1885/12
 1 RELI evangelisch-lutherisch
@@ -11512,7 +11629,7 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I333@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S72@
 3 PAGE Taufe 1869/9
 1 OCCU Schmied
@@ -11555,9 +11672,9 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I332@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I333@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S72@
 3 PAGE Taufe 1873/22
 3 QUAY 3
@@ -11600,7 +11717,7 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I339@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S72@
 3 PAGE Taufe 1877/23
 1 RELI evangelisch-lutherisch
@@ -11640,7 +11757,7 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I339@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S72@
 3 PAGE Taufe 1874/17
 1 RELI evangelisch-lutherisch
@@ -11683,7 +11800,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Hermann Lühmann, Anbauer, Henriette Harms, Ehefrau
+2 NOTE Paten: Hermann Lühmann, Anbauer; Henriette Harms, Ehefrau
 2 SOUR @S127@
 3 PAGE Taufe 1885/78
 3 QUAY 3
@@ -11724,7 +11841,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Wilhelmine Mohwinkel, Ehefrau, August Plate, Sattler
+2 NOTE Paten: Wilhelmine Mohwinkel, Ehefrau; August Plate, Sattler
 2 SOUR @S127@
 3 PAGE Taufe 1888/46
 1 RELI evangelisch-lutherisch
@@ -11764,7 +11881,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Wilhelmine Wöhler, Ehefrau, Ludwig Lange, Müller
+2 NOTE Paten: Wilhelmine Wöhler, Ehefrau; Ludwig Lange, Müller
 2 SOUR @S80@
 3 PAGE Taufe 1845/21
 1 OCCU Hofbesitzer
@@ -11807,7 +11924,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Friedrich Voss, Bahnarbeiter, Wilhelmine Könecke, Ehefrau
+2 NOTE Paten: Friedrich Voss, Bahnarbeiter; Wilhelmine Könecke, Ehefrau
 2 SOUR @S80@
 3 PAGE Taufe 1852/12
 3 QUAY 3
@@ -11853,7 +11970,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: August Klingebiel, Schmied, Johanne Wrede, Ehefrau
+2 NOTE Paten: August Klingebiel, Schmied; Johanne Wrede, Ehefrau
 2 SOUR @S80@
 3 PAGE Taufe 1855/16
 1 OCCU Lehrer
@@ -11895,7 +12012,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 2 _ASSO @I351@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S80@
 3 PAGE Taufe 1842/26
 1 RELI evangelisch-lutherisch
@@ -11936,7 +12053,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Catharine Müller, Ehefrau, Heinrich Brammer, Stellmacher
+2 NOTE Paten: Catharine Müller, Ehefrau; Heinrich Brammer, Stellmacher
 2 SOUR @S80@
 3 PAGE Taufe 1853/13
 3 QUAY 3
@@ -11977,7 +12094,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Georg Gerdau, Zimmermann, Johanne Jürgens, Ehefrau
+2 NOTE Paten: Georg Gerdau, Zimmermann; Johanne Jürgens, Ehefrau
 2 SOUR @S80@
 3 PAGE Taufe 1854/16
 1 RELI evangelisch-lutherisch
@@ -12018,7 +12135,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Heinrich Voss, Sattler, Johanne Wiebe, Ehefrau
+2 NOTE Paten: Heinrich Voss, Sattler; Johanne Wiebe, Ehefrau
 2 SOUR @S80@
 3 PAGE Taufe 1846/7
 1 OCCU Landwirt
@@ -12061,7 +12178,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Marie Bohlmann, Ehefrau, Carl Schnehage, Sattler
+2 NOTE Paten: Marie Bohlmann, Ehefrau; Carl Schnehage, Sattler
 2 SOUR @S80@
 3 PAGE Taufe 1846/8
 3 QUAY 3
@@ -12108,7 +12225,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I353@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S106@
 3 PAGE Taufe 1844/9
 1 OCCU Bahnarbeiter
@@ -12152,7 +12269,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I353@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S106@
 3 PAGE Taufe 1849/14
 1 RELI evangelisch-lutherisch
@@ -12193,7 +12310,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I353@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S106@
 3 PAGE Taufe 1851/20
 3 QUAY 3
@@ -12235,7 +12352,7 @@
 3 MAP
 4 LATI N52.8333
 4 LONG E10.0833
-2 NOTE Paten: Auguste Heitmann, Ehefrau, Johann Friedrich Burmester, Stellmacher
+2 NOTE Paten: Auguste Heitmann, Ehefrau; Johann Friedrich Burmester, Stellmacher
 2 SOUR @S120@
 3 PAGE Taufe 1848/18
 1 OCCU Zimmermann
@@ -12275,7 +12392,7 @@
 3 MAP
 4 LATI N52.8333
 4 LONG E10.0833
-2 NOTE Paten: Sophie Dorothee Wulf, Ehefrau, Wilhelm Könecke, Tischler
+2 NOTE Paten: Sophie Dorothee Wulf, Ehefrau; Wilhelm Könecke, Tischler
 2 SOUR @S120@
 3 PAGE Taufe 1844/11
 1 RELI evangelisch-lutherisch
@@ -12319,7 +12436,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Ludwig Wiebe, Leinweber, Caroline Ohlhoff, Ehefrau
+2 NOTE Paten: Ludwig Wiebe, Leinweber; Caroline Ohlhoff, Ehefrau
 2 SOUR @S150@
 3 PAGE Taufe 1835/11
 3 QUAY 3
@@ -12365,7 +12482,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Catharine Peemöller, Ehefrau, August Rabe, Halbhöfner
+2 NOTE Paten: Catharine Peemöller, Ehefrau; August Rabe, Halbhöfner
 2 SOUR @S150@
 3 PAGE Taufe 1839/13
 1 OCCU Lehrer
@@ -12407,7 +12524,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Johann Heinrich Bohlmann, Tagelöhner, Marie Plate, Ehefrau
+2 NOTE Paten: Johann Heinrich Bohlmann, Tagelöhner; Marie Plate, Ehefrau
 2 SOUR @S150@
 3 PAGE Taufe 1837/10
 1 RELI evangelisch-lutherisch
@@ -12449,7 +12566,7 @@
 4 LATI N53.0283
 4 LONG E10.4147
 2 _ASSO @I355@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S99@
 3 PAGE Taufe 1848/6
 3 QUAY 3
@@ -12493,7 +12610,7 @@
 4 LATI N53.0283
 4 LONG E10.4147
 2 _ASSO @I355@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S99@
 3 PAGE Taufe 1850/12
 1 OCCU Stellmacher
@@ -12534,7 +12651,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Hermann Schröder, Tischler, Catharine Hartmann, Ehefrau
+2 NOTE Paten: Hermann Schröder, Tischler; Catharine Hartmann, Ehefrau
 2 SOUR @S151@
 3 PAGE Taufe 1846/10
 1 RELI evangelisch-lutherisch
@@ -12575,7 +12692,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Carl Könecke, Tischler, Charlotte Thies, Ehefrau
+2 NOTE Paten: Carl Könecke, Tischler; Charlotte Thies, Ehefrau
 2 SOUR @S151@
 3 PAGE Taufe 1850/16
 3 QUAY 3
@@ -12617,7 +12734,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
-2 NOTE Paten: Georg Rabe, Schuhmacher, Sophie Heuer, Ehefrau
+2 NOTE Paten: Georg Rabe, Schuhmacher; Sophie Heuer, Ehefrau
 2 SOUR @S151@
 3 PAGE Taufe 1860/21
 1 RELI evangelisch-lutherisch
@@ -12661,7 +12778,7 @@
 4 LATI N52.8961
 4 LONG E10.4486
 2 _ASSO @I357@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S143@
 3 PAGE Taufe 1845/21
 1 RELI evangelisch-lutherisch
@@ -12706,7 +12823,7 @@
 4 LATI N52.8961
 4 LONG E10.4486
 2 _ASSO @I357@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S142@
 3 PAGE Taufe 1841/25
 3 QUAY 3
@@ -12747,7 +12864,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Wilhelmine Niebuhr, Ehefrau, Heinrich Hartmann, Lehrer
+2 NOTE Paten: Wilhelmine Niebuhr, Ehefrau; Heinrich Hartmann, Lehrer
 2 SOUR @S99@
 3 PAGE Taufe 1851/7
 1 OCCU Anbauer
@@ -12791,7 +12908,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Wilhelm Harms, Zimmermann, Friederike Dierks, Ehefrau
+2 NOTE Paten: Wilhelm Harms, Zimmermann; Friederike Dierks, Ehefrau
 2 SOUR @S99@
 3 PAGE Taufe 1861/15
 1 RELI evangelisch-lutherisch
@@ -12835,7 +12952,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Wilhelmine Winkelmann, Ehefrau, Wilhelm Kahle, Schmied
+2 NOTE Paten: Wilhelmine Winkelmann, Ehefrau; Wilhelm Kahle, Schmied
 2 SOUR @S99@
 3 PAGE Taufe 1854/18
 3 QUAY 3
@@ -12881,7 +12998,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: August Bohlmann, Schäfer, Marie Wöhler, Ehefrau
+2 NOTE Paten: August Bohlmann, Schäfer; Marie Wöhler, Ehefrau
 2 SOUR @S126@
 3 PAGE Taufe 1836/14
 1 RELI evangelisch-lutherisch
@@ -12924,7 +13041,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Margarethe Schulze, Ehefrau, Johann Hinrich Bruns, Schmied
+2 NOTE Paten: Margarethe Schulze, Ehefrau; Johann Hinrich Bruns, Schmied
 2 SOUR @S125@
 3 PAGE Taufe 1827/27
 1 RELI evangelisch-lutherisch
@@ -12968,7 +13085,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Heinrich Wilhelm Bohlmann, Kötner, Marie Ebeling, Ehefrau
+2 NOTE Paten: Heinrich Wilhelm Bohlmann, Kötner; Marie Ebeling, Ehefrau
 2 SOUR @S126@
 3 PAGE Taufe 1834/7
 3 QUAY 3
@@ -13013,7 +13130,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Christian Dammann, Schmied, Caroline Burmester, Ehefrau
+2 NOTE Paten: Christian Dammann, Schmied; Caroline Burmester, Ehefrau
 2 SOUR @S126@
 3 PAGE Taufe 1838/18
 1 RELI evangelisch-lutherisch
@@ -13054,9 +13171,9 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I361@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I360@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S45@
 3 PAGE Taufe 1853/9
 1 RELI evangelisch-lutherisch
@@ -13101,7 +13218,7 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I360@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S45@
 3 PAGE Taufe 1855/21
 3 QUAY 3
@@ -13144,7 +13261,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Sophie Müller, Ehefrau, Johann Friedrich Müller, Bahnarbeiter
+2 NOTE Paten: Sophie Müller, Ehefrau; Johann Friedrich Müller, Bahnarbeiter
 2 SOUR @S126@
 3 PAGE Taufe 1848/16
 1 OCCU Näherin
@@ -13186,7 +13303,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Johann Friedrich Burmester, Landwirt, Auguste Wiebe, Ehefrau
+2 NOTE Paten: Johann Friedrich Burmester, Landwirt; Auguste Wiebe, Ehefrau
 2 SOUR @S126@
 3 PAGE Taufe 1843/22
 1 OCCU Salzsieder
@@ -13230,7 +13347,7 @@
 4 LATI N53.0797
 4 LONG E10.5836
 2 _ASSO @I362@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S54@
 3 PAGE Taufe 1841/15
 3 QUAY 3
@@ -13273,9 +13390,9 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I364@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I365@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S71@
 3 PAGE Taufe 1842/18
 1 RELI evangelisch-lutherisch
@@ -13319,7 +13436,7 @@
 4 LATI N53.1417
 4 LONG E10.4867
 2 _ASSO @I365@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S71@
 3 PAGE Taufe 1836/13
 1 RELI evangelisch-lutherisch
@@ -13364,7 +13481,7 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I366@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S45@
 3 PAGE Taufe 1855/29
 3 QUAY 3
@@ -13407,7 +13524,7 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I366@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S45@
 3 PAGE Taufe 1852/26
 1 RELI evangelisch-lutherisch
@@ -13447,7 +13564,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
-2 NOTE Paten: Johanne Peemöller, Ehefrau, Georg Winkelmann, Schuhmacher
+2 NOTE Paten: Johanne Peemöller, Ehefrau; Georg Winkelmann, Schuhmacher
 2 SOUR @S45@
 3 PAGE Taufe 1841/17
 1 OCCU Zimmermann
@@ -13488,7 +13605,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
-2 NOTE Paten: Friederike Schnehage, Ehefrau, Wilhelm Mohwinkel, Schuhmacher
+2 NOTE Paten: Friederike Schnehage, Ehefrau; Wilhelm Mohwinkel, Schuhmacher
 2 SOUR @S45@
 3 PAGE Taufe 1851/28
 3 QUAY 3
@@ -13533,7 +13650,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
-2 NOTE Paten: Dorothee Meyer, Ehefrau, Carl Bohlmann, Tischler
+2 NOTE Paten: Dorothee Meyer, Ehefrau; Carl Bohlmann, Tischler
 2 SOUR @S88@
 3 PAGE Taufe 1852/25
 1 RELI evangelisch-lutherisch
@@ -13573,7 +13690,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
-2 NOTE Paten: Christian Garbers, Lehrer, Marie Voss, Ehefrau
+2 NOTE Paten: Christian Garbers, Lehrer; Marie Voss, Ehefrau
 2 SOUR @S89@
 3 PAGE Taufe 1855/14
 1 OCCU Hofbesitzer
@@ -13616,7 +13733,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
-2 NOTE Paten: Dorothee Bruns, Ehefrau, Ernst Plate, Bahnarbeiter
+2 NOTE Paten: Dorothee Bruns, Ehefrau; Ernst Plate, Bahnarbeiter
 2 SOUR @S71@
 3 PAGE Taufe 1842/20
 3 QUAY 3
@@ -13663,7 +13780,7 @@
 4 LATI N53.1236
 4 LONG E10.2125
 2 _ASSO @I369@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S45@
 3 PAGE Taufe 1847/29
 1 RELI evangelisch-lutherisch
@@ -13704,7 +13821,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Marie Burmester, Ehefrau, Heinrich Plate, Schmied
+2 NOTE Paten: Marie Burmester, Ehefrau; Heinrich Plate, Schmied
 2 SOUR @S126@
 3 PAGE Taufe 1834/12
 1 RELI evangelisch-lutherisch
@@ -13748,7 +13865,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: August Hartmann, Tischler, Sophie Plate, Ehefrau
+2 NOTE Paten: August Hartmann, Tischler; Sophie Plate, Ehefrau
 2 SOUR @S126@
 3 PAGE Taufe 1851/16
 3 QUAY 3
@@ -13794,7 +13911,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Sophie Dorothee Oetzmann, Ehefrau, Wilhelm Gaede, Landwirt
+2 NOTE Paten: Sophie Dorothee Oetzmann, Ehefrau; Wilhelm Gaede, Landwirt
 2 SOUR @S126@
 3 PAGE Taufe 1853/23
 1 RELI evangelisch-lutherisch
@@ -13837,7 +13954,7 @@
 3 MAP
 4 LATI N51.7667
 4 LONG E8.5667
-2 NOTE Paten: August Hartmann, Schuhmacher, Catharine Kröger, Ehefrau
+2 NOTE Paten: August Hartmann, Schuhmacher; Catharine Kröger, Ehefrau
 2 SOUR @S24@
 3 PAGE Taufe 1849/16
 1 OCCU Tischler
@@ -13881,7 +13998,7 @@
 3 MAP
 4 LATI N51.7667
 4 LONG E8.5667
-2 NOTE Paten: Wilhelmine Oetzmann, Ehefrau, Johann Friedrich Kröger, Stellmacher
+2 NOTE Paten: Wilhelmine Oetzmann, Ehefrau; Johann Friedrich Kröger, Stellmacher
 2 SOUR @S24@
 3 PAGE Taufe 1854/15
 3 QUAY 3
@@ -13924,7 +14041,7 @@
 3 MAP
 4 LATI N51.7667
 4 LONG E8.5667
-2 NOTE Paten: August Bohlmann, Maurer, Catharine Peemöller, Ehefrau
+2 NOTE Paten: August Bohlmann, Maurer; Catharine Peemöller, Ehefrau
 2 SOUR @S24@
 3 PAGE Taufe 1858/8
 1 RELI römisch-katholisch
@@ -13967,7 +14084,7 @@
 3 MAP
 4 LATI N51.7667
 4 LONG E8.5667
-2 NOTE Paten: Sophie Dorothee Mohwinkel, Ehefrau, August Wiebe, Schmied
+2 NOTE Paten: Sophie Dorothee Mohwinkel, Ehefrau; August Wiebe, Schmied
 2 SOUR @S24@
 3 PAGE Taufe 1862/19
 1 RELI römisch-katholisch
@@ -14011,7 +14128,7 @@
 3 MAP
 4 LATI N51.7189
 4 LONG E8.7575
-2 NOTE Paten: Wilhelmine Jürgens, Ehefrau, Christian Tödter, Landwirt
+2 NOTE Paten: Wilhelmine Jürgens, Ehefrau; Christian Tödter, Landwirt
 2 SOUR @S12@
 3 PAGE Taufe 1857/20
 3 QUAY 3
@@ -14055,7 +14172,7 @@
 3 MAP
 4 LATI N51.7189
 4 LONG E8.7575
-2 NOTE Paten: Ludwig Schröder, Sattler, Marie Ohlhoff, Ehefrau
+2 NOTE Paten: Ludwig Schröder, Sattler; Marie Ohlhoff, Ehefrau
 2 SOUR @S12@
 3 PAGE Taufe 1855/16
 1 RELI römisch-katholisch
@@ -14098,7 +14215,7 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
-2 NOTE Paten: Claus Riebesell, Leinweber, Catharine Elisabeth Eggers, Ehefrau
+2 NOTE Paten: Claus Riebesell, Leinweber; Catharine Elisabeth Eggers, Ehefrau
 2 SOUR @S1@
 3 PAGE Taufe 1808/17
 1 OCCU Müller
@@ -14143,7 +14260,7 @@
 3 MAP
 4 LATI N52.7347
 4 LONG E10.2353
-2 NOTE Paten: Anna Catharina Schröder, Ehefrau, Andreas Winkelmann, Brinksitzer
+2 NOTE Paten: Anna Catharina Schröder, Ehefrau; Andreas Winkelmann, Brinksitzer
 2 SOUR @S105@
 3 PAGE Taufe 1813/17
 3 QUAY 3
@@ -14188,7 +14305,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Magdalena Lühmann, Ehefrau, Hans Jürgen Voss, Halbhöfner
+2 NOTE Paten: Magdalena Lühmann, Ehefrau; Hans Jürgen Voss, Halbhöfner
 2 SOUR @S79@
 3 PAGE Taufe 1817/26
 1 RELI evangelisch-lutherisch
@@ -14229,7 +14346,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 NOTE Paten: Anna Maria Hartmann, Ehefrau, Hinrich Harms, Vollhöfner
+2 NOTE Paten: Anna Maria Hartmann, Ehefrau; Hinrich Harms, Vollhöfner
 2 SOUR @S79@
 3 PAGE Taufe 1822/20
 1 OCCU Tischler
@@ -14274,7 +14391,7 @@
 3 MAP
 4 LATI N52.6333
 4 LONG E10.2500
-2 NOTE Paten: Catharina Cordes, Ehefrau, Friedrich Eggers, Vollhöfner
+2 NOTE Paten: Catharina Cordes, Ehefrau; Friedrich Eggers, Vollhöfner
 2 SOUR @S61@
 3 PAGE Taufe 1817/10
 3 QUAY 3
@@ -14318,7 +14435,7 @@
 3 MAP
 4 LATI N52.8333
 4 LONG E10.0833
-2 NOTE Paten: Dorothea Tödter, Ehefrau, Heinrich Christoph Schnehage, Tagelöhner
+2 NOTE Paten: Dorothea Tödter, Ehefrau; Heinrich Christoph Schnehage, Tagelöhner
 2 SOUR @S118@
 3 PAGE Taufe 1811/9
 1 RELI evangelisch-lutherisch
@@ -14361,7 +14478,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Magdalena Garbers, Ehefrau, Hinrich Rabe, Holzhauer
+2 NOTE Paten: Magdalena Garbers, Ehefrau; Hinrich Rabe, Holzhauer
 2 SOUR @S98@
 3 PAGE Taufe 1818/31
 1 RELI evangelisch-lutherisch
@@ -14405,7 +14522,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
-2 NOTE Paten: Anna Margarethe Peemöller, Ehefrau, Jürgen Heuer, Leinweber
+2 NOTE Paten: Anna Margarethe Peemöller, Ehefrau; Jürgen Heuer, Leinweber
 2 SOUR @S98@
 3 PAGE Taufe 1822/13
 3 QUAY 3
@@ -14451,7 +14568,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
-2 NOTE Paten: Margarethe Heuer, Ehefrau, Friedrich Plate, Vollhöfner
+2 NOTE Paten: Margarethe Heuer, Ehefrau; Friedrich Plate, Vollhöfner
 2 SOUR @S141@
 3 PAGE Taufe 1814/20
 1 OCCU Dienstmagd
@@ -14494,7 +14611,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
-2 NOTE Paten: Ilse Brammer, Ehefrau, Jürgen Plate, Schäfer
+2 NOTE Paten: Ilse Brammer, Ehefrau; Jürgen Plate, Schäfer
 2 SOUR @S141@
 3 PAGE Taufe 1818/10
 1 RELI evangelisch-lutherisch
@@ -14538,7 +14655,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
-2 NOTE Paten: Louise Wrede, Ehefrau, Wilhelm Wiebe, Schmied
+2 NOTE Paten: Louise Wrede, Ehefrau; Wilhelm Wiebe, Schmied
 2 SOUR @S54@
 3 PAGE Taufe 1833/4
 3 QUAY 3
@@ -14584,7 +14701,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Dorothea Heuer, Ehefrau, Johann Hinrich Dammann, Häusling
+2 NOTE Paten: Dorothea Heuer, Ehefrau; Johann Hinrich Dammann, Häusling
 2 SOUR @S125@
 3 PAGE Taufe 1825/20
 1 RELI evangelisch-lutherisch
@@ -14624,7 +14741,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Louise Rathmann, Ehefrau, Ernst Winkelmann, Krüger
+2 NOTE Paten: Louise Rathmann, Ehefrau; Ernst Winkelmann, Krüger
 2 SOUR @S126@
 3 PAGE Taufe 1832/12
 1 OCCU Böttcher
@@ -14666,7 +14783,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
-2 NOTE Paten: Catharina Oetzmann, Ehefrau, Johann Christoph Bruns, Leinweber
+2 NOTE Paten: Catharina Oetzmann, Ehefrau; Johann Christoph Bruns, Leinweber
 2 SOUR @S141@
 3 PAGE Taufe 1804/19
 3 QUAY 3
@@ -14710,7 +14827,7 @@
 3 MAP
 4 LATI N52.7333
 4 LONG E10.6000
-2 NOTE Paten: Joachim Winkelmann, Kötner, Anna Catharina Brammer, Ehefrau
+2 NOTE Paten: Joachim Winkelmann, Kötner; Anna Catharina Brammer, Ehefrau
 2 SOUR @S29@
 3 PAGE Taufe 1807/17
 1 RELI evangelisch-lutherisch
@@ -14753,7 +14870,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
-2 NOTE Paten: Johann Christoph Wulf, Kötner, Margarethe Winkelmann, Ehefrau
+2 NOTE Paten: Johann Christoph Wulf, Kötner; Margarethe Winkelmann, Ehefrau
 2 SOUR @S70@
 3 PAGE Taufe 1807/9
 1 OCCU Dienstmagd
@@ -14796,7 +14913,7 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
-2 NOTE Paten: Heinrich Christoph Heuer, Leinweber, Margarethe Jürgens, Ehefrau
+2 NOTE Paten: Heinrich Christoph Heuer, Leinweber; Margarethe Jürgens, Ehefrau
 2 SOUR @S70@
 3 PAGE Taufe 1810/5
 3 QUAY 3
@@ -14840,7 +14957,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
-2 NOTE Paten: Andreas Ohlhoff, Tagelöhner, Ilse Niebuhr, Ehefrau
+2 NOTE Paten: Andreas Ohlhoff, Tagelöhner; Ilse Niebuhr, Ehefrau
 2 SOUR @S44@
 3 PAGE Taufe 1816/17
 1 RELI evangelisch-lutherisch
@@ -14884,7 +15001,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
-2 NOTE Paten: Andreas Oetzmann, Müller, Margarethe Jürgens, Ehefrau
+2 NOTE Paten: Andreas Oetzmann, Müller; Margarethe Jürgens, Ehefrau
 2 SOUR @S87@
 3 PAGE Taufe 1822/16
 1 RELI evangelisch-lutherisch
@@ -14928,7 +15045,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
-2 NOTE Paten: Jacob Garbers, Vollhöfner, Catharina Soltmann, Ehefrau
+2 NOTE Paten: Jacob Garbers, Vollhöfner; Catharina Soltmann, Ehefrau
 2 SOUR @S87@
 3 PAGE Taufe 1813/18
 3 QUAY 3
@@ -14974,7 +15091,7 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
-2 NOTE Paten: Claus Müller, Krüger, Anna Margarethe Thies, Ehefrau
+2 NOTE Paten: Claus Müller, Krüger; Anna Margarethe Thies, Ehefrau
 2 SOUR @S53@
 3 PAGE Taufe 1823/18
 1 OCCU Anbauer
@@ -15019,7 +15136,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
-2 NOTE Paten: Engel Cordes, Ehefrau, Heinrich Christoph Gerdau, Kötner
+2 NOTE Paten: Engel Cordes, Ehefrau; Heinrich Christoph Gerdau, Kötner
 2 SOUR @S125@
 3 PAGE Taufe 1825/26
 1 RELI evangelisch-lutherisch
@@ -15064,11 +15181,11 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I350@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I349@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I55@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S106@
 3 PAGE Taufe 1843/24
 3 QUAY 3
@@ -15120,11 +15237,11 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I55@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I349@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I350@
-3 RELA godmother
+3 RELA godparent
 2 SOUR @S106@
 3 PAGE Taufe 1840/23
 1 RELI evangelisch-lutherisch
@@ -15207,7 +15324,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I48@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1869/8
 3 QUAY 3
@@ -15254,9 +15371,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I58@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I48@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1871/23
 1 OCCU Dienstmagd
@@ -15299,9 +15416,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I58@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I48@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1874/23
 1 RELI evangelisch-lutherisch
@@ -15345,9 +15462,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I58@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I48@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1876/19
 3 QUAY 3
@@ -15389,9 +15506,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I58@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I48@
-3 RELA godfather
+3 RELA godparent
 2 SOUR @S107@
 3 PAGE Taufe 1880/16
 1 OCCU Landwirt
@@ -15472,7 +15589,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I377@
-3 RELA godmother
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 27 APR 1968
@@ -15512,9 +15629,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I377@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I378@
-3 RELA godfather
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 21 JAN 1955
@@ -15552,7 +15669,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I378@
-3 RELA godfather
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 18 MAY 1986
@@ -15586,9 +15703,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I378@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I377@
-3 RELA godmother
+3 RELA godparent
 1 OCCU Maschinenschlosser
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -15660,9 +15777,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I375@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I377@
-3 RELA godmother
+3 RELA godparent
 1 OCCU Tischler
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -15696,9 +15813,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I375@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I377@
-3 RELA godmother
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 15 DEC 1989
@@ -15732,7 +15849,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I375@
-3 RELA godmother
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 4 FEB 1991
@@ -15765,9 +15882,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I375@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I377@
-3 RELA godmother
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 20 JUN 1975
@@ -15833,9 +15950,9 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I383@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I382@
-3 RELA godmother
+3 RELA godparent
 1 RELI evangelisch-lutherisch
 1 DEAT
 2 DATE 14 DEC 1999
@@ -15868,7 +15985,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I380@
-3 RELA godmother
+3 RELA godparent
 1 OCCU Landwirt
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -15964,11 +16081,11 @@
 4 LATI N52.7347
 4 LONG E10.2353
 2 _ASSO @I383@
-3 RELA godfather
+3 RELA godparent
 2 _ASSO @I380@
-3 RELA godmother
+3 RELA godparent
 2 _ASSO @I381@
-3 RELA godmother
+3 RELA godparent
 1 OCCU Maschinenschlosser
 1 RELI evangelisch-lutherisch
 1 DEAT
@@ -18172,6 +18289,7 @@
 4 LONG E10.0815
 2 _ASSO @I14@
 3 RELA witness
+2 NOTE Trauzeugen: Horst Garbers, Elektriker, Celle
 2 SOUR @S203@
 3 PAGE Heiratsurkunde Falkenrath – Ilgner, 1983
 3 QUAY 3
@@ -18229,6 +18347,7 @@
 4 LONG E10.5611
 2 _ASSO @I25@
 3 RELA witness
+2 NOTE Trauzeugen: Günter Peters, Kaufmann, Uelzen
 2 SOUR @S203@
 3 PAGE Heiratsurkunde Falkenrath – Oberlin, 1954
 3 QUAY 3
@@ -18255,6 +18374,9 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 _ASSO @I83@
+3 RELA witness
+2 NOTE Trauzeugen: Dieter Müller, Landwirt, Lüneburg
 2 SOUR @S203@
 3 PAGE Heiratsurkunde Ilgner – Krümmel, 1956
 3 QUAY 3
@@ -18283,6 +18405,7 @@
 4 LONG E10.0815
 2 _ASSO @I79@
 3 RELA witness
+2 NOTE Trauzeugen: Wilhelm Niebuhr, Lokomotivführer, Celle
 2 SOUR @S2@
 3 PAGE Heirat 1924/58
 3 DATA
@@ -18290,6 +18413,7 @@
 4 TEXT Nr. 58. Celle, am 17. Mai 1924.
 5 CONT Vor dem unterzeichneten Standesbeamten erschienen heute zum Zwecke der Eheschließung: 1. der Tischler Heinrich Falkenrath, 2. die Anna Rosskamp. Der Standesbeamte richtete an die Verlobten einzeln un
 5 CONC d nacheinander die Frage, ob sie erklären, daß sie die Ehe miteinander eingehen wollen. Die Verlobten beantworteten diese Frage bejahend.
+5 CONT Als Zeugen waren zugezogen: Ludwig Rosskamp und Wilhelm Niebuhr.
 3 QUAY 3
 2 SOUR @S203@
 3 PAGE Heiratsurkunde Falkenrath – Rosskamp, 1924
@@ -18349,6 +18473,7 @@
 4 LONG E10.5611
 2 _ASSO @I98@
 3 RELA witness
+2 NOTE Trauzeugen: Otto Stöver, Kaufmann, Uelzen
 1 MARR
 2 TYPE religious
 2 DATE 9 SEP 1927
@@ -18373,6 +18498,7 @@
 4 LONG E10.4141
 2 _ASSO @I264@
 3 RELA witness
+2 NOTE Trauzeugen: Ernst Brammer, Landwirt, Lüneburg
 1 MARR
 2 TYPE religious
 2 DATE 22 APR 1922
@@ -18438,8 +18564,9 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
-2 _ASSO @I65@
+2 _ASSO @I50@
 3 RELA witness
+2 NOTE Trauzeugen: Christian Wiese, Hofbesitzer zu Celle
 2 SOUR @S2@
 3 PAGE Heirat 1893/112
 3 DATA
@@ -18447,6 +18574,7 @@
 4 TEXT Nr. 112. Celle, am 14. September 1893.
 5 CONT Vor dem unterzeichneten Standesbeamten erschienen heute zum Zwecke der Eheschließung: 1. der Zimmermann Carl Falkenrath, 2. die Dorothea Wichmann. Der Standesbeamte richtete an die Verlobten einzeln u
 5 CONC nd nacheinander die Frage, ob sie erklären, daß sie die Ehe miteinander eingehen wollen. Die Verlobten beantworteten diese Frage bejahend.
+5 CONT Als Zeugen waren zugezogen: Christian Wichmann und Christian Wiese.
 3 QUAY 3
 1 MARR
 2 TYPE religious
@@ -18501,6 +18629,7 @@
 4 LONG E10.5611
 2 _ASSO @I278@
 3 RELA witness
+2 NOTE Trauzeugen: Carl Ahrens, Gastwirt zu Uelzen
 1 MARR
 2 TYPE religious
 2 DATE 19 NOV 1891
@@ -18525,6 +18654,7 @@
 4 LONG E10.4141
 2 _ASSO @I286@
 3 RELA witness
+2 NOTE Trauzeugen: Hermann Lange, Schmied zu Lüneburg
 1 MARR
 2 TYPE religious
 2 DATE 4 FEB 1890
@@ -18569,6 +18699,9 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 _ASSO @I144@
+3 RELA witness
+2 NOTE Trauzeugen: Hermann Hogrefe, Stellmacher zu Celle
 2 SOUR @S84@
 3 PAGE Trauung 1866/16
 3 QUAY 3
@@ -18804,6 +18937,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Trauzeugen: Heinrich Lange, Anbauer zu Lüneburg; Carl Müller, Gastwirt zu Lüneburg
 2 SOUR @S130@
 3 PAGE Trauung 1859/5
 3 QUAY 3
@@ -18875,6 +19009,9 @@
 3 MAP
 4 LATI N53.1417
 4 LONG E10.4867
+2 _ASSO @I132@
+3 RELA witness
+2 NOTE Trauzeugen: Walter Dralle, Landwirt, Bienenbüttel
 2 SOUR @S169@
 3 PAGE Heirat 1900/24
 3 QUAY 3
@@ -18904,6 +19041,7 @@
 4 LONG E10.4141
 2 _ASSO @I293@
 3 RELA witness
+2 NOTE Trauzeugen: Hermann Bruns, Maurer, Lüneburg
 2 SOUR @S194@
 3 PAGE Heirat 1901/18
 3 QUAY 3
@@ -19149,6 +19287,9 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 _ASSO @I192@
+3 RELA witness
+2 NOTE Trauzeugen: August Kruse, Anbauer zu Lüneburg
 2 SOUR @S130@
 3 PAGE Trauung 1867/17
 3 QUAY 3
@@ -19200,6 +19341,9 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 _ASSO @I200@
+3 RELA witness
+2 NOTE Trauzeugen: Johann Friedrich Bockelmann, Brinksitzer zu Celle
 2 SOUR @S83@
 3 PAGE Trauung 1834/21
 3 QUAY 3
@@ -19215,6 +19359,9 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 _ASSO @I204@
+3 RELA witness
+2 NOTE Trauzeugen: Hans Jürgen Peters, Kötner zu Celle
 2 SOUR @S83@
 3 PAGE Trauung 1843/27
 3 QUAY 3
@@ -19231,6 +19378,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Trauzeugen: Hans Jürgen Stöver, Kötner zu Celle; Christoph Heuer, Schmied zu Celle
 2 SOUR @S82@
 3 PAGE Trauung 1826/20
 3 QUAY 3
@@ -19246,6 +19394,9 @@
 3 MAP
 4 LATI N52.6333
 4 LONG E10.2500
+2 _ASSO @I208@
+3 RELA witness
+2 NOTE Trauzeugen: Hans Jürgen Peters, Ackermann zu Beedenbostel
 2 SOUR @S64@
 3 PAGE Trauung 1838/17
 3 QUAY 3
@@ -19263,6 +19414,9 @@
 3 MAP
 4 LATI N52.8083
 4 LONG E9.9614
+2 _ASSO @I212@
+3 RELA witness
+2 NOTE Trauzeugen: Hinrich Lange, Häusling zu Bergen
 2 SOUR @S67@
 3 PAGE Trauung 1834/12
 3 QUAY 3
@@ -19279,6 +19433,7 @@
 3 MAP
 4 LATI N52.7333
 4 LONG E10.6000
+2 NOTE Trauzeugen: Hinrich Vollmer, Ackermann zu Hankensbüttel; Christoph Behrens, Kötner zu Hankensbüttel
 2 SOUR @S113@
 3 PAGE Trauung 1832/20
 3 QUAY 3
@@ -19296,6 +19451,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Trauzeugen: Johann Friedrich Garbers, Schmied zu Ebstorf; Hans Jürgen Thies, Ackermann zu Ebstorf
 2 SOUR @S101@
 3 PAGE Trauung 1842/22
 3 QUAY 3
@@ -19326,6 +19482,9 @@
 3 MAP
 4 LATI N52.7333
 4 LONG E10.6000
+2 _ASSO @I222@
+3 RELA witness
+2 NOTE Trauzeugen: Hans Jürgen Brammer, Häusling zu Hankensbüttel
 2 SOUR @S114@
 3 PAGE Trauung 1837/17
 3 QUAY 3
@@ -19342,6 +19501,9 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 _ASSO @I226@
+3 RELA witness
+2 NOTE Trauzeugen: Christoph Bockelmann, Schäfer zu Ebstorf
 2 SOUR @S101@
 3 PAGE Trauung 1842/24
 3 QUAY 3
@@ -19373,6 +19535,9 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 _ASSO @I230@
+3 RELA witness
+2 NOTE Trauzeugen: Claus Garbers, Häusling zu Bad Bevensen
 2 SOUR @S57@
 3 PAGE Trauung 1848/10
 3 QUAY 3
@@ -19407,6 +19572,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Trauzeugen: Hinrich Kruse, Krüger zu Amelinghausen; Hans Jürgen Thies, Kötner zu Amelinghausen
 2 SOUR @S48@
 3 PAGE Trauung 1834/15
 3 QUAY 3
@@ -19452,6 +19618,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Trauzeugen: Hinrich Garbers, Kötner zu Lüneburg; Hans Jürgen Wrede, Halbhöfner zu Lüneburg
 2 SOUR @S129@
 3 PAGE Trauung 1836/7
 3 QUAY 3
@@ -19506,6 +19673,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
+2 NOTE Trauzeugen: Hans Jürgen Peters, Schäfer zu Dahlenburg; Jürgen Wrede, Kötner zu Dahlenburg
 2 SOUR @S90@
 3 PAGE Trauung 1843/24
 3 QUAY 3
@@ -19522,6 +19690,7 @@
 3 MAP
 4 LATI N53.1861
 4 LONG E10.7333
+2 NOTE Trauzeugen: Hinrich Cohrs, Halbhöfner zu Dahlenburg; Hinrich Wrede, Brinksitzer zu Dahlenburg
 2 SOUR @S90@
 3 PAGE Trauung 1839/9
 3 QUAY 3
@@ -19554,6 +19723,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Trauzeugen: Christoph Bostelmann, Schäfer zu Amelinghausen; Jürgen Wolters, Kötner zu Amelinghausen
 2 SOUR @S48@
 3 PAGE Trauung 1837/24
 3 QUAY 3
@@ -19586,6 +19756,9 @@
 3 MAP
 4 LATI N53.0797
 4 LONG E10.5836
+2 _ASSO @I258@
+3 RELA witness
+2 NOTE Trauzeugen: Jürgen Peters, Halbhöfner zu Bad Bevensen
 2 SOUR @S56@
 3 PAGE Trauung 1832/14
 3 QUAY 3
@@ -19617,6 +19790,7 @@
 3 MAP
 4 LATI N51.7667
 4 LONG E8.5667
+2 NOTE Trauzeugen: Hans Jürgen Peters, Häusling zu Delbrück; Johann Heinrich Söhl, Kötner zu Delbrück
 2 SOUR @S95@
 3 PAGE Trauung 1846/22
 3 QUAY 3
@@ -19635,6 +19809,7 @@
 3 MAP
 4 LATI N51.7189
 4 LONG E8.7575
+2 NOTE Trauzeugen: Jürgen Hogrefe, Krüger zu Paderborn; Johann Friedrich Wiese, Krüger zu Paderborn
 2 SOUR @S136@
 3 PAGE Trauung 1845/12
 3 QUAY 3
@@ -19667,6 +19842,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Trauzeugen: Johann Heinrich Garbers, Halbhöfner zu Celle; Hinrich Stöver, Häusling zu Celle
 2 SOUR @S82@
 3 PAGE Trauung 1803/22
 3 QUAY 3
@@ -19681,6 +19857,7 @@
 3 MAP
 4 LATI N52.6226
 4 LONG E10.0815
+2 NOTE Trauzeugen: Christoph Stöver, Häusling zu Celle; Christoph Dralle, Ackermann zu Celle
 2 SOUR @S82@
 3 PAGE Trauung 1813/12
 3 QUAY 3
@@ -19755,6 +19932,7 @@
 3 MAP
 4 LATI N52.8083
 4 LONG E9.9614
+2 NOTE Trauzeugen: Johann Heinrich Kruse, Halbhöfner zu Bergen; Johann Friedrich Wolters, Brinksitzer zu Bergen
 2 SOUR @S66@
 3 PAGE Trauung 1810/20
 3 QUAY 3
@@ -19799,6 +19977,7 @@
 3 MAP
 4 LATI N52.9657
 4 LONG E10.5611
+2 NOTE Trauzeugen: Hans Jürgen Müller, Halbhöfner zu Uelzen; Johann Friedrich Hogrefe, Brinksitzer zu Uelzen
 2 SOUR @S152@
 3 PAGE Trauung 1801/18
 3 QUAY 3
@@ -19813,6 +19992,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Trauzeugen: Johann Friedrich Kruse, Krüger zu Ebstorf; Johann Heinrich Dralle, Schmied zu Ebstorf
 2 SOUR @S100@
 3 PAGE Trauung 1800/20
 3 QUAY 3
@@ -19841,6 +20021,7 @@
 3 MAP
 4 LATI N52.6536
 4 LONG E9.8339
+2 NOTE Trauzeugen: Hans Jürgen Wiese, Ackermann zu Wietze; Johann Friedrich Garbers, Halbhöfner zu Wietze
 2 SOUR @S18@
 3 PAGE Trauung 1806/15
 3 QUAY 3
@@ -19855,6 +20036,7 @@
 3 MAP
 4 LATI N53.0283
 4 LONG E10.4147
+2 NOTE Trauzeugen: Johann Heinrich Schulze, Schäfer zu Ebstorf; Johann Friedrich Söhl, Ackermann zu Ebstorf
 2 SOUR @S100@
 3 PAGE Trauung 1814/13
 3 QUAY 3
@@ -19900,6 +20082,7 @@
 3 MAP
 4 LATI N52.8961
 4 LONG E10.4486
+2 NOTE Trauzeugen: Hinrich Bostelmann, Schäfer zu Suderburg; Claus Kahle, Schäfer zu Suderburg
 2 SOUR @S144@
 3 PAGE Trauung 1797/20
 3 QUAY 3
@@ -20033,6 +20216,7 @@
 3 MAP
 4 LATI N53.1236
 4 LONG E10.2125
+2 NOTE Trauzeugen: Johann Heinrich Peters, Kötner zu Amelinghausen; Hinrich Niebuhr, Brinksitzer zu Amelinghausen
 2 SOUR @S47@
 3 PAGE Trauung 1811/7
 3 QUAY 3
@@ -20092,6 +20276,7 @@
 3 MAP
 4 LATI N53.2509
 4 LONG E10.4141
+2 NOTE Trauzeugen: Claus Lange, Häusling zu Lüneburg; Christoph Peters, Schmied zu Lüneburg
 2 SOUR @S8@
 3 PAGE Trauung 1792/13
 3 QUAY 3

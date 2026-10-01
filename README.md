@@ -96,6 +96,51 @@ standesamtlich und kirchlich.
 | Heirat ohne `TYPE` | amerikanischer Zweig, z. B. F10 |
 | Kirchliche Trauung mit Trauschein statt Kirchenbuch | F3, F6, F7 |
 
+## Paten und Trauzeugen
+
+Seit Oktober 2026 hat **jede Taufe der direkten Linie Paten** und jede standesamtliche Heirat der direkten Linie
+**zwei Trauzeugen**; kirchliche Trauungen vor 1875 etwa zur Hälfte. Die Seitenlinien sind teilweise erfasst – wie in
+echten Stammbäumen. Maßstab ist **webtrees 2.2**, das dieselbe Form schreibt wie die Vereinbarung deutschsprachiger
+Genealogieprogramme von 2011 (GEDCOM-L, GenPlus_Win):
+
+```
+1 CHR
+2 DATE 1 MAY 1897
+2 PLAC Celle, Niedersachsen, Deutschland
+2 _ASSO @I62@                ← Pate mit eigenem Datensatz (verlinkt)
+3 RELA godparent             ← webtrees: klein geschrieben, zeigt „Pate“/„Patin“
+2 NOTE Paten: Friedrich Plate, Anbauer zu Celle    ← Paten ohne Datensatz
+2 SOUR @S81@
+3 PAGE Taufe 1897/77
+```
+
+- **Verlinkt** (`_ASSO` + `RELA godparent` bzw. `witness`): Verwandte aus dem Baum – Großeltern, Geschwister der
+  Eltern und deren Ehepartner, ältere Geschwister. Bei der Taufe leben sie und sind mindestens 14 (konfirmiert),
+  Trauzeugen mindestens 21 (ab 1975: 18), vor 1920 nur Männer. webtrees zeigt beim Paten automatisch „Pate bei …“.
+- **Ohne eigenen Datensatz**: eine Notiz am Ereignis, die mit `Paten:` bzw. `Trauzeugen:` beginnt; Personen durch
+  `;` getrennt, je Person `Name, Beruf zu Ort`. Eine Taufe kann beides haben.
+- Vor 1850 meist drei Paten, danach zwei.
+
+### Testfälle Paten und Trauzeugen
+
+| Testfall | Fundstelle |
+| - | - |
+| Taufe nur mit verlinkten Paten | I22, I39 |
+| Taufe nur mit Paten als Text | I140, I52 (passt zum Scan M130) |
+| Taufe gemischt (verlinkt + Text) | I21, I28 |
+| Lebende Patin (Datenschutz) | I1 Jonas Falkenrath, Patin I10 |
+| Notiz am Paten (`3 NOTE` unter `_ASSO`) | I1 („Schwester des Vaters“) |
+| Quellenangabe am Paten (`3 SOUR` unter `_ASSO`) | I21, Pate I65 (in Abwesenheit, mit Notiz) |
+| Person ist bei mehreren Taufen Pate (Gegenrichtung) | I377 |
+| `RELA godfather` / `godmother` (ältere webtrees-Daten) | I38, I41 |
+| `RELA Godparent`, groß geschrieben (Import aus einem anderen Programm) | I57 |
+| `1 ASSO` an der Person statt in der Taufe (alte Gen-Pluswin-Form) | I58 |
+| Trauzeugen gemischt | F3, F6 |
+| Trauzeugen nur als Text | F38 |
+| Zeugen auch in der Abschrift des Standesamtseintrags | F8, F15 |
+
+Erzeugt mit `werkzeuge/paten.py`, einmalig angewendet auf Version 1.1 (fester Zufallswert, also nachvollziehbar).
+
 ## In webtrees laden
 
 1. *Verwaltung → Stammbäume verwalten → Stammbaum anlegen*, z. B. `falkenrath`.
