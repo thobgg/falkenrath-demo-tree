@@ -22,6 +22,10 @@ Screenshots und Vorführungen.
 **Versionen:** Diese Datei ist immer die neueste Version (siehe `2 VERS` im Kopf). Jede Version liegt eingefroren in
 [versionen/](versionen/) – dort stehen auch die Regeln, wie neue Finessen hinzukommen.
 
+**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
+[GEDCOM mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.3.zip) (7 MB) ·
+[alle Versionen](https://github.com/thobgg/falkenrath-demo-tree/releases)
+
 ## Bilder
 
 <p align="center"><img src="docs/windows-navigator.jpg" width="100%" alt="Der Baum in wtWin: Navigator mit Heinrich Falkenrath, seinen Kindern und vier Generationen Vorfahren"></p>

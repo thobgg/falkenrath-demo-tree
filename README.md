@@ -17,6 +17,10 @@ nobody before 1860, and nobody born after 1920. Certificates, church book and re
 
 **License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
+**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
+[GEDCOM with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.3.zip) (7 MB) ·
+[all releases](https://github.com/thobgg/falkenrath-demo-tree/releases)
+
 ## Pictures
 
 <p align="center"><img src="docs/windows-navigator.jpg" width="100%" alt="The tree in wtWin: navigator with Heinrich Falkenrath, his children and four generations of ancestors"></p>
@@ -51,8 +55,8 @@ unknown people.
 
 ## Download
 
-- The latest version is always [`falkenrath.ged`](falkenrath.ged) with the images in [`media/`](media/).
-- Every release has a ready-made zip with the GEDCOM file, all images and this README.
+- The latest version is always [`falkenrath.ged`](falkenrath.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged)) with the images in [`media/`](media/).
+- Every [release](https://github.com/thobgg/falkenrath-demo-tree/releases) has a ready-made zip with the GEDCOM file, all images and this README.
 - Each version is frozen in [`versionen/`](versionen/) with SHA-256 checksums, so test results stay reproducible.
 
 The tree is in German: names, places, occupations, notes and source titles. Dates and structure are standard GEDCOM.
