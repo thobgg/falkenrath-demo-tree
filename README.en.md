@@ -1,6 +1,6 @@
 # Falkenrath demo tree
 
-**English** · [Deutsch](README.de.md)
+**English** · [Deutsch](README.md)
 
 A **fictitious** family tree for trying out and testing genealogy software: 492 people, 154 families, 204 sources,
 40 repositories and 142 images, from around 1750 to today. It was built for testing webtrees, the module

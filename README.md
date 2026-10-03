@@ -1,6 +1,6 @@
 # Demo-Stammbaum „Familie Falkenrath“
 
-[English](README.md) · **Deutsch**
+**Deutsch** · [English](README.en.md)
 
 Ein kleiner, **frei erfundener** Stammbaum zum Ausprobieren und Testen von webtrees, dem Modul
 *api4webtrees* und der Apps *wtAnd*, *wtWin* und *wtTux*: 492 Personen, 154 Familien, 204 Quellen,
