@@ -17,6 +17,38 @@ nobody before 1860, and nobody born after 1920. Certificates, church book and re
 
 **License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
+## Pictures
+
+<p align="center"><img src="docs/windows-navigator.jpg" width="100%" alt="The tree in wtWin: navigator with Heinrich Falkenrath, his children and four generations of ancestors"></p>
+<p align="center"><sub>The tree in <a href="https://github.com/thobgg/app4webtrees">wtWin</a>: Heinrich Falkenrath with his children and four generations of ancestors.</sub></p>
+
+<p align="center">
+  <img src="media/portrait-i101.jpg" width="15%" alt="Studio portrait of an unknown person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i102.jpg" width="15%" alt="Studio portrait of an unknown person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i104.jpg" width="15%" alt="Studio portrait of an unknown person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i105.jpg" width="15%" alt="Studio portrait of an unknown person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i106.jpg" width="15%" alt="Studio portrait of an unknown person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i107.jpg" width="15%" alt="Studio portrait of an unknown person, Rijksmuseum Amsterdam, CC0">
+</p>
+<p align="center"><sub>Portraits: real studio photographs of <b>unknown people</b> from the Rijksmuseum Amsterdam, public domain (CC0).
+The people shown have nothing to do with the invented names in the tree. Sources for every file in <a href="FOTOS.md">FOTOS.md</a>.</sub></p>
+
+<p align="center">
+  <img src="media/taufeintrag-1833-i130.jpg" width="23%" alt="Baptism 1833">
+  <img src="media/heiratsurkunde-1924.jpg" width="23%" alt="Marriage certificate 1924">
+  <img src="media/familienbibel.jpg" width="23%" alt="Family chronicle">
+  <img src="media/schiffsliste-1952.jpg" width="23%" alt="Passenger list 1952">
+</p>
+<p align="center"><sub>Church book entries, certificates, the family chronicle and the passenger list are <b>drawn for this tree</b>.
+Their texts match the data in the GEDCOM file, so apps can show a transcript next to the scan.</sub></p>
+
+<p align="center"><img src="docs/tafel-ahnenkreis.jpg" width="70%" alt="Fan chart of Jonas Falkenrath over seven generations"></p>
+<p align="center"><sub>Fan chart of Jonas Falkenrath: seven complete generations, 127 ancestors.</sub></p>
+
+All pictures in this repository may be used freely under CC0, including the two screenshots. For the portraits,
+please do not present the people shown as members of the Falkenrath family outside of a demo context: they are real,
+unknown people.
+
 ## Download
 
 - The latest version is always [`falkenrath.ged`](falkenrath.ged) with the images in [`media/`](media/).

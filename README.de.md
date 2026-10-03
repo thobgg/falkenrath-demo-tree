@@ -22,6 +22,38 @@ Screenshots und Vorführungen.
 **Versionen:** Diese Datei ist immer die neueste Version (siehe `2 VERS` im Kopf). Jede Version liegt eingefroren in
 [versionen/](versionen/) – dort stehen auch die Regeln, wie neue Finessen hinzukommen.
 
+## Bilder
+
+<p align="center"><img src="docs/windows-navigator.jpg" width="100%" alt="Der Baum in wtWin: Navigator mit Heinrich Falkenrath, seinen Kindern und vier Generationen Vorfahren"></p>
+<p align="center"><sub>Der Baum in <a href="https://github.com/thobgg/app4webtrees">wtWin</a>: Heinrich Falkenrath mit seinen Kindern und vier Generationen Vorfahren.</sub></p>
+
+<p align="center">
+  <img src="media/portrait-i101.jpg" width="15%" alt="Atelierfoto einer unbekannten Person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i102.jpg" width="15%" alt="Atelierfoto einer unbekannten Person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i104.jpg" width="15%" alt="Atelierfoto einer unbekannten Person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i105.jpg" width="15%" alt="Atelierfoto einer unbekannten Person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i106.jpg" width="15%" alt="Atelierfoto einer unbekannten Person, Rijksmuseum Amsterdam, CC0">
+  <img src="media/portrait-i107.jpg" width="15%" alt="Atelierfoto einer unbekannten Person, Rijksmuseum Amsterdam, CC0">
+</p>
+<p align="center"><sub>Porträts: echte Atelierfotos <b>unbekannter Personen</b> aus dem Rijksmuseum Amsterdam, gemeinfrei (CC0).
+Die Abgebildeten haben mit den erfundenen Namen des Baums nichts zu tun. Quelle jeder Datei in <a href="FOTOS.md">FOTOS.md</a>.</sub></p>
+
+<p align="center">
+  <img src="media/taufeintrag-1833-i130.jpg" width="23%" alt="Taufeintrag 1833">
+  <img src="media/heiratsurkunde-1924.jpg" width="23%" alt="Heiratsurkunde 1924">
+  <img src="media/familienbibel.jpg" width="23%" alt="Familienchronik">
+  <img src="media/schiffsliste-1952.jpg" width="23%" alt="Schiffsliste 1952">
+</p>
+<p align="center"><sub>Kirchenbucheinträge, Urkunden, Familienchronik und Schiffsliste sind <b>für diesen Baum gezeichnet</b>.
+Ihr Text passt zu den Daten im GEDCOM, damit Apps neben dem Scan die Abschrift zeigen können.</sub></p>
+
+<p align="center"><img src="docs/tafel-ahnenkreis.jpg" width="70%" alt="Ahnenkreis von Jonas Falkenrath über sieben Generationen"></p>
+<p align="center"><sub>Ahnenkreis von Jonas Falkenrath: sieben Generationen lückenlos, 127 Ahnen.</sub></p>
+
+Alle Bilder in diesem Repository sind unter CC0 frei verwendbar, auch die beiden Bildschirmfotos. Bei den Porträts
+bitte die Abgebildeten außerhalb einer Vorführung nicht als Mitglieder der Familie Falkenrath ausgeben: Es sind
+echte, unbekannte Menschen.
+
 ## Was der Baum abdeckt
 
 Lebende Personen (Datenschutz), zwei Ehen mit früh verstorbenem Kind, Gefallene beider Weltkriege,
