@@ -1,156 +1,154 @@
-# Demo-Stammbaum „Familie Falkenrath“
+# Falkenrath demo tree
 
-Ein kleiner, **frei erfundener** Stammbaum zum Ausprobieren und Testen von webtrees, dem Modul
-*api4webtrees* und der Apps *wtAnd*, *wtWin* und *wtTux*: 492 Personen, 154 Familien, 204 Quellen,
-40 Archive, 142 Bilder, von um 1750 bis heute.
+**English** · [Deutsch](README.de.md)
 
-**Alle Personen, Lebensdaten und Dokumente sind ausgedacht.** Übereinstimmungen mit lebenden oder
-verstorbenen Personen sind Zufall. Die Orte gibt es wirklich – sie tragen Koordinaten, damit Karten etwas
-zu zeigen haben.
+A **fictitious** family tree for trying out and testing genealogy software: 492 people, 154 families, 204 sources,
+40 repositories and 142 images, from around 1750 to today. It was built for testing webtrees, the module
+[api4webtrees](https://github.com/thobgg/api4webtrees) and the apps [wtAnd, wtWin, wtTux and wtMac](https://github.com/thobgg/app4webtrees),
+but it is plain GEDCOM 5.5.1 and works with any program.
 
-**Die Porträts sind echte alte Atelierfotos unbekannter Personen** aus dem Rijksmuseum Amsterdam (CC0, über
-Wikimedia Commons). Die Abgebildeten haben mit den erfundenen Namen nichts zu tun; Liste der Quellen in
-[FOTOS.md](FOTOS.md). Bewusst nicht jeder hat ein Bild – wie in echten Stammbäumen: die direkten Vorfahren
-meist, Seitenlinien seltener, vor 1860 niemand, und ab 1920 Geborene keine (freie Fotos aus dieser Zeit gibt es
-kaum, und die Jüngeren sind privat). Urkunden, Kirchenbuch- und Registerauszüge, Werkstatt und Hochzeitsbild sind gezeichnet.
+**All people, dates and documents are made up.** Any resemblance to living or dead persons is coincidental. The places
+are real and carry coordinates, so that maps have something to show.
 
-Lizenz: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) – frei verwendbar, auch für
-Screenshots und Vorführungen.
+**The portraits are real old studio photographs of unknown people** from the Rijksmuseum Amsterdam (CC0, via
+Wikimedia Commons). The people shown have nothing to do with the invented names; sources are listed in
+[FOTOS.md](FOTOS.md). Not everyone has a picture, as in real trees: most direct ancestors do, side lines less often,
+nobody before 1860, and nobody born after 1920. Certificates, church book and register extracts are drawn.
 
-**Versionen:** Diese Datei ist immer die neueste Version (siehe `2 VERS` im Kopf). Jede Version liegt eingefroren in
-[versionen/](versionen/) – dort stehen auch die Regeln, wie neue Finessen hinzukommen.
+**License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
-## Was der Baum abdeckt
+## Download
 
-Lebende Personen (Datenschutz), zwei Ehen mit früh verstorbenem Kind, Gefallene beider Weltkriege,
-zwei Auswanderungen nach Milwaukee (1888 und 1952) samt amerikanischem Zweig, eine Scheidung, eine unbekannte
-Mutter an der Spitze, Vettern und Cousinen auf Vater- und Mutterseite, Quellen mit Seitenangaben, Notizen,
-Rufname, Orte mit Koordinaten, Medien an Personen, Familien und Quellen.
+- The latest version is always [`falkenrath.ged`](falkenrath.ged) with the images in [`media/`](media/).
+- Every release has a ready-made zip with the GEDCOM file, all images and this README.
+- Each version is frozen in [`versionen/`](versionen/) with SHA-256 checksums, so test results stay reproducible.
 
-Seit September 2026 außerdem: die Vorfahren von Jonas **lückenlos über sieben Generationen** (127 Ahnen),
-dahinter mit Lücken; **Ahnenschwund** (die Eltern von Nr. 37 sind auch Nr. 88/89); Geschwister der Vorfahren;
-ein breiter **Stamm** ab Johann Friedrich Falkenrath (* 1843) bis heute; Taufen mit **Paten**, Trauungen mit
-**Zeugen**, Begräbnisse, **Konfession** (eine katholische Linie aus dem Paderborner Land), **Todesursachen**;
-Kirchenbücher und Standesämter als Quellen mit Seitenangaben – Stoff für Tafeln, Listen und Bücher.
-Proband: **Jonas Falkenrath (I1)**.
+The tree is in German: names, places, occupations, notes and source titles. Dates and structure are standard GEDCOM.
 
-## Quellen – dreistufig
+## What the tree covers
 
-Seit Version 1.1 (September 2026) sind die Quellen so angelegt, wie man es vorbildlich macht, und decken dabei jede
-Variante ab, die GEDCOM 5.5.1 bei Quellen kennt – gedacht zum Testen von Apps wie *wtWin* und *wtTux*.
-**Archive, Signaturen, Adressen und Bandlaufzeiten sind erfunden**; Web-Adressen enden auf `.example.org`.
+- **Ancestors:** the proband Jonas Falkenrath (I1) has a complete pedigree over seven generations, 127 ancestors,
+  with gaps beyond that. Pedigree collapse: the parents of no. 37 are also nos. 88 and 89.
+- **Descendants:** a broad line from Johann Friedrich Falkenrath (born 1843) to today, with siblings of the ancestors
+  and cousins on both sides.
+- **Life events:** two marriages with an early-deceased child, a divorce, soldiers killed in both world wars, two
+  emigrations to Milwaukee (1888 and 1952) with an American branch, an unknown mother at the top.
+- **Church and civil records:** baptisms, burials, a Catholic line from the Paderborn area, religion, causes of death.
+- **Living people** for privacy tests.
+- **Godparents and marriage witnesses** in several encodings, see below.
+- **Sources in three levels** covering every variant GEDCOM 5.5.1 knows, see below.
 
-| Ebene | Frage | GEDCOM | webtrees |
+## Sources in three levels
+
+| Level | Question | GEDCOM | webtrees |
 | - | - | - | - |
-| 1 | Wo liegt die Quelle? | `0 @R…@ REPO` | Archiv |
-| 2 | Was ist die Quelle? | `0 @S…@ SOUR` mit `1 REPO` → `2 CALN` (Signatur) → `3 MEDI` | Quelle |
-| 3 | Wo genau steht es? | am Fakt `2 SOUR @S…@` mit `3 PAGE`, `3 QUAY` … | Quellenangabe |
+| 1 | Where is the source kept? | `0 @R…@ REPO` | Repository |
+| 2 | What is the source? | `0 @S…@ SOUR` with `1 REPO`, `2 CALN` (call number), `3 MEDI` | Source |
+| 3 | Where exactly is it written? | on the fact: `2 SOUR @S…@` with `3 PAGE`, `3 QUAY` … | Citation |
 
-**Kirchenbücher** (140): je Ort ein Mischbuch bis zu einem Wechseljahr zwischen 1790 und 1815, danach getrennte
-Bücher für Taufen, Trauungen und Begräbnisse in je drei Bänden. Angelegt sind nur Bände, aus denen zitiert wird –
-die Signaturen (`KB Eschede Nr. 1` …) haben deshalb Lücken. Titel: `KB Eschede ev. Taufen 1812-1845`,
-`KB Paderborn kath. Taufen 1854-1905` (lateinischer Originaltitel als Notiz).
+Repositories, call numbers, addresses and volume ranges are invented; web addresses end in `.example.org`.
 
-**Standesämter** (61): je Amt Geburten, Heiraten, Tode. Die **Sperrfristen** (Geburt 110, Heirat 80, Tod 30 Jahre)
-teilen die Register: Ältere liegen im Stadt- bzw. Kreisarchiv (`StA Celle Geburten 1874-1916`), jüngere noch beim
-Standesamt (`StA Celle Geburten 1917-`). Für die jüngere direkte Linie gibt es stattdessen die
-**Urkundensammlung Familie Falkenrath** (S203) im Familienbesitz.
+- **Church books (140):** one mixed register per parish up to a year between 1790 and 1815, then separate books for
+  baptisms, marriages and burials in three volumes each.
+- **Civil registers (61):** births, marriages and deaths per registry office. German closure periods split the
+  registers: older volumes are in the archive, newer ones still at the registry office.
+- **Family collection:** certificates in family hands for the younger direct line (S203).
+- **Civil and church events:** the registry office records birth, marriage and death; the church records baptism,
+  church wedding and burial. Before 1875 birth and death cite the baptism or burial entry with `3 EVEN CHR` or
+  `3 EVEN BURI` and `QUAY 2`. The 15 couples of the direct line from 1890 have two marriages, `TYPE civil` and
+  `TYPE religious`.
+- **QUAY:** 3 for an entry about the event itself, 2 for derived information, 1 for doubtful, 0 for unreliable.
+  About a third of the citations, mostly in side lines, have no `QUAY` on purpose.
 
-**Das Standesamt beurkundet, die Kirche vollzieht:**
+### Test cases for sources
 
-| Quelle | Ereignis | Fakt | `PAGE` |
-| - | - | - | - |
-| Standesamt | Geburt / Heirat / Tod | `BIRT` / `MARR` + `TYPE civil` / `DEAT` | `Geburt 1913/24` · `Heirat 1924/58` · `Tod 1941/24` |
-| Kirchenbuch | Taufe / Trauung / Begräbnis | `CHR` / `MARR` + `TYPE religious` / `BURI` | `Taufe 1811/6` · `Trauung 1797/3` · `Begräbnis 1837/5` |
-
-Vor 1875 gab es kein Standesamt: Geburt und Tod zitieren dann denselben Eintrag wie Taufe bzw. Begräbnis,
-mit `3 EVEN CHR` / `3 EVEN BURI` und `QUAY 2`. Die 15 Paare der direkten Linie ab 1890 haben **zwei Heiraten**:
-standesamtlich und kirchlich.
-
-**QUAY**: 3 = Eintrag zum Ereignis selbst, 2 = abgeleitet (Geburt aus Taufeintrag), Familienbibel, Verlustliste,
-1 = fraglich, 0 = unzuverlässig. Rund ein Drittel der Angaben (Seitenlinien) ist bewusst ohne `QUAY`.
-
-### Testfälle – wo zu finden
-
-| Testfall | Fundstelle |
+| Test case | Where |
 | - | - |
-| Archiv mit Adresse, Telefon, E-Mail, Web | R5 Kirchenbuchamt Celle, R22 Stadtarchiv Celle |
-| Archiv nur mit Name | R6 Pfarrarchiv Bergen |
-| Archiv nur mit Web-Adresse und Notiz | R4 KirchenbuchDigital |
-| Archiv ohne Quelle | R40 Heimatverein Eschede |
-| Quelle mit zwei Archiven (Original + Digitalisat) | alle Bände des Kirchenkreises Uelzen, z. B. S5 |
-| Quelle mit Kurztitel (`ABBR`) | Bände des Kirchenkreises Celle, z. B. S1 |
-| Quelle mit `DATA/AGNC` | Bände des Kirchenkreises Lüneburg, z. B. S8 |
-| Quelle mit Bild (Titelblatt) | S1 KB Eschede ev. Mischbuch |
-| Quelle mit Text, Verlag, Bild | S3 Familienbibel |
-| Quelle ohne Archiv | S4 Deutsche Verlustlisten |
-| Signatur ohne Medium | Standesamtsregister im Archiv, z. B. S2 |
-| Archivverweis ohne Signatur | Register beim Standesamt, z. B. S40; S203 Urkundensammlung |
-| Quelle ohne Zitat | S204 KB Eschede ev. Konfirmationen |
-| Abschrift (`DATA/TEXT`), auch mehrzeilig mit `CONT`/`CONC` | 20 Einträge, z. B. I130 Taufe, F8 Heirat, I276 Geburt |
-| Scan an der Quellenangabe | I130 Taufe, I111 Taufe (lat.), F76 Trauung, I214 Begräbnis, I276 Geburt, I182 Tod, I52 Taufe 1801, F8 Heirat |
-| Zwei Quellen an einem Fakt | I15 Geburt, F8 standesamtliche Heirat |
-| Widersprüchliche Quellen (zwei Geburtsdaten) | I39 Carl Falkenrath |
-| Quelle an der Person mit `EVEN`/`ROLE` (Pate) | I62, I271, I371 |
-| Quelle direkt an der Familie | F8 (Familienstammbuch) |
-| Quelle am Namen (Rufname) | I19 Friedrich „Fritz“ Ilgner |
-| Quellenangabe mit Notiz, `QUAY 1` | I52 Begräbnis (schwer lesbar), I39 zweite Geburt |
-| Quelle als reiner Text ohne Datensatz, `QUAY 0` | I65 Auswanderung 1888 |
-| Heirat ohne `TYPE` | amerikanischer Zweig, z. B. F10 |
-| Kirchliche Trauung mit Trauschein statt Kirchenbuch | F3, F6, F7 |
+| Repository with address, phone, e-mail, web | R5, R22 |
+| Repository with name only | R6 |
+| Repository with web address and note only | R4 |
+| Repository without any source | R40 |
+| Source with two repositories (original and digital copy) | volumes of the Uelzen church district, e.g. S5 |
+| Source with short title (`ABBR`) | volumes of the Celle church district, e.g. S1 |
+| Source with `DATA/AGNC` | volumes of the Lüneburg church district, e.g. S8 |
+| Source with image (title page) | S1 |
+| Source with text, publisher, image | S3 family bible |
+| Source without repository | S4 German casualty lists |
+| Call number without medium | civil registers in an archive, e.g. S2 |
+| Repository link without call number | registers at the registry office, e.g. S40; S203 |
+| Source never cited | S204 |
+| Transcript (`DATA/TEXT`), also multi-line with `CONT`/`CONC` | 20 entries, e.g. I130 baptism, F8 marriage, I276 birth |
+| Scan attached to the citation | I130, I111 (Latin), F76, I214, I276, I182, I52, F8 |
+| Two sources on one fact | I15 birth, F8 civil marriage |
+| Conflicting sources (two birth dates) | I39 |
+| Source on the person with `EVEN`/`ROLE` (godparent) | I62, I271, I371 |
+| Source directly on the family | F8 |
+| Source on the name (call name) | I19 |
+| Citation with note, `QUAY 1` | I52 burial, I39 second birth |
+| Source as plain text without a record, `QUAY 0` | I65 emigration 1888 |
+| Marriage without `TYPE` | American branch, e.g. F10 |
+| Church wedding cited from a marriage certificate | F3, F6, F7 |
 
-## Paten und Trauzeugen
+## Godparents and marriage witnesses
 
-Seit Oktober 2026 hat **jede Taufe der direkten Linie Paten** und jede standesamtliche Heirat der direkten Linie
-**zwei Trauzeugen**; kirchliche Trauungen vor 1875 etwa zur Hälfte. Die Seitenlinien sind teilweise erfasst – wie in
-echten Stammbäumen. Maßstab ist **webtrees 2.2**, das dieselbe Form schreibt wie die Vereinbarung deutschsprachiger
-Genealogieprogramme und die GEDCOM-L-Tags:
+Every baptism of the direct line has godparents, every civil marriage of the direct line has two witnesses, and
+about half of the church weddings before 1875. Side lines are partly recorded. The reference is webtrees 2.2, which
+writes the same form as the GEDCOM-L tags:
 
 ```
 1 CHR
 2 DATE 1 MAY 1897
 2 PLAC Celle, Niedersachsen, Deutschland
-2 _ASSO @I62@                ← Pate mit eigenem Datensatz (verlinkt)
-3 RELA godparent             ← webtrees: klein geschrieben, zeigt „Pate“/„Patin“
-2 _GODP Friedrich Plate, Anbauer zu Celle    ← Pate ohne Datensatz (eine Zeile je Person)
+2 _ASSO @I62@                 godparent with own record (linked)
+3 RELA godparent
+2 _GODP Friedrich Plate, Anbauer zu Celle     godparent without a record, one line per person
 2 SOUR @S81@
 3 PAGE Taufe 1897/77
 ```
 
-- **Verlinkt** (`_ASSO` + `RELA godparent` bzw. `witness`): Verwandte aus dem Baum – Großeltern, Geschwister der
-  Eltern und deren Ehepartner, ältere Geschwister. Bei der Taufe leben sie und sind mindestens 14 (konfirmiert),
-  Trauzeugen mindestens 21 (ab 1975: 18), vor 1920 nur Männer. webtrees zeigt beim Paten automatisch „Pate bei …“.
-- **Ohne eigenen Datensatz** (seit 1.3): `2 _GODP` an der Taufe bzw. `2 _WITN` an der Heirat, **eine Zeile je
-  Person**, Text `Name, Beruf zu Ort` – so schreiben es verbreitete Programme, webtrees kennt beide als GEDCOM-L-Tags. Eine Taufe kann
-  verlinkte und freie Paten haben. (Bis 1.2 standen freie Paten in einer Notiz `Paten: A; B` – drei Testfälle zeigen
-  diese ältere Form noch.)
-- Vor 1850 meist drei Paten, danach zwei.
+- **Linked** (`_ASSO` with `RELA godparent` or `witness`): relatives from the tree. They are alive at the event,
+  godparents at least 14, witnesses at least 21 (from 1975: 18), before 1920 men only.
+- **Without a record** (since 1.3): `2 _GODP` at the baptism or `2 _WITN` at the marriage, one line per person,
+  text `name, occupation at place`.
+- Until 1.2 free godparents were a note `Paten: A; B`. Three test cases keep this older form.
 
-### Testfälle Paten und Trauzeugen
+### Test cases for godparents and witnesses
 
-| Testfall | Fundstelle |
+| Test case | Where |
 | - | - |
-| Taufe nur mit verlinkten Paten | I22, I39 |
-| Taufe nur mit Paten ohne Datensatz (`_GODP`) | I52 (passt zum Scan M130), I144 |
-| Taufe gemischt (`_ASSO` + `_GODP`) | I21, I28 |
-| Paten in alter Notiz-Form `NOTE Paten: A; B` | I140, I141 |
-| Lebende Patin (Datenschutz) | I1 Jonas Falkenrath, Patin I10 |
-| Notiz am Paten (`3 NOTE` unter `_ASSO`) | I1 („Schwester des Vaters“) |
-| Quellenangabe am Paten (`3 SOUR` unter `_ASSO`) | I21, Pate I65 (in Abwesenheit, mit Notiz) |
-| Person ist bei mehreren Taufen Pate (Gegenrichtung) | I377 |
-| `RELA godfather` / `godmother` (ältere webtrees-Daten) | I38, I41 |
-| `RELA Godparent`, groß geschrieben (Import aus einem anderen Programm) | I57 |
-| `1 ASSO` an der Person statt in der Taufe (alte Gen-Pluswin-Form) | I58 |
-| Trauzeugen gemischt (`_ASSO` + `_WITN`) | F3, F6 |
-| Trauzeugen nur ohne Datensatz (`_WITN`) | F38 |
-| Trauzeugen in alter Notiz-Form `NOTE Trauzeugen: …` | F60 |
-| Zeugen auch in der Abschrift des Standesamtseintrags | F8, F15 |
+| Baptism with linked godparents only | I22, I39 |
+| Baptism with `_GODP` only | I52 (matches scan M130), I144 |
+| Baptism mixed (`_ASSO` and `_GODP`) | I21, I28 |
+| Godparents in the old note form `NOTE Paten: A; B` | I140, I141 |
+| Living godmother (privacy) | I1, godmother I10 |
+| Note on the godparent (`3 NOTE` under `_ASSO`) | I1 |
+| Citation on the godparent (`3 SOUR` under `_ASSO`) | I21, godparent I65 |
+| Person is godparent at several baptisms | I377 |
+| `RELA godfather` / `godmother` (older webtrees data) | I38, I41 |
+| `RELA Godparent`, capitalised (import from another program) | I57 |
+| `1 ASSO` on the person instead of in the baptism (older form from other programs) | I58 |
+| Witnesses mixed (`_ASSO` and `_WITN`) | F3, F6 |
+| Witnesses with `_WITN` only | F38 |
+| Witnesses in the old note form `NOTE Trauzeugen: …` | F60 |
+| Witnesses also in the transcript of the civil record | F8, F15 |
 
-Erzeugt mit `werkzeuge/paten.py` (1.1 → 1.2, fester Zufallswert) und `werkzeuge/godp.py` (1.2 → 1.3).
+## Loading into webtrees
 
-## In webtrees laden
+1. *Control panel → Manage family trees → Create a family tree*, e.g. `falkenrath`.
+2. Import `falkenrath.ged`.
+3. Give the tree its own media folder (*Preferences → Media folder*, e.g. `media/falkenrath/`) and upload the files
+   from `media/` there (*Control panel → Media → Upload media files*), or copy them into `data/media/falkenrath/`.
 
-1. *Verwaltung → Stammbäume verwalten → Stammbaum anlegen*, z. B. `falkenrath`.
-2. `falkenrath.ged` importieren.
-3. Dem Baum einen **eigenen Medienordner** geben (*Einstellungen → Medienordner*, z. B. `media/falkenrath/`)
-   und die Dateien aus `media/` dorthin hochladen (*Verwaltung → Medien → Mediendateien hochladen*).
+## Versions
+
+| Version | Date | Content |
+| - | - | - |
+| 1.0 | 2026-09-26 | 492 people, 154 families, 43 sources, 135 images; seven complete generations, pedigree collapse, Catholic line, godparents, witnesses, causes of death |
+| 1.1 | 2026-09-29 | Sources in three levels: 40 repositories, 204 sources, 1,413 citations, civil and religious marriages, 20 transcripts, 7 new scans |
+| 1.2 | 2026-10-01 | Godparents and witnesses: `_ASSO` with `RELA godparent`, notes for free godparents, test cases for older encodings, living godmother |
+| 1.3 | 2026-10-01 | Godparents and witnesses without a record as GEDCOM-L tags `_GODP` / `_WITN` |
+
+Frozen versions are never changed. New details are added only as a change to the newest version, never by
+regenerating the tree. Check with `cd versionen && sha256sum -c SHA256SUMS`.
+
+Issues and suggestions for further test cases are welcome.
