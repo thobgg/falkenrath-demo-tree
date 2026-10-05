@@ -8,7 +8,8 @@ Ein kleiner, **frei erfundener** Stammbaum zum Ausprobieren und Testen von webtr
 
 **Alle Personen, Lebensdaten und Dokumente sind ausgedacht.** Übereinstimmungen mit lebenden oder
 verstorbenen Personen sind Zufall. Die Orte gibt es wirklich – sie tragen Koordinaten, damit Karten etwas
-zu zeigen haben.
+zu zeigen haben. Seit 1.4 hat Bienenbüttel vier Höfe und Häuser als GEDCOM-L-Ortsdatensätze (`_LOC` mit Art,
+übergeordnetem Ort und Gebäudeereignissen) samt Bewohnern und Besitzern – Testdaten für Höfelisten und Ortsfamilienbücher.
 
 **Die Porträts sind echte alte Atelierfotos unbekannter Personen** aus dem Rijksmuseum Amsterdam (CC0, über
 Wikimedia Commons). Die Abgebildeten haben mit den erfundenen Namen nichts zu tun; Liste der Quellen in

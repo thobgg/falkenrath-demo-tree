@@ -8,7 +8,8 @@ A **fictitious** family tree for trying out and testing genealogy software: 492 
 but it is plain GEDCOM 5.5.1 and works with any program.
 
 **All people, dates and documents are made up.** Any resemblance to living or dead persons is coincidental. The places
-are real and carry coordinates, so that maps have something to show.
+are real and carry coordinates, so that maps have something to show. Since 1.4 Bienenbüttel has four farms and houses as GEDCOM-L location records
+(`_LOC` with type, superior place and building events) with residents and owners – test data for farm lists and local heritage books.
 
 **The portraits are real old studio photographs of unknown people** from the Rijksmuseum Amsterdam (CC0, via
 Wikimedia Commons). The people shown have nothing to do with the invented names; sources are listed in
