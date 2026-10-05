@@ -19,8 +19,8 @@ nobody before 1860, and nobody born after 1920. Certificates, church book and re
 **License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
 **Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
-[GEDCOM with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.3.zip) (7 MB) ·
-[as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.3.gdz) (7 MB, as exported by webtrees 2.2: `gedcom.ged` plus images) ·
+[GEDCOM with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.4.zip) (7 MB) ·
+[as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.4.gdz) (7 MB, as exported by webtrees 2.2: `gedcom.ged` plus images) ·
 [all releases](https://github.com/thobgg/falkenrath-demo-tree/releases)
 
 ## Pictures

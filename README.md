@@ -24,8 +24,8 @@ Screenshots und Vorführungen.
 [versionen/](versionen/) – dort stehen auch die Regeln, wie neue Finessen hinzukommen.
 
 **Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
-[GEDCOM mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.3.zip) (7 MB) ·
-[als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.3.gdz) (7 MB, wie webtrees 2.2 es exportiert: `gedcom.ged` plus Bilder) ·
+[GEDCOM mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.4.zip) (7 MB) ·
+[als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.4.gdz) (7 MB, wie webtrees 2.2 es exportiert: `gedcom.ged` plus Bilder) ·
 [alle Versionen](https://github.com/thobgg/falkenrath-demo-tree/releases)
 
 ## Bilder
