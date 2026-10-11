@@ -10,6 +10,7 @@ Version; neue Finessen kommen nur als Änderung an der neuesten Version hinzu, n
 | [1.2](falkenrath-1.2.ged) | 01.10.2026 | Paten und Trauzeugen: jede Taufe der direkten Linie mit Paten (`_ASSO` + `RELA godparent`, sonst Notiz `Paten: …; …`), zwei Trauzeugen je Standesamt-Heirat, Testfälle für `godfather`, `Godparent`, `1 ASSO`; Taufe von Jonas mit lebender Patin | `falkenrath/werkzeuge/paten.py` |
 | [1.3](falkenrath-1.3.ged) | 01.10.2026 | Paten/Trauzeugen ohne Datensatz als GEDCOM-L-Tags `2 _GODP` / `2 _WITN`, eine Zeile je Person (GEDCOM-L); alte Notiz-Form `Paten: …` bleibt als Testfall bei I140, I141, F60 | `falkenrath/werkzeuge/godp.py` |
 | [1.4](falkenrath-1.4.ged) | 05.10.2026 | Höfe und Häuser in Bienenbüttel als GEDCOM-L-Ortsdatensätze: `_LOC` Bienenbüttel (Gemeinde) und vier Gebäude mit `TYPE` (Mühle, Hof, Haus), `1 _LOC` auf den Ort, Ereignissen am Gebäude (`EVEN` mit `TYPE` Brand, Neubau, Verkauf, Umbau, Abbruch, Stilllegung) und Koordinaten; 11 Bewohner-Einträge (`RESI FROM … TO …`), 6 Besitzer (`PROP`) an Hinrichs, Mohwinkel, Winkelmann; Häuslingshaus Nr. 12 als Testfall „Bewohner ohne Besitz“ | `falkenrath/werkzeuge/hoefe.py` |
+| [1.5](falkenrath-1.5.ged) | 11.10.2026 | Gruppenbild der Hochzeit 1924 (`hochzeit-1924.jpg`, M135): Montage aus 21 Porträts, alle Abgebildeten mit `1 OBJE @M135@` verknüpft, dazu zwei Gäste ohne Datensatz (Trauzeuge Wilhelm Niebuhr, ein Unbekannter); Aufstellung als Notiz an M135; 23 Gesichtsrahmen als XMP (MWG Regions) im Bild, `hochzeit-1924-unmarkiert.jpg` ohne Rahmen | `falkenrath/werkzeuge/gruppenfoto.py`, `gruppenfoto_gaeste.py`, `xmp_bereiche.py`, Bild: `gruppenbild_montage.py` |
 
 ## Regeln
 
@@ -19,4 +20,4 @@ Version; neue Finessen kommen nur als Änderung an der neuesten Version hinzu, n
    - danach die Datei hier als `falkenrath-<version>.ged` ablegen, `SHA256SUMS` ergänzen und die Tabelle fortschreiben.
 3. **Prüfen:** `sha256sum -c SHA256SUMS` zeigt sofort, ob eine eingefrorene Version verändert wurde.
 
-Die Bilder (`../media/`) gelten für alle Versionen: Neue Bilder kommen hinzu, alte werden nicht entfernt.
+Die Bilder (`../media/`) gelten für alle Versionen: Neue Bilder kommen hinzu, alte werden nicht entfernt. Ausnahme: `hochzeit-1924.jpg` war bis 1.4 eine gezeichnete Grafik und ist seit 1.5 das Gruppenbild (gleiche Datei, in allen Versionen an F8).

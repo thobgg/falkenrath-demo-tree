@@ -134,3 +134,18 @@ Die Abgebildeten sind unbekannt und haben mit den erfundenen Namen des Stammbaum
 | portrait-i80.jpg | [Portret van een onbekende vrouw op een stoel, RP-F-F20730.jpg](https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_vrouw_op_een_stoel,_RP-F-F20730.jpg) |
 | portrait-i98.jpg | [Portret van een onbekende man, RP-F-F01203-CW.jpg](https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_man,_RP-F-F01203-CW.jpg) |
 | portrait-i99.jpg | [Portret van een onbekende vrouw, RP-F-F27159.jpg](https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_vrouw,_RP-F-F27159.jpg) |
+
+## Gruppenbild
+
+`hochzeit-1924.jpg` (seit Version 1.5) ist eine Fotomontage aus Porträts dieser Liste. Ein solches Foto hat es nie gegeben.
+Die Porträts sind freigestellt, getönt und in drei Reihen angeordnet. Zu sehen sind 21 Personen aus dem Baum und zwei Gäste ohne
+Datensatz (Testfälle für die Gesichtszuordnung):
+
+| Gast | Bedeutung | Quelle |
+| - | - | - |
+| Wilhelm Niebuhr (Mitte, hinter dem Brautpaar) | bekannt, nicht im Stammbaum – Trauzeuge, an F8 nur als `2 _WITN` | [Portret van een onbekende man met een snor, RP-F-F20801.jpg](https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_man_met_een_snor,_RP-F-F20801.jpg) |
+| unbekannt (hinten links) | unbekannter Gast | [Portret van een onbekende man met een snor, RP-F-F27046.jpg](https://commons.wikimedia.org/wiki/File:Portret_van_een_onbekende_man_met_een_snor,_RP-F-F27046.jpg) |
+
+**Gesichtsrahmen im Bild:** `hochzeit-1924.jpg` trägt die 23 Rahmen als XMP (MWG Regions, `mwg-rs:Type` Face, Name, `stArea`
+normiert mit x/y als Mitte, bei Personen im Baum `sammlungen:Xref`) und alle Namen in `Iptc4xmpExt:PersonInImage`.
+`hochzeit-1924-unmarkiert.jpg` ist dasselbe Bild ohne XMP – mit keinem Datensatz verknüpft, zum Testen des Markierens von Hand.

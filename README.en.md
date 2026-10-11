@@ -10,6 +10,9 @@ but it is plain GEDCOM 5.5.1 and works with any program.
 **All people, dates and documents are made up.** Any resemblance to living or dead persons is coincidental. The places
 are real and carry coordinates, so that maps have something to show. Since 1.4 Bienenbüttel has four farms and houses as GEDCOM-L location records
 (`_LOC` with type, superior place and building events) with residents and owners – test data for farm lists and local heritage books.
+Since 1.5 the **wedding photo of 1924** (`media/hochzeit-1924.jpg`, family F8) is a group photo with 23 faces: 21 people from the tree,
+the witness Wilhelm Niebuhr by name only and one unknown guest. The face frames are stored as XMP in the image file; `hochzeit-1924-unmarkiert.jpg`
+is the same picture without frames for marking by hand – try it with wtWin/wtTux 1.48 or later and the Sammlungen module 1.10 or later.
 
 **The portraits are real old studio photographs of unknown people** from the Rijksmuseum Amsterdam (CC0, via
 Wikimedia Commons). The people shown have nothing to do with the invented names; sources are listed in
@@ -19,8 +22,8 @@ nobody before 1860, and nobody born after 1920. Certificates, church book and re
 **License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
 **Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
-[GEDCOM with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.4.zip) (7 MB) ·
-[as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.4.gdz) (7 MB, as exported by webtrees 2.2: `gedcom.ged` plus images) ·
+[GEDCOM with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.5.zip) (7 MB) ·
+[as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.5.gdz) (7 MB, as exported by webtrees 2.2: `gedcom.ged` plus images) ·
 [all releases](https://github.com/thobgg/falkenrath-demo-tree/releases)
 
 ## Pictures

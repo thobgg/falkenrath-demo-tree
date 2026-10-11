@@ -1,7 +1,7 @@
 0 HEAD
 1 SOUR webtreesAnd-demo
 2 NAME Demo-Stammbaum Familie Falkenrath
-2 VERS 1.4
+2 VERS 1.5
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
@@ -874,6 +874,7 @@
 4 LONG E10.0815
 1 OBJE @M1@
 1 OBJE @M134@
+1 OBJE @M135@
 1 FAMC @F15@
 1 FAMS @F8@
 0 @I22@ INDI
@@ -913,6 +914,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M2@
+1 OBJE @M135@
 1 FAMC @F16@
 1 FAMS @F8@
 0 @I23@ INDI
@@ -1069,6 +1071,7 @@
 4 LATI N52.9657
 4 LONG E10.5611
 1 OBJE @M3@
+1 OBJE @M135@
 1 FAMC @F17@
 1 FAMS @F11@
 0 @I29@ INDI
@@ -1099,6 +1102,7 @@
 4 LATI N52.9657
 4 LONG E10.5611
 1 OBJE @M4@
+1 OBJE @M135@
 1 FAMC @F39@
 1 FAMS @F11@
 0 @I30@ INDI
@@ -1460,6 +1464,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M9@
+1 OBJE @M135@
 1 FAMS @F28@
 0 @I76@ INDI
 1 NAME Albert /Timmermann/
@@ -1530,6 +1535,7 @@
 4 LONG E10.0815
 1 NOTE Übernahm 1931 das Gasthaus „Zum Allerkrug“ seines Vaters.
 1 OBJE @M10@
+1 OBJE @M135@
 1 FAMC @F16@
 1 FAMS @F31@
 0 @I80@ INDI
@@ -1557,6 +1563,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M11@
+1 OBJE @M135@
 1 FAMS @F31@
 0 @I98@ INDI
 1 NAME Heinrich /Oberlin/
@@ -1771,6 +1778,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M15@
+1 OBJE @M135@
 1 FAMC @F19@
 1 FAMS @F15@
 0 @I40@ INDI
@@ -1815,6 +1823,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M16@
+1 OBJE @M135@
 1 FAMC @F20@
 1 FAMS @F15@
 0 @I41@ INDI
@@ -1893,6 +1902,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M17@
+1 OBJE @M135@
 1 FAMC @F43@
 1 FAMS @F16@
 0 @I43@ INDI
@@ -1937,6 +1947,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M18@
+1 OBJE @M135@
 1 FAMC @F44@
 1 FAMS @F16@
 0 @I44@ INDI
@@ -1986,6 +1997,7 @@
 4 LATI N52.9657
 4 LONG E10.5611
 1 OBJE @M19@
+1 OBJE @M135@
 1 FAMC @F45@
 1 FAMS @F17@
 0 @I45@ INDI
@@ -2034,6 +2046,7 @@
 4 LATI N52.9657
 4 LONG E10.5611
 1 OBJE @M20@
+1 OBJE @M135@
 1 FAMC @F46@
 1 FAMS @F17@
 0 @I46@ INDI
@@ -2211,6 +2224,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M23@
+1 OBJE @M135@
 1 FAMS @F25@
 0 @I65@ INDI
 1 NAME Ernst /Falkenrath/
@@ -3039,6 +3053,7 @@
 4 LATI N52.9657
 4 LONG E10.5611
 1 OBJE @M35@
+1 OBJE @M135@
 1 FAMC @F48@
 1 FAMS @F39@
 0 @I105@ INDI
@@ -3087,6 +3102,7 @@
 4 LATI N52.9657
 4 LONG E10.5611
 1 OBJE @M36@
+1 OBJE @M135@
 1 FAMC @F49@
 1 FAMS @F39@
 0 @I106@ INDI
@@ -11176,6 +11192,7 @@
 2 NOTE Als Pate bei der Taufe von Anna Rosskamp.
 2 QUAY 3
 1 OBJE @M94@
+1 OBJE @M135@
 1 FAMC @F43@
 0 @I272@ INDI
 1 NAME August /Rosskamp/
@@ -11266,6 +11283,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M96@
+1 OBJE @M135@
 1 FAMC @F43@
 0 @I274@ INDI
 1 NAME Hermann /Lüders/
@@ -11307,6 +11325,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 1 OBJE @M97@
+1 OBJE @M135@
 1 FAMC @F44@
 0 @I275@ INDI
 1 NAME Richard /Lüders/
@@ -12476,6 +12495,7 @@
 4 LATI N52.6226
 4 LONG E10.0815
 1 OBJE @M109@
+1 OBJE @M135@
 1 FAMC @F59@
 0 @I301@ INDI
 1 NAME Friedrich /Rosskamp/
@@ -12695,6 +12715,7 @@
 4 LATI N52.7347
 4 LONG E10.2353
 1 OBJE @M111@
+1 OBJE @M135@
 1 FAMC @F61@
 0 @I306@ INDI
 1 NAME Hermann /Plate/
@@ -24411,6 +24432,10 @@
 2 FORM jpg
 3 TYPE photo
 2 TITL Hochzeit von Heinrich und Anna, 1924
+1 NOTE Aufstellung von links nach rechts
+2 CONT hinten: unbekannt, Ludwig Rosskamp, Else Reinecke, Georg Oberlin, Frieda Behnke, Karl Behrens, Hermann Lüders, Martha Cordes
+2 CONT Mitte: Dorothee Lüders, Hinrich Bartels, Wilhelmine Drewes, Johann Oberlin, Wilhelm Niebuhr (Trauzeuge), Walter Rosskamp, Wilhelm Rosskamp, Otto Behnke
+2 CONT vorn: Johanne Brandes, Carl Falkenrath, Dorothea Wichmann, Heinrich Falkenrath, Anna Rosskamp, August Rosskamp, Sophie Lüders
 0 @M136@ OBJE
 1 FILE taufeintrag-1833-i130.jpg
 2 FORM jpg

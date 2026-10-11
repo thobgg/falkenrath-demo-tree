@@ -10,12 +10,15 @@ Ein kleiner, **frei erfundener** Stammbaum zum Ausprobieren und Testen von webtr
 verstorbenen Personen sind Zufall. Die Orte gibt es wirklich – sie tragen Koordinaten, damit Karten etwas
 zu zeigen haben. Seit 1.4 hat Bienenbüttel vier Höfe und Häuser als GEDCOM-L-Ortsdatensätze (`_LOC` mit Art,
 übergeordnetem Ort und Gebäudeereignissen) samt Bewohnern und Besitzern – Testdaten für Höfelisten und Ortsfamilienbücher.
+Seit 1.5 ist das **Hochzeitsbild 1924** (`media/hochzeit-1924.jpg`, Familie F8) ein Gruppenbild mit 23 Gesichtern: 21 Personen aus dem Baum,
+der Trauzeuge Wilhelm Niebuhr nur als Name und ein Unbekannter. Die Gesichtsrahmen stehen als XMP in der Bilddatei; `hochzeit-1924-unmarkiert.jpg`
+ist dasselbe Bild ohne Rahmen zum Markieren von Hand – zum Ausprobieren mit wtWin/wtTux ab 1.48 und dem Modul Sammlungen ab 1.10.
 
 **Die Porträts sind echte alte Atelierfotos unbekannter Personen** aus dem Rijksmuseum Amsterdam (CC0, über
 Wikimedia Commons). Die Abgebildeten haben mit den erfundenen Namen nichts zu tun; Liste der Quellen in
 [FOTOS.md](FOTOS.md). Bewusst nicht jeder hat ein Bild – wie in echten Stammbäumen: die direkten Vorfahren
 meist, Seitenlinien seltener, vor 1860 niemand, und ab 1920 Geborene keine (freie Fotos aus dieser Zeit gibt es
-kaum, und die Jüngeren sind privat). Urkunden, Kirchenbuch- und Registerauszüge, Werkstatt und Hochzeitsbild sind gezeichnet.
+kaum, und die Jüngeren sind privat). Urkunden, Kirchenbuch- und Registerauszüge und die Werkstatt sind gezeichnet; das Hochzeitsbild ist eine Montage aus den Porträts.
 
 Lizenz: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) – frei verwendbar, auch für
 Screenshots und Vorführungen.
@@ -24,8 +27,8 @@ Screenshots und Vorführungen.
 [versionen/](versionen/) – dort stehen auch die Regeln, wie neue Finessen hinzukommen.
 
 **Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
-[GEDCOM mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.4.zip) (7 MB) ·
-[als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.4.gdz) (7 MB, wie webtrees 2.2 es exportiert: `gedcom.ged` plus Bilder) ·
+[GEDCOM mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.5.zip) (7 MB) ·
+[als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.5.gdz) (7 MB, wie webtrees 2.2 es exportiert: `gedcom.ged` plus Bilder) ·
 [alle Versionen](https://github.com/thobgg/falkenrath-demo-tree/releases)
 
 ## Bilder
