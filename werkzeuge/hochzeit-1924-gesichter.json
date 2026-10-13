@@ -1,0 +1,232 @@
+[
+ {
+  "id": null,
+  "name": null,
+  "art": "unbekannt",
+  "reihe": "hinten",
+  "x": 108,
+  "y": 168,
+  "w": 71,
+  "h": 104
+ },
+ {
+  "id": "I79",
+  "name": null,
+  "art": "baum",
+  "reihe": "hinten",
+  "x": 262,
+  "y": 169,
+  "w": 68,
+  "h": 100
+ },
+ {
+  "id": "I80",
+  "name": null,
+  "art": "baum",
+  "reihe": "hinten",
+  "x": 399,
+  "y": 163,
+  "w": 67,
+  "h": 98
+ },
+ {
+  "id": "I28",
+  "name": null,
+  "art": "baum",
+  "reihe": "hinten",
+  "x": 556,
+  "y": 176,
+  "w": 57,
+  "h": 84
+ },
+ {
+  "id": "I29",
+  "name": null,
+  "art": "baum",
+  "reihe": "hinten",
+  "x": 694,
+  "y": 164,
+  "w": 65,
+  "h": 95
+ },
+ {
+  "id": "I72",
+  "name": null,
+  "art": "baum",
+  "reihe": "hinten",
+  "x": 835,
+  "y": 172,
+  "w": 63,
+  "h": 93
+ },
+ {
+  "id": "I274",
+  "name": null,
+  "art": "baum",
+  "reihe": "hinten",
+  "x": 983,
+  "y": 171,
+  "w": 63,
+  "h": 93
+ },
+ {
+  "id": "I105",
+  "name": null,
+  "art": "baum",
+  "reihe": "hinten",
+  "x": 1126,
+  "y": 163,
+  "w": 63,
+  "h": 93
+ },
+ {
+  "id": "I305",
+  "name": null,
+  "art": "baum",
+  "reihe": "mitte",
+  "x": 113,
+  "y": 294,
+  "w": 69,
+  "h": 102
+ },
+ {
+  "id": "I63",
+  "name": null,
+  "art": "baum",
+  "reihe": "mitte",
+  "x": 256,
+  "y": 289,
+  "w": 68,
+  "h": 100
+ },
+ {
+  "id": "I45",
+  "name": null,
+  "art": "baum",
+  "reihe": "mitte",
+  "x": 406,
+  "y": 289,
+  "w": 68,
+  "h": 100
+ },
+ {
+  "id": "I44",
+  "name": null,
+  "art": "baum",
+  "reihe": "mitte",
+  "x": 543,
+  "y": 294,
+  "w": 68,
+  "h": 100
+ },
+ {
+  "id": null,
+  "name": "Wilhelm Niebuhr",
+  "art": "bekannt",
+  "reihe": "mitte",
+  "x": 699,
+  "y": 301,
+  "w": 63,
+  "h": 92
+ },
+ {
+  "id": "I273",
+  "name": null,
+  "art": "baum",
+  "reihe": "mitte",
+  "x": 836,
+  "y": 289,
+  "w": 68,
+  "h": 100
+ },
+ {
+  "id": "I271",
+  "name": null,
+  "art": "baum",
+  "reihe": "mitte",
+  "x": 988,
+  "y": 298,
+  "w": 67,
+  "h": 99
+ },
+ {
+  "id": "I104",
+  "name": null,
+  "art": "baum",
+  "reihe": "mitte",
+  "x": 1123,
+  "y": 297,
+  "w": 68,
+  "h": 100
+ },
+ {
+  "id": "I300",
+  "name": null,
+  "art": "baum",
+  "reihe": "vorn",
+  "x": 144,
+  "y": 442,
+  "w": 74,
+  "h": 109
+ },
+ {
+  "id": "I39",
+  "name": null,
+  "art": "baum",
+  "reihe": "vorn",
+  "x": 294,
+  "y": 439,
+  "w": 74,
+  "h": 109
+ },
+ {
+  "id": "I40",
+  "name": null,
+  "art": "baum",
+  "reihe": "vorn",
+  "x": 453,
+  "y": 436,
+  "w": 74,
+  "h": 109
+ },
+ {
+  "id": "I21",
+  "name": null,
+  "art": "baum",
+  "reihe": "vorn",
+  "x": 617,
+  "y": 441,
+  "w": 68,
+  "h": 101
+ },
+ {
+  "id": "I22",
+  "name": null,
+  "art": "baum",
+  "reihe": "vorn",
+  "x": 775,
+  "y": 437,
+  "w": 79,
+  "h": 117
+ },
+ {
+  "id": "I42",
+  "name": null,
+  "art": "baum",
+  "reihe": "vorn",
+  "x": 938,
+  "y": 435,
+  "w": 75,
+  "h": 111
+ },
+ {
+  "id": "I43",
+  "name": null,
+  "art": "baum",
+  "reihe": "vorn",
+  "x": 1098,
+  "y": 434,
+  "w": 74,
+  "h": 109
+ }
+]

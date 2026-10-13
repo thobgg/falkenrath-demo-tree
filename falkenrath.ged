@@ -1,7 +1,7 @@
 0 HEAD
 1 SOUR webtreesAnd-demo
 2 NAME Demo-Stammbaum Familie Falkenrath
-2 VERS 1.5
+2 VERS 1.6
 1 GEDC
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
@@ -24474,6 +24474,7 @@
 0 @L1@ _LOC
 1 NAME Bienenbüttel
 1 TYPE Gemeinde
+2 _GOVTYPE 18
 1 MAP
 2 LATI N53.1417
 2 LONG E10.4867
@@ -24483,6 +24484,7 @@
 0 @L2@ _LOC
 1 NAME Hof Nr. 1 (Mühle)
 1 TYPE Mühle
+2 _GOVTYPE 87
 1 _LOC @L1@
 2 TYPE POLI
 1 MAP
@@ -24508,6 +24510,7 @@
 0 @L3@ _LOC
 1 NAME Hof Nr. 3
 1 TYPE Hof
+2 _GOVTYPE 24
 1 _LOC @L1@
 2 TYPE POLI
 1 MAP
@@ -24521,6 +24524,7 @@
 0 @L4@ _LOC
 1 NAME Haus Nr. 7 (Schmiede)
 1 TYPE Haus
+2 _GOVTYPE 17
 1 _LOC @L1@
 2 TYPE POLI
 1 MAP
@@ -24534,6 +24538,7 @@
 0 @L5@ _LOC
 1 NAME Haus Nr. 12 (Häuslingshaus)
 1 TYPE Haus
+2 _GOVTYPE 17
 1 _LOC @L1@
 2 TYPE POLI
 1 MAP
