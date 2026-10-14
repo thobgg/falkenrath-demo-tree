@@ -11,6 +11,7 @@ verstorbenen Personen sind Zufall. Die Orte gibt es wirklich – sie tragen Koor
 zu zeigen haben. Seit 1.4 hat Bienenbüttel vier Höfe und Häuser als GEDCOM-L-Ortsdatensätze (`_LOC` mit Art,
 übergeordnetem Ort und Gebäudeereignissen) samt Bewohnern und Besitzern – Testdaten für Höfelisten und Ortsfamilienbücher.
 Seit 1.6 tragen die Ortsdatensätze der Gebäude GOV-Typnummern (`2 _GOVTYPE`: Mühle 87, Hof 24, Gebäude 17), damit Programme und Online-Ortsfamilienbücher Höfe an der Nummer statt an einem Wort erkennen.
+Seit 1.7 kommen alle Angaben des GEDCOM-L-Addendums vor (eindeutige Kennungen, Rufnamen, hervorgehobene Bilder, Forschungsaufgaben, Familienstand, GOV-Kennung, Postleitzahl und Maidenhead-Locator am Ort, Gemeindeschlüssel und Einwohnerzahl am Ortsdatensatz) – Programme können ihre GEDCOM-L-Unterstützung damit vollständig prüfen.
 
 Seit 1.5 ist das **Hochzeitsbild 1924** (`media/hochzeit-1924.jpg`, Familie F8) ein Gruppenbild mit 23 Gesichtern: 21 Personen aus dem Baum,
 der Trauzeuge Wilhelm Niebuhr nur als Name und ein Unbekannter. Die Gesichtsrahmen stehen als XMP in der Bilddatei; `hochzeit-1924-unmarkiert.jpg`
@@ -29,8 +30,8 @@ Screenshots und Vorführungen.
 [versionen/](versionen/) – dort stehen auch die Regeln, wie neue Finessen hinzukommen.
 
 **Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
-[GEDCOM mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.6.zip) (7 MB) ·
-[als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.6.gdz) (7 MB, wie webtrees 2.2 es exportiert: `gedcom.ged` plus Bilder) ·
+[GEDCOM mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.zip) (7 MB) ·
+[als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.gdz) (7 MB, wie webtrees 2.2 es exportiert: `gedcom.ged` plus Bilder) ·
 [alle Versionen](https://github.com/thobgg/falkenrath-demo-tree/releases)
 
 ## Bilder
