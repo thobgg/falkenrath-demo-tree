@@ -201,6 +201,12 @@ record, and `CONC`, `CHAR`, `GEDC.FORM` are dropped. The other GEDCOM-L tags (`_
 `_TODO` …) stay as extensions without `HEAD.SCHMA`, since GEDCOM-L has not published URIs for them yet. The main file
 stays GEDCOM 5.5.1, which is what webtrees 2.2 reads.
 
+## Error files
+
+`fehler/falkenrath-1.7-fehler.ged` (5.5.1) and `fehler/falkenrath-1.7-fehler-gedcom7.ged` (7.0) are the tree with a block
+of error cases added, one per check rule of gedaudit/wtWin. `fehler/fehlerfaelle.tsv` lists which record triggers which
+rule. Use them to see whether a program actually finds an error. Made with `werkzeuge/fehlerdatei.py`.
+
 ## Loading into webtrees
 
 1. *Control panel → Manage family trees → Create a family tree*, e.g. `falkenrath`.

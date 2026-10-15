@@ -232,6 +232,13 @@ Dem Release liegt eine GEDCOM-7.0-Fassung bei, abgeleitet mit [`werkzeuge/gedcom
 Die übrigen GEDCOM-L-Tags (`_LOC`, `_GOVTYPE`, `_POST`, `_RUFNAME`, `_TODO` …) bleiben als Erweiterungen stehen, ohne
 `HEAD.SCHMA`, weil GEDCOM-L dafür noch keine URIs veröffentlicht hat. Die Hauptdatei bleibt GEDCOM 5.5.1 – webtrees 2.2 liest nur diese.
 
+## Fehlerdateien
+
+`fehler/falkenrath-1.7-fehler.ged` (5.5.1) und `fehler/falkenrath-1.7-fehler-gedcom7.ged` (7.0) sind der Baum mit
+angehängten Fehlerfällen, je Prüfregel von gedaudit/wtWin einer. Welche Kennung welche Regel auslöst, steht in
+`fehler/fehlerfaelle.tsv`. Damit lässt sich prüfen, ob ein Programm einen Fehler auch findet. Erzeugt mit
+`werkzeuge/fehlerdatei.py`.
+
 ## In webtrees laden
 
 1. *Verwaltung → Stammbäume verwalten → Stammbaum anlegen*, z. B. `falkenrath`.
