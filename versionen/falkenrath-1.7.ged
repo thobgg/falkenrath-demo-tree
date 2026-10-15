@@ -1,16 +1,26 @@
 0 HEAD
-1 SOUR PYTHON
-2 NAME Demo-Stammbaum Familie Falkenrath
+1 SOUR PYTHON-SKRIPTE-BUGGE
 2 VERS 1.7
+2 NAME Python-Skripte von Thomas Bugge
+2 CORP Thomas Bugge
+3 WWW https://github.com/thobgg/falkenrath-demo-tree
+1 DATE 15 OCT 2026
+1 SUBM @U1@
+1 FILE falkenrath-1.7.ged
+1 COPR CC0 1.0
 1 GEDC
 2 VERS 5.5.1
-3 _ADDENDUM GEDCOM-L
-4 VERS 2.0
-4 WWW https://genealogy.net/GEDCOM/
+3 _ADDENDUM GEDCOM-L Addendum
+4 VERS R2 (2020-12-01)
+4 WWW https://genealogy.net/GEDCOM
 2 FORM LINEAGE-LINKED
 1 CHAR UTF-8
 1 LANG German
-1 NOTE Alle Personen und Lebensdaten dieses Stammbaums sind frei erfunden. Daten und Bilder: CC0.
+1 NOTE Demo-Stammbaum Familie Falkenrath.
+2 CONT Alle Personen und Lebensdaten sind frei erfunden. Daten und Bilder: CC0.
+0 @U1@ SUBM
+1 NAME Thomas Bugge
+1 WWW https://github.com/thobgg/falkenrath-demo-tree
 0 @I1@ INDI
 1 NAME Jonas /Falkenrath/
 2 GIVN Jonas

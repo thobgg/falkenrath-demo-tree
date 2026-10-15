@@ -8,12 +8,17 @@ Ein kleiner, **frei erfundener** Stammbaum zum Ausprobieren und Testen von webtr
 
 **Alle Personen, Lebensdaten und Dokumente sind ausgedacht.** Übereinstimmungen mit lebenden oder
 verstorbenen Personen sind Zufall. Die Orte gibt es wirklich – sie tragen Koordinaten, damit Karten etwas
-zu zeigen haben. Seit 1.4 hat Bienenbüttel vier Höfe und Häuser als GEDCOM-L-Ortsdatensätze (`_LOC` mit Art,
+zu zeigen haben. Bienenbüttel hat vier Höfe und Häuser als GEDCOM-L-Ortsdatensätze (`_LOC` mit Art,
 übergeordnetem Ort und Gebäudeereignissen) samt Bewohnern und Besitzern – Testdaten für Höfelisten und Ortsfamilienbücher.
-Seit 1.6 tragen die Ortsdatensätze der Gebäude GOV-Typnummern (`2 _GOVTYPE`: Mühle 87, Hof 24, Gebäude 17), damit Programme und Online-Ortsfamilienbücher Höfe an der Nummer statt an einem Wort erkennen.
-Seit 1.7 kommen alle Angaben des GEDCOM-L-Addendums vor (eindeutige Kennungen, Rufnamen, hervorgehobene Bilder, Forschungsaufgaben, Familienstand, GOV-Kennung, Postleitzahl und Maidenhead-Locator am Ort, Gemeindeschlüssel und Einwohnerzahl am Ortsdatensatz) – Programme können ihre GEDCOM-L-Unterstützung damit vollständig prüfen.
+Die Ortsdatensätze der Gebäude tragen GOV-Typnummern (`2 _GOVTYPE`: Mühle 87, Hof 24, Gebäude 17), damit Programme und Online-Ortsfamilienbücher Höfe an der Nummer statt an einem Wort erkennen.
+Alle Angaben des GEDCOM-L-Addendums kommen vor (eindeutige Kennungen, Rufnamen, hervorgehobene Bilder, Forschungsaufgaben, Familienstand, GOV-Kennung, Postleitzahl und Maidenhead-Locator am Ort, Gemeindeschlüssel und Einwohnerzahl am Ortsdatensatz) – Programme können ihre GEDCOM-L-Unterstützung damit vollständig prüfen.
+Den Baum gibt es in GEDCOM 5.5.1 und zusätzlich in **GEDCOM 7.0** (als GEDZIP und als einzelne Datei).
 
-Seit 1.5 ist das **Hochzeitsbild 1924** (`media/hochzeit-1924.jpg`, Familie F8) ein Gruppenbild mit 23 Gesichtern: 21 Personen aus dem Baum,
+**Woher die Datei kommt:** Erzeugt haben sie Python-Skripte (in [werkzeuge/](werkzeuge/)), weder webtrees noch ein
+Texteditor. Darum steht im Kopf `1 SOUR PYTHON-SKRIPTE-BUGGE` mit `2 VERS 1.7`, dazu `1 SUBM` und unter `GEDC` die
+Angabe des GEDCOM-L-Addendums (R2 vom 1.12.2020).
+
+Das **Hochzeitsbild 1924** (`media/hochzeit-1924.jpg`, Familie F8) ist ein Gruppenbild mit 23 Gesichtern: 21 Personen aus dem Baum,
 der Trauzeuge Wilhelm Niebuhr nur als Name und ein Unbekannter. Die Gesichtsrahmen stehen als XMP in der Bilddatei; `hochzeit-1924-unmarkiert.jpg`
 ist dasselbe Bild ohne Rahmen zum Markieren von Hand – zum Ausprobieren mit wtWin/wtTux ab 1.48 und dem Modul Sammlungen ab 1.10.
 
@@ -26,13 +31,29 @@ kaum, und die Jüngeren sind privat). Urkunden, Kirchenbuch- und Registerauszüg
 Lizenz: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) – frei verwendbar, auch für
 Screenshots und Vorführungen.
 
-**Versionen:** Diese Datei ist immer die neueste Version (siehe `2 VERS` im Kopf). Jede Version liegt eingefroren in
-[versionen/](versionen/) – dort stehen auch die Regeln, wie neue Finessen hinzukommen.
+**Version:** 1.7 vom 15.10.2026, [`versionen/falkenrath-1.7.ged`](versionen/falkenrath-1.7.ged). Frühere Zwischenstände sind nicht mehr veröffentlicht.
 
-**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
-[GEDCOM mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.zip) (7 MB) ·
-[als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.gdz) (7 MB, wie webtrees 2.2 es exportiert: `gedcom.ged` plus Bilder) ·
-[alle Versionen](https://github.com/thobgg/falkenrath-demo-tree/releases)
+**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.7.ged) (470 KB) ·
+[GEDCOM 5.5.1 mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.zip) (7 MB, `falkenrath-1.7.ged` und Bilder im selben Ordner) ·
+[GEDCOM 7.0 als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus Bilder) ·
+[GEDCOM 7.0 einzeln](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7-gedcom7.ged) (540 KB) ·
+[Release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest)
+
+## Die Dynastie Falkenrath 😉
+
+Kein Adel, kein Wappen, kein Schloss – aber ein Stammvater: **Hans Jürgen Falkenrath** (1770–1831), Häusling in Eschede,
+dessen Frau das Kirchenbuch nicht einmal für erwähnenswert hielt. Der Name klingt nach Falknerei am Celler Hof, und genau
+so erzählt es die Familie. Die Endung *-rath* stammt allerdings aus dem Bergischen Land, und die Familienchronistin
+Pauline Rosskamp fand die Falknergeschichte „schön, aber nicht bewiesen“.
+
+Danach geht es zügig bergauf, jedenfalls handwerklich: Friedrich Wilhelm zieht 1858 als Zimmergeselle nach Celle und
+fängt die Familienbibel an. Sein Sohn Ernst hält es nicht aus und baut ab 1888 lieber Häuser in Milwaukee. Heinrich
+heiratet 1924 die Wirtstochter vom „Allerkrug“ und lässt die halbe Verwandtschaft fürs Hochzeitsbild antreten
+(plus einen Lokomotivführer, den sonst keiner kennt). Sein Sohn Wilhelm baut jede Schublade im Haus selbst. Und
+Urenkel Jonas ist heute Bauingenieur – gebaut wird in dieser Dynastie seit über 160 Jahren, nur die Pläne sind größer
+geworden.
+
+Die ganze erfundene Geschichte steht in [FAMILIENGESCHICHTE.md](FAMILIENGESCHICHTE.md).
 
 ## Bilder
 
@@ -82,7 +103,7 @@ Proband: **Jonas Falkenrath (I1)**.
 
 ## Quellen – dreistufig
 
-Seit Version 1.1 (September 2026) sind die Quellen so angelegt, wie man es vorbildlich macht, und decken dabei jede
+Die Quellen sind so angelegt, wie man es vorbildlich macht, und decken dabei jede
 Variante ab, die GEDCOM 5.5.1 bei Quellen kennt – gedacht zum Testen von Apps wie *wtWin* und *wtTux*.
 **Archive, Signaturen, Adressen und Bandlaufzeiten sind erfunden**; Web-Adressen enden auf `.example.org`.
 
@@ -166,7 +187,7 @@ Genealogieprogramme und die GEDCOM-L-Tags:
 - **Verlinkt** (`_ASSO` + `RELA godparent` bzw. `witness`): Verwandte aus dem Baum – Großeltern, Geschwister der
   Eltern und deren Ehepartner, ältere Geschwister. Bei der Taufe leben sie und sind mindestens 14 (konfirmiert),
   Trauzeugen mindestens 21 (ab 1975: 18), vor 1920 nur Männer. webtrees zeigt beim Paten automatisch „Pate bei …“.
-- **Ohne eigenen Datensatz** (seit 1.3): `2 _GODP` an der Taufe bzw. `2 _WITN` an der Heirat, **eine Zeile je
+- **Ohne eigenen Datensatz**: `2 _GODP` an der Taufe bzw. `2 _WITN` an der Heirat, **eine Zeile je
   Person**, Text `Name, Beruf zu Ort` – so schreiben es verbreitete Programme, webtrees kennt beide als GEDCOM-L-Tags. Eine Taufe kann
   verlinkte und freie Paten haben. (Bis 1.2 standen freie Paten in einer Notiz `Paten: A; B` – drei Testfälle zeigen
   diese ältere Form noch.)
@@ -194,9 +215,26 @@ Genealogieprogramme und die GEDCOM-L-Tags:
 
 Erzeugt mit `werkzeuge/paten.py` (1.1 → 1.2, fester Zufallswert) und `werkzeuge/godp.py` (1.2 → 1.3).
 
+## GEDCOM 7.0
+
+Dem Release liegt eine GEDCOM-7.0-Fassung bei, abgeleitet mit [`werkzeuge/gedcom7.py`](werkzeuge/gedcom7.py):
+
+| GEDCOM 5.5.1 (Hauptdatei) | GEDCOM 7.0 |
+| - | - |
+| `_UID`, `_ASSO` | `UID`, `ASSO` |
+| `RELA godparent` / `witness` / `godfather` | `ROLE GODP` / `WITN` / `GODP` mit `PHRASE godfather` |
+| `_GODP Name` / `_WITN Name` (Person ohne Datensatz) | `ASSO @VOID@` mit `PHRASE Name` und `ROLE GODP` / `WITN` |
+| `_GOV` unter `PLAC` | `EXID` mit `TYPE https://gov.genealogy.net/` |
+| `FORM jpg` / `TYPE photo` | `FORM image/jpeg` / `MEDI PHOTO` |
+| `SOUR <Text>` ohne Datensatz | eigener `SOUR`-Datensatz, `TEXT` unter `DATA` |
+| `CONC`, `CHAR`, `GEDC.FORM` | entfallen |
+
+Die übrigen GEDCOM-L-Tags (`_LOC`, `_GOVTYPE`, `_POST`, `_RUFNAME`, `_TODO` …) bleiben als Erweiterungen stehen, ohne
+`HEAD.SCHMA`, weil GEDCOM-L dafür noch keine URIs veröffentlicht hat. Die Hauptdatei bleibt GEDCOM 5.5.1 – webtrees 2.2 liest nur diese.
+
 ## In webtrees laden
 
 1. *Verwaltung → Stammbäume verwalten → Stammbaum anlegen*, z. B. `falkenrath`.
-2. `falkenrath.ged` importieren.
+2. `falkenrath-1.7.ged` importieren.
 3. Dem Baum einen **eigenen Medienordner** geben (*Einstellungen → Medienordner*, z. B. `media/falkenrath/`)
    und die Dateien aus `media/` dorthin hochladen (*Verwaltung → Medien → Mediendateien hochladen*).

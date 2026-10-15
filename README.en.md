@@ -8,12 +8,17 @@ A **fictitious** family tree for trying out and testing genealogy software: 492 
 but it is plain GEDCOM 5.5.1 and works with any program.
 
 **All people, dates and documents are made up.** Any resemblance to living or dead persons is coincidental. The places
-are real and carry coordinates, so that maps have something to show. Since 1.4 Bienenbüttel has four farms and houses as GEDCOM-L location records
+are real and carry coordinates, so that maps have something to show. Bienenbüttel has four farms and houses as GEDCOM-L location records
 (`_LOC` with type, superior place and building events) with residents and owners – test data for farm lists and local heritage books.
-Since 1.6 the location records of the buildings carry GOV type numbers (`2 _GOVTYPE`: mill 87, farm 24, building 17) so that programs and online local heritage books recognise a farm by the number rather than a word.
-Since 1.7 every item of the GEDCOM-L addendum occurs (unique identifiers, call names, highlighted images, research tasks, family status, GOV identifier, postal code and Maidenhead locator at places, municipality key and population at the location record) – programs can test their GEDCOM-L support completely.
+The location records of the buildings carry GOV type numbers (`2 _GOVTYPE`: mill 87, farm 24, building 17) so that programs and online local heritage books recognise a farm by the number rather than a word.
+Every item of the GEDCOM-L addendum occurs (unique identifiers, call names, highlighted images, research tasks, family status, GOV identifier, postal code and Maidenhead locator at places, municipality key and population at the location record) – programs can test their GEDCOM-L support completely.
+The tree comes in GEDCOM 5.5.1 and also in **GEDCOM 7.0** (as GEDZIP and as a single file).
 
-Since 1.5 the **wedding photo of 1924** (`media/hochzeit-1924.jpg`, family F8) is a group photo with 23 faces: 21 people from the tree,
+**Where the file comes from:** it is produced by Python scripts (in [werkzeuge/](werkzeuge/)), neither by webtrees nor
+by hand. Hence the header `1 SOUR PYTHON-SKRIPTE-BUGGE` with `2 VERS 1.7`, plus `1 SUBM` and the GEDCOM-L addendum
+(R2 of 2020-12-01) under `GEDC`.
+
+The **wedding photo of 1924** (`media/hochzeit-1924.jpg`, family F8) is a group photo with 23 faces: 21 people from the tree,
 the witness Wilhelm Niebuhr by name only and one unknown guest. The face frames are stored as XMP in the image file; `hochzeit-1924-unmarkiert.jpg`
 is the same picture without frames for marking by hand – try it with wtWin/wtTux 1.48 or later and the Sammlungen module 1.10 or later.
 
@@ -24,10 +29,20 @@ nobody before 1860, and nobody born after 1920. Certificates, church book and re
 
 **License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
-**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged) (470 KB) ·
-[GEDCOM with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.zip) (7 MB) ·
-[as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.gdz) (7 MB, as exported by webtrees 2.2: `gedcom.ged` plus images) ·
-[all releases](https://github.com/thobgg/falkenrath-demo-tree/releases)
+**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.7.ged) (470 KB) ·
+[GEDCOM 5.5.1 with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.zip) (7 MB, `falkenrath-1.7.ged` and images in one folder) ·
+[GEDCOM 7.0 as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus images) ·
+[GEDCOM 7.0 single file](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7-gedcom7.ged) (540 KB) ·
+[release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest)
+
+## The Falkenrath dynasty 😉
+
+No nobility, no coat of arms, no castle – but a founding father: **Hans Jürgen Falkenrath** (1770–1831), a landless
+cottager in Eschede whose wife the parish register did not even bother to name. The family likes to say the name comes
+from a falconer at the court of Celle; the family chronicler found that story "nice, but unproven". Then come
+carpenters in Celle, a builder in Milwaukee, a joiner's workshop – and today a civil engineer. The Falkenraths have been
+building things for over 160 years; only the plans got bigger. The full (made-up) story, in German:
+[FAMILIENGESCHICHTE.md](FAMILIENGESCHICHTE.md).
 
 ## Pictures
 
@@ -63,10 +78,9 @@ unknown people.
 
 ## Download
 
-- The latest version is always [`falkenrath.ged`](falkenrath.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/falkenrath.ged)) with the images in [`media/`](media/).
-- Every [release](https://github.com/thobgg/falkenrath-demo-tree/releases) has a ready-made zip with the GEDCOM file, all images and this README.
-  The same data is also attached as GEDZIP (`.gdz`): `gedcom.ged` in the root, images at the paths given in `FILE`.
-- Each version is frozen in [`versionen/`](versionen/) with SHA-256 checksums, so test results stay reproducible.
+- The current version is 1.7: [`versionen/falkenrath-1.7.ged`](versionen/falkenrath-1.7.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.7.ged)) with the images in [`media/`](media/).
+- The [release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest) has a ready-made zip with the GEDCOM 5.5.1 file, all images
+  in the same folder and this README, and a GEDZIP (`.gdz`) with the data converted to GEDCOM 7.0 (`werkzeuge/gedcom7.py`).
 
 The tree is in German: names, places, occupations, notes and source titles. Dates and structure are standard GEDCOM.
 
@@ -153,7 +167,7 @@ writes the same form as the GEDCOM-L tags:
 
 - **Linked** (`_ASSO` with `RELA godparent` or `witness`): relatives from the tree. They are alive at the event,
   godparents at least 14, witnesses at least 21 (from 1975: 18), before 1920 men only.
-- **Without a record** (since 1.3): `2 _GODP` at the baptism or `2 _WITN` at the marriage, one line per person,
+- **Without a record**: `2 _GODP` at the baptism or `2 _WITN` at the marriage, one line per person,
   text `name, occupation at place`.
 - Until 1.2 free godparents were a note `Paten: A; B`. Three test cases keep this older form.
 
@@ -177,23 +191,25 @@ writes the same form as the GEDCOM-L tags:
 | Witnesses in the old note form `NOTE Trauzeugen: …` | F60 |
 | Witnesses also in the transcript of the civil record | F8, F15 |
 
+## GEDCOM 7.0
+
+The release has a GEDCOM 7.0 version, derived with [`werkzeuge/gedcom7.py`](werkzeuge/gedcom7.py):
+`_UID`/`_ASSO` become `UID`/`ASSO`, `RELA` becomes `ROLE` (`GODP`, `WITN`, otherwise `PHRASE`), godparents and witnesses
+without a record (`_GODP`, `_WITN`) become `ASSO @VOID@` with `PHRASE`, `_GOV` under `PLAC` becomes `EXID` with
+`TYPE https://gov.genealogy.net/`, media get `FORM image/jpeg` and `MEDI`, a text-only source becomes its own `SOUR`
+record, and `CONC`, `CHAR`, `GEDC.FORM` are dropped. The other GEDCOM-L tags (`_LOC`, `_GOVTYPE`, `_POST`, `_RUFNAME`,
+`_TODO` …) stay as extensions without `HEAD.SCHMA`, since GEDCOM-L has not published URIs for them yet. The main file
+stays GEDCOM 5.5.1, which is what webtrees 2.2 reads.
+
 ## Loading into webtrees
 
 1. *Control panel → Manage family trees → Create a family tree*, e.g. `falkenrath`.
-2. Import `falkenrath.ged`.
+2. Import `falkenrath-1.7.ged`.
 3. Give the tree its own media folder (*Preferences → Media folder*, e.g. `media/falkenrath/`) and upload the files
    from `media/` there (*Control panel → Media → Upload media files*), or copy them into `data/media/falkenrath/`.
 
-## Versions
+## Version
 
-| Version | Date | Content |
-| - | - | - |
-| 1.0 | 2026-09-26 | 492 people, 154 families, 43 sources, 135 images; seven complete generations, pedigree collapse, Catholic line, godparents, witnesses, causes of death |
-| 1.1 | 2026-09-29 | Sources in three levels: 40 repositories, 204 sources, 1,413 citations, civil and religious marriages, 20 transcripts, 7 new scans |
-| 1.2 | 2026-10-01 | Godparents and witnesses: `_ASSO` with `RELA godparent`, notes for free godparents, test cases for older encodings, living godmother |
-| 1.3 | 2026-10-01 | Godparents and witnesses without a record as GEDCOM-L tags `_GODP` / `_WITN` |
-
-Frozen versions are never changed. New details are added only as a change to the newest version, never by
-regenerating the tree. Check with `cd versionen && sha256sum -c SHA256SUMS`.
+Current version: 1.7 of 2026-10-15. Earlier intermediate versions are no longer published.
 
 Issues and suggestions for further test cases are welcome.

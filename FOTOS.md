@@ -137,7 +137,7 @@ Die Abgebildeten sind unbekannt und haben mit den erfundenen Namen des Stammbaum
 
 ## Gruppenbild
 
-`hochzeit-1924.jpg` (seit Version 1.5) ist eine Fotomontage aus Porträts dieser Liste. Ein solches Foto hat es nie gegeben.
+`hochzeit-1924.jpg` ist eine Fotomontage aus Porträts dieser Liste. Ein solches Foto hat es nie gegeben.
 Die Porträts sind freigestellt, getönt und in drei Reihen angeordnet. Zu sehen sind 21 Personen aus dem Baum und zwei Gäste ohne
 Datensatz (Testfälle für die Gesichtszuordnung):
 
