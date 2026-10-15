@@ -27,7 +27,7 @@ os.makedirs(OUT, exist_ok=True)
 
 ged551 = sorted(glob.glob(os.path.join(BASE, 'versionen', 'falkenrath-*.ged')))[-1]
 text = open(ged551, encoding='utf-8').read()
-version = re.search(r'^1 SOUR .*\n2 VERS (\S+)$', text, re.M).group(1)
+version = re.search(r'falkenrath-(.+)\.ged$', ged551).group(1)
 media = sorted(f for f in os.listdir(os.path.join(BASE, 'media')) if not f.startswith('.'))
 stamp = (2026, 1, 1, 0, 0, 0)        # feste Zeitstempel: gleiche Eingabe -> byte-gleiches Archiv
 

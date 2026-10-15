@@ -15,7 +15,7 @@ Alle Angaben des GEDCOM-L-Addendums kommen vor (eindeutige Kennungen, Rufnamen, 
 Den Baum gibt es in GEDCOM 5.5.1 und zusätzlich in **GEDCOM 7.0** (als GEDZIP und als einzelne Datei).
 
 **Woher die Datei kommt:** Erzeugt haben sie Python-Skripte (in [werkzeuge/](werkzeuge/)), weder webtrees noch ein
-Texteditor. Darum steht im Kopf `1 SOUR PYTHON` mit `2 VERS 1.7`, dazu `1 SUBM` und unter `GEDC` die
+Texteditor. Darum steht im Kopf `1 SOUR Python-Skripte` mit `2 VERS 1.7`, dazu `1 SUBM` und unter `GEDC` die
 Angabe des GEDCOM-L-Addendums (R2 vom 1.12.2020).
 
 Das **Hochzeitsbild 1924** (`media/hochzeit-1924.jpg`, Familie F8) ist ein Gruppenbild mit 23 Gesichtern: 21 Personen aus dem Baum,

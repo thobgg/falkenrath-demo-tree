@@ -5,7 +5,7 @@ Die Hauptdatei bleibt GEDCOM 5.5.1 (webtrees 2.2 liest nur 5.5.1). Dieses Skript
 GEDCOM-7.0-Fassung ab – für das GEDZIP (.gdz), das nach dem Standard eine GEDCOM-7-Datei enthalten muss, und als
 Testmaterial für Programme, die GEDCOM 7 lesen. Was sich ändert:
 
-  Kopf          GEDC VERS 7.0, ohne GEDC.FORM, CHAR und FILE; LANG German -> de
+  Kopf          GEDC VERS 7.0 ohne _ADDENDUM (gilt für 5.5.1), ohne GEDC.FORM, CHAR und FILE; LANG German -> de
   CONC          entfällt, Fortsetzungen werden an die Zeile angehängt
   _UID, _ASSO   werden die Standard-Tags UID und ASSO (Werte unverändert)
   RELA          wird ROLE mit Aufzählungswert (godparent -> GODP, witness -> WITN; godfather/godmother -> GODP mit
@@ -136,6 +136,7 @@ for r in body:
 # Kopf: 7.0 ohne CHAR und GEDC.FORM
 gedc = head.first('GEDC')
 gedc.first('VERS').value = '7.0'
+gedc.first('VERS').children = []          # das GEDCOM-L-Addendum gilt für 5.5.1
 gedc.children = [c for c in gedc.children if c.tag != 'FORM']
 head.children = [c for c in head.children if c.tag not in ('CHAR', 'FILE')]
 for c in head.children:
@@ -143,8 +144,7 @@ for c in head.children:
     if c.tag == 'LANG':
         c.value = LANG.get(c.value, c.value)
 note = head.first('NOTE') or head.add('NOTE', '')     # HEAD.NOTE darf in 7.0 nur einmal vorkommen
-note.add('CONT', 'GEDCOM-7-Fassung, abgeleitet aus der GEDCOM-5.5.1-Datei mit werkzeuge/gedcom7.py. '
-         'Die Erweiterungs-Tags folgen dem GEDCOM-L-Addendum, für das es noch keine GEDCOM-7-URIs gibt.')
+note.add('CONT', 'Umgewandelt aus der GEDCOM-5.5.1-Fassung.')
 
 trlr = [r for r in body if r.tag == 'TRLR']
 body = [r for r in body if r.tag != 'TRLR'] + new_sources + (trlr or [Node('TRLR')])

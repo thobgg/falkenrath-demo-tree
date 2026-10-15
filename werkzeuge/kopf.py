@@ -23,9 +23,9 @@ head = root.children[0]
 assert head.tag == 'HEAD' and head.first('SOUR').val('VERS') == '1.7', 'nur für Version 1.7'
 assert head.first('SUBM') is None, 'Kopf ist schon berichtigt'
 
-sour = Node('SOUR', 'PYTHON')
-sour.add('VERS', '1.7')
+sour = Node('SOUR', 'Python-Skripte')
 sour.add('NAME', 'Python-Skripte')
+sour.add('VERS', '1.7')
 corp = sour.add('CORP', 'Thomas Bugge')
 corp.add('WWW', 'https://github.com/thobgg/falkenrath-demo-tree')
 

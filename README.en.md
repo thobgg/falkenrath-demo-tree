@@ -15,7 +15,7 @@ Every item of the GEDCOM-L addendum occurs (unique identifiers, call names, high
 The tree comes in GEDCOM 5.5.1 and also in **GEDCOM 7.0** (as GEDZIP and as a single file).
 
 **Where the file comes from:** it is produced by Python scripts (in [werkzeuge/](werkzeuge/)), neither by webtrees nor
-by hand. Hence the header `1 SOUR PYTHON` with `2 VERS 1.7`, plus `1 SUBM` and the GEDCOM-L addendum
+by hand. Hence the header `1 SOUR Python-Skripte` with `2 VERS 1.7`, plus `1 SUBM` and the GEDCOM-L addendum
 (R2 of 2020-12-01) under `GEDC`.
 
 The **wedding photo of 1924** (`media/hochzeit-1924.jpg`, family F8) is a group photo with 23 faces: 21 people from the tree,
