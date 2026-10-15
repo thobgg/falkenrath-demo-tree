@@ -17,6 +17,7 @@ Testmaterial für Programme, die GEDCOM 7 lesen. Was sich ändert:
   Medien        FORM jpg -> image/jpeg, FORM.TYPE -> FORM.MEDI (photo -> PHOTO, document -> OTHER mit PHRASE)
   CALN.MEDI     book -> BOOK, electronic -> ELECTRONIC
   Textquelle    `SOUR <Text>` ohne Datensatz -> eigener SOUR-Datensatz mit TITL, TEXT unter DATA
+  Ereignis-Text `1 EMIG Mit der …` -> `1 EMIG` mit `2 NOTE Mit der …` (7.0 erlaubt hinter Ereignissen nur Y)
 
 Alle übrigen GEDCOM-L-Tags (_LOC, _GOVTYPE, _POST, _MAIDENHEAD, _RUFNAME, _PRIM, _TODO, _STAT, …) bleiben als
 Erweiterungen stehen. Sie sind nicht über HEAD.SCHMA angemeldet, weil GEDCOM-L (noch) keine URIs dafür
@@ -43,6 +44,10 @@ MEDI = {'AUDIO', 'BOOK', 'CARD', 'ELECTRONIC', 'FICHE', 'FILM', 'MAGAZINE', 'MAN
 MIME = {'jpg': 'image/jpeg', 'jpeg': 'image/jpeg', 'png': 'image/png', 'gif': 'image/gif', 'pdf': 'application/pdf'}
 LANG = {'German': 'de', 'English': 'en'}
 GOV_TYPE = 'https://gov.genealogy.net/'
+# Ereignisse: in 7.0 nur `Y` oder leer hinter dem Tag, eine Beschreibung kommt in eine NOTE
+EVENTS = {'BIRT', 'CHR', 'DEAT', 'BURI', 'CREM', 'ADOP', 'BAPM', 'BARM', 'BASM', 'BLES', 'CHRA', 'CONF', 'FCOM', 'ORDN',
+          'NATU', 'EMIG', 'IMMI', 'PROB', 'WILL', 'GRAD', 'RETI', 'CENS', 'ANUL', 'DIV', 'DIVF', 'ENGA', 'MARB', 'MARC',
+          'MARL', 'MARS', 'MARR'}
 count = {}
 
 
@@ -101,6 +106,9 @@ def convert(node, parent, record):
                 enum(c, 'MEDI', c.value, MEDI); tally('FORM.TYPE -> MEDI')
     elif t == 'MEDI' and parent.tag == 'CALN':
         enum(node, 'MEDI', node.value, MEDI); tally('CALN.MEDI groß')
+    elif t in EVENTS and record.tag in ('INDI', 'FAM') and parent is record and node.value not in (None, '', 'Y'):
+        node.children.insert(0, Node('NOTE', node.value)); node.value = None
+        tally('Ereignis-Text -> NOTE')
     elif t == '_GOV' and parent.tag == 'PLAC':
         node.tag = 'EXID'; node.children.append(Node('TYPE', GOV_TYPE)); tally('PLAC._GOV -> EXID')
     elif t == 'SOUR' and record.tag != 'SOUR' and node.value and not node.value.startswith('@'):
