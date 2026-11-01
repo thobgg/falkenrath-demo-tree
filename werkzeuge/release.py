@@ -25,7 +25,13 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.abspath(sys.argv[1])
 os.makedirs(OUT, exist_ok=True)
 
-ged551 = sorted(glob.glob(os.path.join(BASE, 'versionen', 'falkenrath-*.ged')))[-1]
+# Höchste Version nach Nummern, nicht nach Buchstaben (sonst käme 1.7 nach 1.7.1); nur 5.5.1-Dateien.
+def _version(pfad):
+    m = re.search(r'falkenrath-(\d+(?:\.\d+)*)\.ged$', pfad)
+    return tuple(int(x) for x in m.group(1).split('.')) if m else None
+
+
+ged551 = max((p for p in glob.glob(os.path.join(BASE, 'versionen', 'falkenrath-*.ged')) if _version(p)), key=_version)
 text = open(ged551, encoding='utf-8').read()
 version = re.search(r'falkenrath-(.+)\.ged$', ged551).group(1)
 media = sorted(f for f in os.listdir(os.path.join(BASE, 'media')) if not f.startswith('.'))
