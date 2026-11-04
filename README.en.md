@@ -2,7 +2,7 @@
 
 **English** · [Deutsch](README.md)
 
-A **fictitious** family tree for trying out and testing genealogy software: 492 people, 154 families, 204 sources,
+A **fictitious** family tree for trying out and testing genealogy software: 493 people, 155 families, 204 sources,
 40 repositories and 142 images, from around 1750 to today. It was built for testing webtrees, the module
 [api4webtrees](https://github.com/thobgg/api4webtrees) and the apps [wtAnd, wtWin, wtTux and wtMac](https://github.com/thobgg/app4webtrees),
 but it is plain GEDCOM 5.5.1 and works with any program.
@@ -15,7 +15,7 @@ Every item of the GEDCOM-L addendum occurs (unique identifiers, call names, high
 The tree comes in GEDCOM 5.5.1 and also in **GEDCOM 7.0** (as GEDZIP and as a single file).
 
 **Where the file comes from:** it is produced by Python scripts (in [werkzeuge/](werkzeuge/)), neither by webtrees nor
-by hand. Hence the header `1 SOUR Python-Skripte` with `2 VERS 1.7.1`, plus `1 SUBM` and the GEDCOM-L addendum
+by hand. Hence the header `1 SOUR Python-Skripte` with `2 VERS 1.8`, plus `1 SUBM` and the GEDCOM-L addendum
 (R2 of 2020-12-01) under `GEDC`.
 
 The **wedding photo of 1924** (`media/hochzeit-1924.jpg`, family F8) is a group photo with 23 faces: 21 people from the tree,
@@ -29,10 +29,10 @@ nobody before 1860, and nobody born after 1920. Certificates, church book and re
 
 **License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
-**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.7.1.ged) (470 KB) ·
-[GEDCOM 5.5.1 with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.1.zip) (7 MB, `falkenrath-1.7.1.ged` and images in one folder) ·
-[GEDCOM 7.0 as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.1.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus images) ·
-[GEDCOM 7.0 single file](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.1-gedcom7.ged) (540 KB) ·
+**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.8.ged) (470 KB) ·
+[GEDCOM 5.5.1 with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8.zip) (7 MB, `falkenrath-1.8.ged` and images in one folder) ·
+[GEDCOM 7.0 as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus images) ·
+[GEDCOM 7.0 single file](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8-gedcom7.ged) (540 KB) ·
 [release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest)
 
 ## The Falkenrath dynasty 😉
@@ -78,7 +78,7 @@ unknown people.
 
 ## Download
 
-- The current version is 1.7.1: [`versionen/falkenrath-1.7.1.ged`](versionen/falkenrath-1.7.1.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.7.1.ged)) with the images in [`media/`](media/).
+- The current version is 1.8: [`versionen/falkenrath-1.8.ged`](versionen/falkenrath-1.8.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.8.ged)) with the images in [`media/`](media/).
 - The [release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest) has a ready-made zip with the GEDCOM 5.5.1 file, all images
   in the same folder and this README, and a GEDZIP (`.gdz`) with the data converted to GEDCOM 7.0 (`werkzeuge/gedcom7.py`).
 
@@ -210,12 +210,12 @@ rule. Use them to see whether a program actually finds an error. Made with `werk
 ## Loading into webtrees
 
 1. *Control panel → Manage family trees → Create a family tree*, e.g. `falkenrath`.
-2. Import `falkenrath-1.7.1.ged`.
+2. Import `falkenrath-1.8.ged`.
 3. Give the tree its own media folder (*Preferences → Media folder*, e.g. `media/falkenrath/`) and upload the files
    from `media/` there (*Control panel → Media → Upload media files*), or copy them into `data/media/falkenrath/`.
 
 ## Version
 
-Current version: 1.7.1 of 2026-11-01 – as 1.7, only the GOV identifier of Bienenbüttel corrected at 94 event places (`BIETE1JO53FD`). Earlier intermediate versions are no longer published.
+Current version: 1.8 of 2026-11-04 – new is Wei Li (I493), who came from China in 2019 and married Julia Schnehage (F155). His date of birth comes from the Chinese lunar calendar: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` with `PHRASE 庚辰年八月十五`. Earlier intermediate versions are no longer published.
 
 Issues and suggestions for further test cases are welcome.

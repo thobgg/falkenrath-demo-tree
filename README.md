@@ -3,7 +3,7 @@
 **Deutsch** · [English](README.en.md)
 
 Ein kleiner, **frei erfundener** Stammbaum zum Ausprobieren und Testen von webtrees, dem Modul
-*api4webtrees* und der Apps *wtAnd*, *wtWin* und *wtTux*: 492 Personen, 154 Familien, 204 Quellen,
+*api4webtrees* und der Apps *wtAnd*, *wtWin* und *wtTux*: 493 Personen, 155 Familien, 204 Quellen,
 40 Archive, 142 Bilder, von um 1750 bis heute.
 
 **Alle Personen, Lebensdaten und Dokumente sind ausgedacht.** Übereinstimmungen mit lebenden oder
@@ -15,7 +15,7 @@ Alle Angaben des GEDCOM-L-Addendums kommen vor (eindeutige Kennungen, Rufnamen, 
 Den Baum gibt es in GEDCOM 5.5.1 und zusätzlich in **GEDCOM 7.0** (als GEDZIP und als einzelne Datei).
 
 **Woher die Datei kommt:** Erzeugt haben sie Python-Skripte (in [werkzeuge/](werkzeuge/)), weder webtrees noch ein
-Texteditor. Darum steht im Kopf `1 SOUR Python-Skripte` mit `2 VERS 1.7.1`, dazu `1 SUBM` und unter `GEDC` die
+Texteditor. Darum steht im Kopf `1 SOUR Python-Skripte` mit `2 VERS 1.8`, dazu `1 SUBM` und unter `GEDC` die
 Angabe des GEDCOM-L-Addendums (R2 vom 1.12.2020).
 
 Das **Hochzeitsbild 1924** (`media/hochzeit-1924.jpg`, Familie F8) ist ein Gruppenbild mit 23 Gesichtern: 21 Personen aus dem Baum,
@@ -31,12 +31,12 @@ kaum, und die Jüngeren sind privat). Urkunden, Kirchenbuch- und Registerauszüg
 Lizenz: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) – frei verwendbar, auch für
 Screenshots und Vorführungen.
 
-**Version:** 1.7.1 vom 1.11.2026, [`versionen/falkenrath-1.7.1.ged`](versionen/falkenrath-1.7.1.ged) – wie 1.7, nur die GOV-Kennung von Bienenbüttel an 94 Ereignisorten berichtigt (`BIETE1JO53FD`). Frühere Zwischenstände sind nicht mehr veröffentlicht.
+**Version:** 1.8 vom 4.11.2026, [`versionen/falkenrath-1.8.ged`](versionen/falkenrath-1.8.ged) – neu ist Wei Li (I493), 2019 aus China eingewandert, verheiratet mit Julia Schnehage (F155). Sein Geburtsdatum stammt aus dem chinesischen Mondkalender: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` mit `PHRASE 庚辰年八月十五`. Frühere Zwischenstände sind nicht mehr veröffentlicht.
 
-**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.7.1.ged) (470 KB) ·
-[GEDCOM 5.5.1 mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.1.zip) (7 MB, `falkenrath-1.7.1.ged` und Bilder im selben Ordner) ·
-[GEDCOM 7.0 als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.1.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus Bilder) ·
-[GEDCOM 7.0 einzeln](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.7.1-gedcom7.ged) (540 KB) ·
+**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.8.ged) (470 KB) ·
+[GEDCOM 5.5.1 mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8.zip) (7 MB, `falkenrath-1.8.ged` und Bilder im selben Ordner) ·
+[GEDCOM 7.0 als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus Bilder) ·
+[GEDCOM 7.0 einzeln](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8-gedcom7.ged) (540 KB) ·
 [Release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest)
 
 ## Die Dynastie Falkenrath 😉
@@ -242,6 +242,6 @@ angehängten Fehlerfällen, je Prüfregel von gedaudit/wtWin einer. Welche Kennu
 ## In webtrees laden
 
 1. *Verwaltung → Stammbäume verwalten → Stammbaum anlegen*, z. B. `falkenrath`.
-2. `falkenrath-1.7.1.ged` importieren.
+2. `falkenrath-1.8.ged` importieren.
 3. Dem Baum einen **eigenen Medienordner** geben (*Einstellungen → Medienordner*, z. B. `media/falkenrath/`)
    und die Dateien aus `media/` dorthin hochladen (*Verwaltung → Medien → Mediendateien hochladen*).
