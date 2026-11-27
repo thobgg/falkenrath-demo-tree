@@ -15,7 +15,7 @@ Every item of the GEDCOM-L addendum occurs (unique identifiers, call names, high
 The tree comes in GEDCOM 5.5.1 and also in **GEDCOM 7.0** (as GEDZIP and as a single file).
 
 **Where the file comes from:** it is produced by Python scripts (in [werkzeuge/](werkzeuge/)), neither by webtrees nor
-by hand. Hence the header `1 SOUR Python-Skripte` with `2 VERS 1.8`, plus `1 SUBM` and the GEDCOM-L addendum
+by hand. Hence the header `1 SOUR Python-Skripte` with `2 VERS 1.9`, plus `1 SUBM` and the GEDCOM-L addendum
 (R2 of 2020-12-01) under `GEDC`.
 
 The **wedding photo of 1924** (`media/hochzeit-1924.jpg`, family F8) is a group photo with 23 faces: 21 people from the tree,
@@ -29,10 +29,10 @@ nobody before 1860, and nobody born after 1920. Certificates, church book and re
 
 **License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
-**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.8.ged) (470 KB) ·
-[GEDCOM 5.5.1 with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8.zip) (7 MB, `falkenrath-1.8.ged` and images in one folder) ·
-[GEDCOM 7.0 as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus images) ·
-[GEDCOM 7.0 single file](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8-gedcom7.ged) (540 KB) ·
+**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.9.ged) (470 KB) ·
+[GEDCOM 5.5.1 with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9.zip) (7 MB, `falkenrath-1.9.ged` and images in one folder) ·
+[GEDCOM 7.0 as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus images) ·
+[GEDCOM 7.0 single file](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9-gedcom7.ged) (540 KB) ·
 [release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest)
 
 ## The Falkenrath dynasty 😉
@@ -78,7 +78,7 @@ unknown people.
 
 ## Download
 
-- The current version is 1.8: [`versionen/falkenrath-1.8.ged`](versionen/falkenrath-1.8.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.8.ged)) with the images in [`media/`](media/).
+- The current version is 1.9: [`versionen/falkenrath-1.9.ged`](versionen/falkenrath-1.9.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.9.ged)) with the images in [`media/`](media/).
 - The [release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest) has a ready-made zip with the GEDCOM 5.5.1 file, all images
   in the same folder and this README, and a GEDZIP (`.gdz`) with the data converted to GEDCOM 7.0 (`werkzeuge/gedcom7.py`).
 
@@ -191,6 +191,48 @@ writes the same form as the GEDCOM-L tags:
 | Witnesses in the old note form `NOTE Trauzeugen: …` | F60 |
 | Witnesses also in the transcript of the civil record | F8, F15 |
 
+## DNA
+
+**All DNA data is made up**, like the whole tree. It comes from no person and no testing company; a script
+([`werkzeuge/dna.py`](werkzeuge/dna.py)) generated the segments from a fixed seed. The totals fit the relationships in
+the tree (guide values of the [Shared cM Project](https://thegeneticgenealogist.com/2020/03/27/version-4-0-march-2020-update-to-the-shared-cm-project/)).
+
+GEDCOM has no form of its own for DNA matches. The file follows the convention of **Gramps** and **Gramps Web**: a
+match is an association of type `DNA`, with the shared segments as a table in its note. Other programs (webtrees
+included) show it as an ordinary association with a note full of numbers.
+
+```
+0 @I1@ INDI
+1 FACT M269+, U106+, Y477958+, Z381+, Z301-
+2 TYPE Y-DNA
+1 ASSO @I12@
+2 RELA DNA
+2 NOTE Chromosome,Start,End,cM,SNPs
+3 CONT 1,31096348,50093545,21.1,4795
+```
+
+The tested person is Jonas Falkenrath (I1):
+
+| Match | Relationship | Side | cM | Segments |
+|---|---|---|---|---|
+| I12 Sven Marwede | first cousin | paternal | 849.9 | 25 |
+| I88 Florian Ahlers | first cousin | maternal | 900.0 | 27, one on the X |
+| I97 Andrea Bock | mother's first cousin | maternal | 429.9 | 15, one on the X |
+| I37 Birgit Kass | father's first cousin | paternal | 400.0 | 14 |
+| I94 Emily Falkenrath | second cousin | paternal | 229.9 | 9 |
+
+The table of I94 is written like a German export (semicolon, decimal comma), the others with comma and point. Only the
+mother's relatives have segments on the X chromosome, because a man inherits his X from his mother.
+
+**Y-DNA:** Jonas (I1) and Michael Falkenrath (I93) descend in the direct male line from Heinrich Falkenrath (I21) and
+therefore belong to the same haplogroup. The attribute `FACT` with `TYPE Y-DNA` lists tested SNPs with `+` (present) or
+`-` (absent); the names are real (YFull tree 14.06). For Jonas this gives R-S263, for Michael, with fewer SNPs tested,
+R-U106, the group above it.
+
+Checked with Gramps Web API 3.26.0: after importing the 5.5.1 and the 7.0 version, all five matches show up with
+relationship, common ancestors and the right side, plus both haplogroups. In the 7.0 version the type is written as
+`ROLE OTHER` with `PHRASE DNA`.
+
 ## GEDCOM 7.0
 
 The release has a GEDCOM 7.0 version, derived with [`werkzeuge/gedcom7.py`](werkzeuge/gedcom7.py):
@@ -210,12 +252,12 @@ rule. Use them to see whether a program actually finds an error. Made with `werk
 ## Loading into webtrees
 
 1. *Control panel → Manage family trees → Create a family tree*, e.g. `falkenrath`.
-2. Import `falkenrath-1.8.ged`.
+2. Import `falkenrath-1.9.ged`.
 3. Give the tree its own media folder (*Preferences → Media folder*, e.g. `media/falkenrath/`) and upload the files
    from `media/` there (*Control panel → Media → Upload media files*), or copy them into `data/media/falkenrath/`.
 
 ## Version
 
-Current version: 1.8 of 2026-11-04 – new is Wei Li (I493), who came from China in 2019 and married Julia Schnehage (F155). His date of birth comes from the Chinese lunar calendar: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` with `PHRASE 庚辰年八月十五`. Earlier intermediate versions are no longer published.
+Current version: 1.9 of 2026-11-27 – new is made-up DNA data for Jonas Falkenrath (I1): five matches with relatives and the Y-DNA of two men of the same line, see [DNA](#dna). Version 1.8 added Wei Li (I493), who came from China in 2019 and married Julia Schnehage (F155). His date of birth comes from the Chinese lunar calendar: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` with `PHRASE 庚辰年八月十五`. Earlier intermediate versions are no longer published.
 
 Issues and suggestions for further test cases are welcome.

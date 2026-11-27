@@ -15,7 +15,7 @@ Alle Angaben des GEDCOM-L-Addendums kommen vor (eindeutige Kennungen, Rufnamen, 
 Den Baum gibt es in GEDCOM 5.5.1 und zusätzlich in **GEDCOM 7.0** (als GEDZIP und als einzelne Datei).
 
 **Woher die Datei kommt:** Erzeugt haben sie Python-Skripte (in [werkzeuge/](werkzeuge/)), weder webtrees noch ein
-Texteditor. Darum steht im Kopf `1 SOUR Python-Skripte` mit `2 VERS 1.8`, dazu `1 SUBM` und unter `GEDC` die
+Texteditor. Darum steht im Kopf `1 SOUR Python-Skripte` mit `2 VERS 1.9`, dazu `1 SUBM` und unter `GEDC` die
 Angabe des GEDCOM-L-Addendums (R2 vom 1.12.2020).
 
 Das **Hochzeitsbild 1924** (`media/hochzeit-1924.jpg`, Familie F8) ist ein Gruppenbild mit 23 Gesichtern: 21 Personen aus dem Baum,
@@ -31,12 +31,12 @@ kaum, und die Jüngeren sind privat). Urkunden, Kirchenbuch- und Registerauszüg
 Lizenz: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) – frei verwendbar, auch für
 Screenshots und Vorführungen.
 
-**Version:** 1.8 vom 4.11.2026, [`versionen/falkenrath-1.8.ged`](versionen/falkenrath-1.8.ged) – neu ist Wei Li (I493), 2019 aus China eingewandert, verheiratet mit Julia Schnehage (F155). Sein Geburtsdatum stammt aus dem chinesischen Mondkalender: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` mit `PHRASE 庚辰年八月十五`. Frühere Zwischenstände sind nicht mehr veröffentlicht.
+**Version:** 1.9 vom 27.11.2026, [`versionen/falkenrath-1.9.ged`](versionen/falkenrath-1.9.ged) – neu sind ausgedachte DNA-Daten für Jonas Falkenrath (I1): fünf Treffer mit Verwandten und die Y-DNA zweier Männer derselben Linie, siehe [DNA](#dna). Aus 1.8 stammt Wei Li (I493), 2019 aus China eingewandert, verheiratet mit Julia Schnehage (F155). Sein Geburtsdatum stammt aus dem chinesischen Mondkalender: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` mit `PHRASE 庚辰年八月十五`. Frühere Zwischenstände sind nicht mehr veröffentlicht.
 
-**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.8.ged) (470 KB) ·
-[GEDCOM 5.5.1 mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8.zip) (7 MB, `falkenrath-1.8.ged` und Bilder im selben Ordner) ·
-[GEDCOM 7.0 als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus Bilder) ·
-[GEDCOM 7.0 einzeln](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.8-gedcom7.ged) (540 KB) ·
+**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.9.ged) (470 KB) ·
+[GEDCOM 5.5.1 mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9.zip) (7 MB, `falkenrath-1.9.ged` und Bilder im selben Ordner) ·
+[GEDCOM 7.0 als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus Bilder) ·
+[GEDCOM 7.0 einzeln](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9-gedcom7.ged) (540 KB) ·
 [Release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest)
 
 ## Die Dynastie Falkenrath 😉
@@ -215,6 +215,48 @@ Genealogieprogramme und die GEDCOM-L-Tags:
 
 Erzeugt mit `werkzeuge/paten.py` (1.1 → 1.2, fester Zufallswert) und `werkzeuge/godp.py` (1.2 → 1.3).
 
+## DNA
+
+**Alle DNA-Daten sind ausgedacht**, wie der ganze Baum. Sie stammen von keinem Menschen und keinem Testanbieter; ein
+Skript ([`werkzeuge/dna.py`](werkzeuge/dna.py)) hat die Segmente aus einem festen Startwert erzeugt. Die Summen passen
+zur Verwandtschaft im Baum (Richtwerte des [Shared cM Project](https://thegeneticgenealogist.com/2020/03/27/version-4-0-march-2020-update-to-the-shared-cm-project/)).
+
+GEDCOM kennt keine eigene Form für DNA-Treffer. Die Datei folgt der Schreibweise von **Gramps** und **Gramps Web**:
+ein Treffer ist eine Beziehung mit der Art `DNA`, die gemeinsamen Segmente stehen als Tabelle in der Notiz dazu.
+Andere Programme (auch webtrees) zeigen das als gewöhnliche Beziehung mit einer Notiz voller Zahlen.
+
+```
+0 @I1@ INDI
+1 FACT M269+, U106+, Y477958+, Z381+, Z301-
+2 TYPE Y-DNA
+1 ASSO @I12@
+2 RELA DNA
+2 NOTE Chromosome,Start,End,cM,SNPs
+3 CONT 1,31096348,50093545,21.1,4795
+```
+
+Getestet ist Jonas Falkenrath (I1):
+
+| Treffer | Verwandtschaft | Seite | cM | Segmente |
+|---|---|---|---|---|
+| I12 Sven Marwede | Cousin | väterlich | 849,9 | 25 |
+| I88 Florian Ahlers | Cousin | mütterlich | 900,0 | 27, eines auf dem X |
+| I97 Andrea Bock | Cousine der Mutter | mütterlich | 429,9 | 15, eines auf dem X |
+| I37 Birgit Kass | Cousine des Vaters | väterlich | 400,0 | 14 |
+| I94 Emily Falkenrath | Cousine zweiten Grades | väterlich | 229,9 | 9 |
+
+Die Tabelle von I94 ist wie ein deutscher Export geschrieben (Semikolon, Dezimalkomma), die anderen mit Komma und Punkt.
+Segmente auf dem X-Chromosom haben nur die Verwandten der Mutter, denn ein Mann erbt sein X von der Mutter.
+
+**Y-DNA:** Jonas (I1) und Michael Falkenrath (I93) stammen in reiner Männerlinie von Heinrich Falkenrath (I21) ab und
+gehören darum zur selben Haplogruppe. Die Eigenschaft `FACT` mit `TYPE Y-DNA` nennt getestete SNPs mit `+` (vorhanden)
+oder `-` (nicht vorhanden); die Namen gibt es wirklich (YFull-Baum 14.06). Bei Jonas ergibt das R-S263, bei Michael mit
+weniger getesteten SNPs R-U106, die Gruppe darüber.
+
+Geprüft mit Gramps Web API 3.26.0: Nach dem Import der 5.5.1- und der 7.0-Fassung erscheinen alle fünf Treffer mit
+Verwandtschaft, gemeinsamen Vorfahren und der richtigen Seite, dazu beide Haplogruppen. In der 7.0-Fassung steht die
+Art als `ROLE OTHER` mit `PHRASE DNA`.
+
 ## GEDCOM 7.0
 
 Dem Release liegt eine GEDCOM-7.0-Fassung bei, abgeleitet mit [`werkzeuge/gedcom7.py`](werkzeuge/gedcom7.py):
@@ -242,6 +284,6 @@ angehängten Fehlerfällen, je Prüfregel von gedaudit/wtWin einer. Welche Kennu
 ## In webtrees laden
 
 1. *Verwaltung → Stammbäume verwalten → Stammbaum anlegen*, z. B. `falkenrath`.
-2. `falkenrath-1.8.ged` importieren.
+2. `falkenrath-1.9.ged` importieren.
 3. Dem Baum einen **eigenen Medienordner** geben (*Einstellungen → Medienordner*, z. B. `media/falkenrath/`)
    und die Dateien aus `media/` dorthin hochladen (*Verwaltung → Medien → Mediendateien hochladen*).
