@@ -18,6 +18,7 @@ Testmaterial für Programme, die GEDCOM 7 lesen. Was sich ändert:
   CALN.MEDI     book -> BOOK, electronic -> ELECTRONIC
   Textquelle    `SOUR <Text>` ohne Datensatz -> eigener SOUR-Datensatz mit TITL, TEXT unter DATA
   Ereignis-Text `1 EMIG Mit der …` -> `1 EMIG` mit `2 NOTE Mit der …` (7.0 erlaubt hinter Ereignissen nur Y)
+  RESN          Wert in Großbuchstaben (confidential -> CONFIDENTIAL), 7.0 kennt nur die Aufzählungswerte
   INT-Datum     `DATE INT 12 SEP 2000 (庚辰年八月十五)` -> `DATE 12 SEP 2000` mit `PHRASE 庚辰年八月十五` (Wortlaut der Quelle)
 
 Alle übrigen GEDCOM-L-Tags (_LOC, _GOVTYPE, _POST, _MAIDENHEAD, _RUFNAME, _PRIM, _TODO, _STAT, …) bleiben als
@@ -102,6 +103,8 @@ def convert(node, parent, record):
         if phrase:
             node.children.insert(0, Node('PHRASE', phrase))
         tally('RELA -> ROLE')
+    elif t == 'RESN':
+        node.value = node.value.upper(); tally('RESN -> Aufzählungswert')
     elif t == 'ROLE' and parent.tag == 'EVEN':
         enum(node, 'ROLE', node.value, ROLES); tally('ROLE (…) -> ROLE OTHER')
     elif t == 'LANG' and node.value in LANG:

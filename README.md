@@ -15,7 +15,7 @@ Alle Angaben des GEDCOM-L-Addendums kommen vor (eindeutige Kennungen, Rufnamen, 
 Den Baum gibt es in GEDCOM 5.5.1 und zusätzlich in **GEDCOM 7.0** (als GEDZIP und als einzelne Datei).
 
 **Woher die Datei kommt:** Erzeugt haben sie Python-Skripte (in [werkzeuge/](werkzeuge/)), weder webtrees noch ein
-Texteditor. Darum steht im Kopf `1 SOUR Python-Skripte` mit `2 VERS 1.9`, dazu `1 SUBM` und unter `GEDC` die
+Texteditor. Darum steht im Kopf `1 SOUR Python-Skripte` mit `2 VERS 1.10`, dazu `1 SUBM` und unter `GEDC` die
 Angabe des GEDCOM-L-Addendums (R2 vom 1.12.2020).
 
 Das **Hochzeitsbild 1924** (`media/hochzeit-1924.jpg`, Familie F8) ist ein Gruppenbild mit 23 Gesichtern: 21 Personen aus dem Baum,
@@ -31,12 +31,12 @@ kaum, und die Jüngeren sind privat). Urkunden, Kirchenbuch- und Registerauszüg
 Lizenz: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.de) – frei verwendbar, auch für
 Screenshots und Vorführungen.
 
-**Version:** 1.9 vom 27.11.2026, [`versionen/falkenrath-1.9.ged`](versionen/falkenrath-1.9.ged) – neu sind ausgedachte DNA-Daten für Jonas Falkenrath (I1): fünf Treffer mit Verwandten und die Y-DNA zweier Männer derselben Linie, siehe [DNA](#dna). Aus 1.8 stammt Wei Li (I493), 2019 aus China eingewandert, verheiratet mit Julia Schnehage (F155). Sein Geburtsdatum stammt aus dem chinesischen Mondkalender: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` mit `PHRASE 庚辰年八月十五`. Frühere Zwischenstände sind nicht mehr veröffentlicht.
+**Version:** 1.10 vom 28.11.2026, [`versionen/falkenrath-1.10.ged`](versionen/falkenrath-1.10.ged) – neu sind DNA-Einträge in der Schreibweise des webtrees-Moduls dna4webtrees (Tests, Haplogruppen, Treffer mit `RESN`) und drei absichtlich falsche Einträge, siehe [DNA](#dna). Aus 1.9 stammen die ausgedachten DNA-Daten für Jonas Falkenrath (I1) in der Schreibweise von Gramps: fünf Treffer mit Verwandten und die Y-DNA zweier Männer derselben Linie. Aus 1.8 stammt Wei Li (I493), 2019 aus China eingewandert, verheiratet mit Julia Schnehage (F155). Sein Geburtsdatum stammt aus dem chinesischen Mondkalender: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` mit `PHRASE 庚辰年八月十五`. Frühere Zwischenstände sind nicht mehr veröffentlicht.
 
-**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.9.ged) (470 KB) ·
-[GEDCOM 5.5.1 mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9.zip) (7 MB, `falkenrath-1.9.ged` und Bilder im selben Ordner) ·
-[GEDCOM 7.0 als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus Bilder) ·
-[GEDCOM 7.0 einzeln](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9-gedcom7.ged) (540 KB) ·
+**Herunterladen:** [nur die GEDCOM-Datei](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.10.ged) (470 KB) ·
+[GEDCOM 5.5.1 mit allen Bildern als Zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.10.zip) (7 MB, `falkenrath-1.10.ged` und Bilder im selben Ordner) ·
+[GEDCOM 7.0 als GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.10.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus Bilder) ·
+[GEDCOM 7.0 einzeln](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.10-gedcom7.ged) (540 KB) ·
 [Release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest)
 
 ## Die Dynastie Falkenrath 😉
@@ -257,6 +257,52 @@ Geprüft mit Gramps Web API 3.26.0: Nach dem Import der 5.5.1- und der 7.0-Fassu
 Verwandtschaft, gemeinsamen Vorfahren und der richtigen Seite, dazu beide Haplogruppen. In der 7.0-Fassung steht die
 Art als `ROLE OTHER` mit `PHRASE DNA`.
 
+### Schreibweise von dna4webtrees
+
+Seit 1.10 stehen daneben Einträge in der Form, die das webtrees-Modul dna4webtrees schreibt
+([`werkzeuge/dna2.py`](werkzeuge/dna2.py)). Die Einträge von Gramps sind unverändert und haben kein `RESN`.
+
+```
+1 EVEN Y-DNA
+2 TYPE DNA Test
+2 DATE MAY 2023
+2 AGNC FamilyTreeDNA
+2 NOTE Big Y-700
+2 RESN confidential
+1 FACT R-U106
+2 TYPE Y-DNA Haplogroup
+2 DATE MAY 2023
+2 AGNC FamilyTreeDNA
+2 RESN confidential
+1 FACT 2580.4
+2 TYPE DNA Match
+2 DATE 2022
+2 AGNC MyHeritage
+2 _ASSO @I1@
+3 RELA DNA
+2 NOTE Segments: 41
+3 CONT Longest segment: 172.3
+2 RESN confidential
+```
+
+`RESN` ist `confidential` bei einer lebenden Person und `privacy` bei einer verstorbenen. Ein Treffer ist
+`confidential`, außer beide Personen stehen im Baum und sind verstorben. Die Anbieter gibt es, die Ergebnisse nicht.
+
+| Person | Eintrag | `RESN` | Ein Programm sollte zeigen |
+|---|---|---|---|
+| I8 Bernd Falkenrath | Test Y-DNA, Haplogruppe R-U106 | confidential | gleiche Männerlinie wie I1, I27 und I93 |
+| I27 Robert Falkenrath | Test Y-DNA, Haplogruppe I-DF29 | confidential | **Fehler:** anderer Buchstabe als bei I8 auf derselben Männerlinie |
+| I20 Margarete Krümmel († 2011) | Test mtDNA, Haplogruppe H1a1 | privacy | gleiche Mutterlinie wie I5 |
+| I5 Lena Falkenrath | Test mtDNA, Haplogruppe H1a1; Test Autosomal | confidential | gleiche Mutterlinie wie I20 (Großmutter) |
+| I5 Lena Falkenrath | Treffer mit I1 Jonas, 2580,4 cM, 41 Segmente | confidential | Geschwister, Wert im üblichen Bereich; der Eintrag erscheint auch bei I1 |
+| I5 Lena Falkenrath | Treffer mit I13 Anke Marwede, 180 cM, 7 Segmente | confidential | **Fehler:** Cousine, üblich sind 396 bis 1397 cM |
+| I5 Lena Falkenrath | Treffer mit „J. S.“ ohne Datensatz, 62 cM, 3 Segmente | confidential | keine Verwandtschaft im Baum |
+| I16 Hannelore Oberlin († 2014) | Treffer mit I35 Mathilde Oberlin († 2020), 2655,1 cM, 44 Segmente | privacy | Schwestern, Wert im üblichen Bereich |
+| I93 Michael Falkenrath | Treffer mit I1 Jonas in der Schreibweise von Gramps, 194,9 cM, 8 Segmente, eines auf dem X | keine | Cousin zweiten Grades, Wert im üblichen Bereich; **Fehler:** Segment auf dem X ohne gemeinsamen X-Vorfahren |
+
+Die Haplogruppen gibt es wirklich (YFull YTree 14.07, MTree 1.02). In der 7.0-Fassung steht `RESN` in Großbuchstaben
+und `_ASSO` mit `RELA DNA` als `ASSO` mit `ROLE OTHER` und `PHRASE DNA`.
+
 ## GEDCOM 7.0
 
 Dem Release liegt eine GEDCOM-7.0-Fassung bei, abgeleitet mit [`werkzeuge/gedcom7.py`](werkzeuge/gedcom7.py):
@@ -269,6 +315,7 @@ Dem Release liegt eine GEDCOM-7.0-Fassung bei, abgeleitet mit [`werkzeuge/gedcom
 | `_GOV` unter `PLAC` | `EXID` mit `TYPE https://gov.genealogy.net/` |
 | `FORM jpg` / `TYPE photo` | `FORM image/jpeg` / `MEDI PHOTO` |
 | `SOUR <Text>` ohne Datensatz | eigener `SOUR`-Datensatz, `TEXT` unter `DATA` |
+| `RESN confidential` / `privacy` | `RESN CONFIDENTIAL` / `PRIVACY` |
 | `CONC`, `CHAR`, `GEDC.FORM` | entfallen |
 
 Die übrigen GEDCOM-L-Tags (`_LOC`, `_GOVTYPE`, `_POST`, `_RUFNAME`, `_TODO` …) bleiben als Erweiterungen stehen, ohne
@@ -284,6 +331,6 @@ angehängten Fehlerfällen, je Prüfregel von gedaudit/wtWin einer. Welche Kennu
 ## In webtrees laden
 
 1. *Verwaltung → Stammbäume verwalten → Stammbaum anlegen*, z. B. `falkenrath`.
-2. `falkenrath-1.9.ged` importieren.
+2. `falkenrath-1.10.ged` importieren.
 3. Dem Baum einen **eigenen Medienordner** geben (*Einstellungen → Medienordner*, z. B. `media/falkenrath/`)
    und die Dateien aus `media/` dorthin hochladen (*Verwaltung → Medien → Mediendateien hochladen*).

@@ -15,7 +15,7 @@ Every item of the GEDCOM-L addendum occurs (unique identifiers, call names, high
 The tree comes in GEDCOM 5.5.1 and also in **GEDCOM 7.0** (as GEDZIP and as a single file).
 
 **Where the file comes from:** it is produced by Python scripts (in [werkzeuge/](werkzeuge/)), neither by webtrees nor
-by hand. Hence the header `1 SOUR Python-Skripte` with `2 VERS 1.9`, plus `1 SUBM` and the GEDCOM-L addendum
+by hand. Hence the header `1 SOUR Python-Skripte` with `2 VERS 1.10`, plus `1 SUBM` and the GEDCOM-L addendum
 (R2 of 2020-12-01) under `GEDC`.
 
 The **wedding photo of 1924** (`media/hochzeit-1924.jpg`, family F8) is a group photo with 23 faces: 21 people from the tree,
@@ -29,10 +29,10 @@ nobody before 1860, and nobody born after 1920. Certificates, church book and re
 
 **License:** [CC0 1.0](LICENSE). Free to use for anything, including screenshots, demos and test suites.
 
-**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.9.ged) (470 KB) ·
-[GEDCOM 5.5.1 with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9.zip) (7 MB, `falkenrath-1.9.ged` and images in one folder) ·
-[GEDCOM 7.0 as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus images) ·
-[GEDCOM 7.0 single file](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.9-gedcom7.ged) (540 KB) ·
+**Download:** [GEDCOM file only](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.10.ged) (470 KB) ·
+[GEDCOM 5.5.1 with all images as zip](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.10.zip) (7 MB, `falkenrath-1.10.ged` and images in one folder) ·
+[GEDCOM 7.0 as GEDZIP](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.10.gdz) (7 MB, `gedcom.ged` in GEDCOM 7.0 plus images) ·
+[GEDCOM 7.0 single file](https://github.com/thobgg/falkenrath-demo-tree/releases/latest/download/falkenrath-1.10-gedcom7.ged) (540 KB) ·
 [release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest)
 
 ## The Falkenrath dynasty 😉
@@ -78,7 +78,7 @@ unknown people.
 
 ## Download
 
-- The current version is 1.9: [`versionen/falkenrath-1.9.ged`](versionen/falkenrath-1.9.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.9.ged)) with the images in [`media/`](media/).
+- The current version is 1.10: [`versionen/falkenrath-1.10.ged`](versionen/falkenrath-1.10.ged) ([direct download](https://github.com/thobgg/falkenrath-demo-tree/raw/main/versionen/falkenrath-1.10.ged)) with the images in [`media/`](media/).
 - The [release](https://github.com/thobgg/falkenrath-demo-tree/releases/latest) has a ready-made zip with the GEDCOM 5.5.1 file, all images
   in the same folder and this README, and a GEDZIP (`.gdz`) with the data converted to GEDCOM 7.0 (`werkzeuge/gedcom7.py`).
 
@@ -233,13 +233,59 @@ Checked with Gramps Web API 3.26.0: after importing the 5.5.1 and the 7.0 versio
 relationship, common ancestors and the right side, plus both haplogroups. In the 7.0 version the type is written as
 `ROLE OTHER` with `PHRASE DNA`.
 
+### Form of dna4webtrees
+
+Since 1.10 there are also entries in the form written by the webtrees module dna4webtrees
+([`werkzeuge/dna2.py`](werkzeuge/dna2.py)). The Gramps entries are unchanged and have no `RESN`.
+
+```
+1 EVEN Y-DNA
+2 TYPE DNA Test
+2 DATE MAY 2023
+2 AGNC FamilyTreeDNA
+2 NOTE Big Y-700
+2 RESN confidential
+1 FACT R-U106
+2 TYPE Y-DNA Haplogroup
+2 DATE MAY 2023
+2 AGNC FamilyTreeDNA
+2 RESN confidential
+1 FACT 2580.4
+2 TYPE DNA Match
+2 DATE 2022
+2 AGNC MyHeritage
+2 _ASSO @I1@
+3 RELA DNA
+2 NOTE Segments: 41
+3 CONT Longest segment: 172.3
+2 RESN confidential
+```
+
+`RESN` is `confidential` for a living person and `privacy` for a dead one. A match is `confidential` unless both
+persons are in the tree and dead. The companies exist, the results do not.
+
+| Person | Entry | `RESN` | A program should show |
+|---|---|---|---|
+| I8 Bernd Falkenrath | Y-DNA test, haplogroup R-U106 | confidential | same male line as I1, I27 and I93 |
+| I27 Robert Falkenrath | Y-DNA test, haplogroup I-DF29 | confidential | **error:** other letter than I8 on the same male line |
+| I20 Margarete Krümmel (d. 2011) | mtDNA test, haplogroup H1a1 | privacy | same maternal line as I5 |
+| I5 Lena Falkenrath | mtDNA test, haplogroup H1a1; autosomal test | confidential | same maternal line as I20 (grandmother) |
+| I5 Lena Falkenrath | match with I1 Jonas, 2580.4 cM, 41 segments | confidential | siblings, value within the usual range; the entry also shows at I1 |
+| I5 Lena Falkenrath | match with I13 Anke Marwede, 180 cM, 7 segments | confidential | **error:** first cousin, usual is 396 to 1397 cM |
+| I5 Lena Falkenrath | match with "J. S." without a record, 62 cM, 3 segments | confidential | no relationship in the tree |
+| I16 Hannelore Oberlin (d. 2014) | match with I35 Mathilde Oberlin (d. 2020), 2655.1 cM, 44 segments | privacy | sisters, value within the usual range |
+| I93 Michael Falkenrath | match with I1 Jonas in the Gramps form, 194.9 cM, 8 segments, one on the X | none | second cousin, value within the usual range; **error:** segment on the X without a common X ancestor |
+
+The haplogroups are real (YFull YTree 14.07, MTree 1.02). In the 7.0 version `RESN` is in upper case and `_ASSO` with
+`RELA DNA` becomes `ASSO` with `ROLE OTHER` and `PHRASE DNA`.
+
 ## GEDCOM 7.0
 
 The release has a GEDCOM 7.0 version, derived with [`werkzeuge/gedcom7.py`](werkzeuge/gedcom7.py):
 `_UID`/`_ASSO` become `UID`/`ASSO`, `RELA` becomes `ROLE` (`GODP`, `WITN`, otherwise `PHRASE`), godparents and witnesses
 without a record (`_GODP`, `_WITN`) become `ASSO @VOID@` with `PHRASE`, `_GOV` under `PLAC` becomes `EXID` with
 `TYPE https://gov.genealogy.net/`, media get `FORM image/jpeg` and `MEDI`, a text-only source becomes its own `SOUR`
-record, and `CONC`, `CHAR`, `GEDC.FORM` are dropped. The other GEDCOM-L tags (`_LOC`, `_GOVTYPE`, `_POST`, `_RUFNAME`,
+record, `RESN` values are written in upper case, and `CONC`, `CHAR`, `GEDC.FORM` are dropped. The other GEDCOM-L tags (`_LOC`, `_GOVTYPE`, `_POST`, `_RUFNAME`,
 `_TODO` …) stay as extensions without `HEAD.SCHMA`, since GEDCOM-L has not published URIs for them yet. The main file
 stays GEDCOM 5.5.1, which is what webtrees 2.2 reads.
 
@@ -252,12 +298,12 @@ rule. Use them to see whether a program actually finds an error. Made with `werk
 ## Loading into webtrees
 
 1. *Control panel → Manage family trees → Create a family tree*, e.g. `falkenrath`.
-2. Import `falkenrath-1.9.ged`.
+2. Import `falkenrath-1.10.ged`.
 3. Give the tree its own media folder (*Preferences → Media folder*, e.g. `media/falkenrath/`) and upload the files
    from `media/` there (*Control panel → Media → Upload media files*), or copy them into `data/media/falkenrath/`.
 
 ## Version
 
-Current version: 1.9 of 2026-11-27 – new is made-up DNA data for Jonas Falkenrath (I1): five matches with relatives and the Y-DNA of two men of the same line, see [DNA](#dna). Version 1.8 added Wei Li (I493), who came from China in 2019 and married Julia Schnehage (F155). His date of birth comes from the Chinese lunar calendar: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` with `PHRASE 庚辰年八月十五`. Earlier intermediate versions are no longer published.
+Current version: 1.10 of 2026-11-28 – new are DNA entries in the form written by the webtrees module dna4webtrees (tests, haplogroups, matches with `RESN`) and three deliberately wrong entries, see [DNA](#dna). Version 1.9 added made-up DNA data for Jonas Falkenrath (I1) in the Gramps form: five matches with relatives and the Y-DNA of two men of the same line. Version 1.8 added Wei Li (I493), who came from China in 2019 and married Julia Schnehage (F155). His date of birth comes from the Chinese lunar calendar: in 5.5.1 `DATE INT 12 SEP 2000 (庚辰年八月十五)`, in 7.0 `DATE 12 SEP 2000` with `PHRASE 庚辰年八月十五`. Earlier intermediate versions are no longer published.
 
 Issues and suggestions for further test cases are welcome.
